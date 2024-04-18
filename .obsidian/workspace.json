@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "46674ca66a54dbd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SPERMA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f49979258dba1449",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti unibo/Sistemi Operativi/Undicesima Lezione.md",
+                "file": "SPERMA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti unibo/Sistemi Operativi/Undicesima Lezione.md",
+                "file": "SPERMA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti unibo/Sistemi Operativi/Undicesima Lezione.md"
+                "file": "SPERMA.md"
               }
             }
           }
@@ -158,11 +171,12 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "c7691301ebb12b2c",
+  "active": "46674ca66a54dbd2",
   "lastOpenFiles": [
+    "Appunti unibo/Sistemi Operativi/Undicesima Lezione.md",
+    "SPERMA.md",
     "new yoo",
     "Appunti unibo/Senza nome.md",
-    "Appunti unibo/Sistemi Operativi/Undicesima Lezione.md",
     "rep",
     "new vault",
     "Nuova cartella",
@@ -170,7 +184,6 @@
     "Appunti unibo/Algoritmi/Files/Minimum spanning tree/Minimum spanning tree.iml",
     "Appunti unibo/Algoritmi/Files/Files.iml",
     "README.md",
-    "Senza nome.md",
     "Vault",
     "Appunti unibo/Immagini/Pasted image 20240418123623.png",
     "Appunti unibo",
@@ -194,7 +207,6 @@
     "Appunti unibo/Sistemi Operativi/Progetto.md",
     "Appunti unibo/Sistemi Operativi/Tutor/Tutor 1.md",
     "Appunti unibo/Sistemi Operativi/Files/codici/Socket/Client.java",
-    "Sistemi Operativi/Files/codici/Client.java",
     "Appunti unibo/Strategia aziendale/Nona Lezione.md",
     "Appunti unibo/Sistemi Operativi/Prima Lezione.md",
     "Appunti unibo/Sistemi Operativi/Sesta Lezione.md",

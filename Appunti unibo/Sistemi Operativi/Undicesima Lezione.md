@@ -89,4 +89,3 @@ Requisiti
 ![[Pasted image 20240418120049.png|400]]
 
 ![[Pasted image 20240418123623.png|400]]
-
