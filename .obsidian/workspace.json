@@ -97,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Appunti unibo/Sistemi Operativi/Undicesima Lezione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Appunti unibo/Sistemi Operativi/Undicesima Lezione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SPERMA.md"
+                "file": "Appunti unibo/Sistemi Operativi/Undicesima Lezione.md"
               }
             }
           }
