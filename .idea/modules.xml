@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Appunti unibo/Algoritmi/Files/Files.iml" filepath="$PROJECT_DIR$/Appunti unibo/Algoritmi/Files/Files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Appunti unibo/Algoritmi/Files/Minimum spanning tree/Minimum spanning tree.iml" filepath="$PROJECT_DIR$/Appunti unibo/Algoritmi/Files/Minimum spanning tree/Minimum spanning tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Appunti unibo/Sistemi Operativi/Sistemi Operativi.iml" filepath="$PROJECT_DIR$/Appunti unibo/Sistemi Operativi/Sistemi Operativi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Uni_obs.iml" filepath="$PROJECT_DIR$/.idea/Uni_obs.iml" />
+    </modules>
+  </component>
+</project>
