@@ -72,7 +72,7 @@ alla fine del processo viene inviato un solo interrupt
 - Località spaziale
 - Località temporale
 
->nel caso di [[Seconda Lezione#Multicore|multicore]] ogni core ha la sua piccola cache composta di registri, una cache interna al processore condivisa dai core e una cache esterna
+>nel caso di [[Appunti unibo/Sistemi Operativi/Seconda Lezione#Multicore|multicore]] ogni core ha la sua piccola cache composta di registri, una cache interna al processore condivisa dai core e una cache esterna
 
 davanti tutti questi livelli di memoria cache cominciano a verificarsi problemi di consistenza, i quali vengono risolti tramite protocolli di cache coherence
 

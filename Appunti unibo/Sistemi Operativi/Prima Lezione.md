@@ -129,4 +129,4 @@ il processore è diviso in:
 questa differenza diventa fondamentale nel contesto di interferenza di processi
 **istruzioni di alto livello possono diventare lunghissime in assembly, questo potrebbe causare problemi**
 
-[[Seconda Lezione|Next]]
+[[Appunti unibo/Sistemi Operativi/Seconda Lezione|Next]]

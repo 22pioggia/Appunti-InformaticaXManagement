@@ -31,7 +31,6 @@ m<sub>1</sub> XOR r<sub>1</sub> = 100
 K<sub>s</sub>(100) = 011 = c<sub>1</sub>    -messaggio criptato
 
 c<sub>1</sub> = 011
-r<sub>1</sub> = 110
 K<sub>s</sub><sup>-1</sup>(011) = 100    -chiave di decriptazione
 
 K<sub>s</sub><sup>-1</sup> + r<sub>1</sub> = m<sub>1</sub>
@@ -73,7 +72,7 @@ Svantaggi
 - ottengo un numero lineare di chiavi
 - la comunicazione non è più diretta
 	devo comunicare prima con l'autorità centrale per reperire le chiavi
-#### Crittografia a chiave pubblica
+### Crittografia a chiave pubblica
 ![[Pasted image 20240418112136.png|500]]
 
 in questo caso abbiamo <u>2 chiavi</u>
@@ -89,3 +88,28 @@ Requisiti
 ![[Pasted image 20240418120049.png|400]]
 
 ![[Pasted image 20240418123623.png|400]]
+### Firme digitali
+Tecnica crittografica simile alla firma cartacea: 
+- il sender firma digitalmente il documento, affermando di essere il creatore/proprietario 
+- verifiable, nonforgeable: il recipient può provare a qualcuno che solo il sender, e nessun altro, può aver firmato il documento
+
+![[Pasted image 20240419152312.png|400]]
+
+- Alice riceve il messaggio m, con firma: m, K<sub>B</sub><sup>-</sup>(m)
+- Alice verifica m firmato da Bob appicando la sua chiave pubblica K<sup>+</sup><sub>B</sub> al K<sub>B</sub><sup>-</sup>(m), poi controlla 
+	K<sup>+</sup><sub>B</sub>(K<sub>B</sub><sup>-</sup>(m)) = m
+- Se K<sup>+</sup><sub>B</sub>(K<sub>B</sub><sup>-</sup>(m)) = m, chiunque ha firmato m deve aver usato la chiave privata di Bob
+
+Alice verifica che
+- Bob ha firmato m
+- nessun altro ha firmato m
+- Bob ha firmato m e non m'
+
+**non-repudiation**: Alice può portare m, e la firma K<sub>B</sub><sup>-</sup>(m) in tribunale e dimostrare che Bob ha firmato m
+
+![[Pasted image 20240419153358.png|400]]
+
+![[Pasted image 20240419153124.png|400]]
+
+![[Pasted image 20240419153819.png|400]]
+

@@ -10,13 +10,13 @@
 	 2. Architettura
 	 3. Operazioni
 	 4. Von Neumann Computer
-3. [[Seconda Lezione#Parallelismo|Parallelismo]]
+3. [[Appunti unibo/Sistemi Operativi/Seconda Lezione#Parallelismo|Parallelismo]]
 	1. Pipelining
 	2. Multicore
-4. [[Seconda Lezione#Interrupts|Interrupts]]
-5. [[Seconda Lezione#DMA - Direct Memory Access|Direct Memory Access]]
-6. [[Seconda Lezione#Memoria|Memoria]]
-7. [[Seconda Lezione#Protezione Hardware|Protezione Hardware]]
+4. [[Appunti unibo/Sistemi Operativi/Seconda Lezione#Interrupts|Interrupts]]
+5. [[Appunti unibo/Sistemi Operativi/Seconda Lezione#DMA - Direct Memory Access|Direct Memory Access]]
+6. [[Appunti unibo/Sistemi Operativi/Seconda Lezione#Memoria|Memoria]]
+7. [[Appunti unibo/Sistemi Operativi/Seconda Lezione#Protezione Hardware|Protezione Hardware]]
 8. [[Appunti unibo/Sistemi Operativi/Quarta Lezione#Sistema Operativo|Sistema Operativo]]
 	1. System call
 	2. Struttura del SO
