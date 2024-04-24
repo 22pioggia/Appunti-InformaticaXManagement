@@ -113,3 +113,4 @@ Alice verifica che
 
 ![[Pasted image 20240419153819.png|400]]
 
+[[Dodicesima lezione|Next]]

@@ -72,7 +72,12 @@
 	6. Monitoraggio del Working Set
 16. [[Appunti unibo/Sistemi Operativi/Undicesima Lezione#Network Security|Network Security]] 
 	1. Crittografia a chiave simmetrica - DES
-	2. 
+	2. Crittografia a chiave pubblica
+	3. Firme digitali
+17. [[Dodicesima lezione#File Systems|File Systems]]
+	1. Files
+		1. Attributi dei file
+	2. Directories
 
 
 
