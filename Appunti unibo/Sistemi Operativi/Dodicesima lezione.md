@@ -73,3 +73,44 @@ Il SO a seconda del tipo di file mette a disposizione 2 tipi di accessi:
 - Traverse the file system
 
 ![[Pasted image 20240424130405.png|300]] ![[Pasted image 20240424130429.png|300]] ![[Pasted image 20240424130453.png|300]] ![[Pasted image 20240424130531.png|300]]
+## Allocation
+i File sono visti come una sequenza di bytes contigua, ***allocare*** è letteralmente conservare i bytes
+
+Data: file non contigui
+External: spazio vuoto inutilizzabile tra i files
+Internal: spazio allocato ma non utilizzato - file più piccolo di un blocco
+### Contiguous Allocation
+- Ogni file occupa un set di blocchi contigui sul disco
+- Semplice - serve solo *starting location*(**block \#**) e lunghezza (numero di blocchi)
+- Accesso casuale
+- Spreco di spazio (***dynamic storage-allocation problem***)
+- I files non possono crescere
+
+![[Pasted image 20240502111137.png|400]]
+### Linked Allocation
+- ogni file ha una linked list di blocchi di disco
+
+![[Pasted image 20240502111255.png|400]]
+- Semplice - ha bisogno solo dell'indirizzo di partenza
+- **Free-space management system** - nessuno spreco di spazio
+- No accesso casuale
+- Gruppi di blocchi
+	- -> per performance migliore
+	- -> per avere meno puntatori
+### Indexed Allocation
+- Porta tutti i puntatori assieme nell'**index block**
+
+![[Pasted image 20240502111654.png|400]]
+- Necessita di una **index table**
+	![[Pasted image 20240502111613.png|150]]
+- Accesso casuale
+### Free-Space Management
+![[Pasted image 20240502120210.png|400]]
+![[Pasted image 20240502120228.png|400]]
+
+![[Pasted image 20240502120359.png|300]]
+
+[[Tredicesima Lezione|Next]]
+
+
+

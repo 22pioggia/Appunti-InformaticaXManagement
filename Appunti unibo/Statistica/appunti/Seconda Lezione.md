@@ -1,57 +1,97 @@
-## Elementi di base della probabilità
-### Spazio dei campioni
-Un *esperimento* è un processo il cui risultato è soggetto ad incertezza
-	Esistono due tipi di esperimenti: *deterministici* e *casuali*
-Per un esperimento **E**, l'insieme di tutti i possibili risultati è detto **==spazio dei campioni S==**
+## Distribuzioni Discrete
+### Variabili Aleatorie
 
-![[Pasted image 20240422162401.png|500]]
+<b><i><u>Definizione.</u></i></b> Una *variabile aleatoria (o casuale) X* è una funzione $$X:S \to R$$
+che associa ad ogni elemento *w* ∈ *S* un numero *X(w) = x* ∈ *R*
 
-Un ==*evento*== è un insieme di risultati, cioè un sottospazio dello spazio dei campioni.
-### Definizione e proprietà della probabilità
-Dato un esperimento e il suo spazio dei campioni, S, obiettivo della probabilità è assegnare ad ogni evento A un numero P(A), detto **probabilità dell'evento A** che dia una misura della possibilità che si verifichi l'evento A.
-- Quindi la probabilità dell'evento A è una funzione:
-$$P:S(A) \rightarrow R$$
-dove S(A) è l'insieme di tutti i possibili eventi di A
+- Si indicano solitamente le variabili aleatorie con lettere maiuscole e il loro valore (osservato) con lettere minuscole.
+- Si dice ***supporto di X*** l'insieme di tutti i possibili valori casuali di un dato esperimento e si indica con <i>S<sub>x</sub></i>.
 
-La probabilità soddisfa i seguenti ***assiomi di Kolmogorov***:
+==**Esempio**== 
+*Consideriamo l'esperimento di lanciare una moneta due volte*
+
+S = {TT, TC, CT, CC} 
+X(w) = {numero di C}
+
+X(TT) = 0
+X(TC) = X(CT) = 1
+X(CC) = 2
+
+<i>S<sub>x</sub></i> = {0, 1, 2}
+
+---
+### Funzione di densità di probabilità
+*Poichè il supporto S<sub>x</sub> di una variabile aleatoria discreta X è un insieme numerabile, è possibile definire una funzione f<sub>x</sub>, detta ==funzione di massa o di probabilità di X (Probability Mass Function - PMF)==*$$f_{x}:S_{x} \to [0,1], \space f_{x}(x)=P(X=x),\space x \in S_{x}$$
+*La **PMF** possiede alcune proprietà che derivano dal fatto che il suo valore è una probabilità*
 $$\begin{align}
-&1. \text{ }P(A) \geq 0 \space \forall A  \\
-&2. \text{ }P(S) = 1 \\
-&3. \text{ Se } A_{1},A_{2},\dots A_{n} \text{ sono eventi disgiunti allora:} \\
-&\text{ - }P(A_{1}\cup A_{2}\cup \dots \cup A_{n}) = \sum_{i=1}^{n}P(A_{i}), \text{ } \forall n
+&1. \space f_{x}(x) \geq 0 \space \forall x \in S_{x} \\
+&2. \space \sum_{x \in S_{x}} f_{x}(x) = 1 \\
+&3. \space P(X (x \in A))= \sum_{x \in A} f_{x}(x) \text{ per ogni evento } A \subset S_{x}
 \end{align}$$
-Detto A <sup>C</sup> l'insieme complementare di A nello spazio dei campioni S, e detti A e B due eventi, valgono le seguenti proprietà:
+*Associati alla **PMF** si hanno i seguenti valori:*
+- **media** $$\mu = E[X] = \sum_{x \in S_{x}}xf_{x}(x) $$
+- **varianza** $$\sigma^2=\sum_{x \in S_{x}}(x-\mu)^2 f_{x}(x)$$
+- **deviazione standard** $$\sigma = \sqrt{\sigma^2}$$
+---
+==**Esempio**== 
+*riprendiamo l'esperimento precedente*
+
+S = {TT, TC, CT, CC} 
+X(w) = {numero di C}
+
+X(TT) = 0
+X(TC) = X(CT) = 1
+X(CC) = 2
+
+<i>S<sub>x</sub></i> = {0, 1, 2}
+$$f_{x}:S_{x} \to [0,1], \space f_{x}(x)=P(X=x)$$
+f<sub>x</sub>(0) = P(X = 0) = 1/4
+f<sub>x</sub>(1) = P(X = 1) = 1/2
+f<sub>x</sub>(2) = P(X = 2) = 1/4
+
+f<sub>x</sub>(0) + f<sub>x</sub>(1) + f<sub>x</sub>(2) = 1/4 + 1/2 + 1/4 = 1
+
+S<sub>x</sub> = {0, 1, 2}
 $$\begin{align}
-&1. \text{ } P(A^C)=1-P(A) \\
-&2. \text{ } P(\oslash) = 0 \\
-&3. \text{ Se } A \subset B \text{ allora } P(A) < P(B) \\
-&4. \text{ } P(A \cup B) = P(A) + P(B) - P(A \cap B)
+\mu &= E[X] = \sum_{x \in S_{x}}xf_{x}(x) \\
+&=0f_{x}(0)+1f_{x}(1)+2f_{x}(2) \\
+&=0 \cdot \frac{1}{4}+1 \cdot \frac{1}{2} +2 \cdot \frac{1}{4} = \frac{1}{2} + \frac{1}{2} = 1
 \end{align}$$
-#### Il modello Equally Likely - ELM
-In alcuni tipi di esperimenti tutti gli eventi hanno uguale probabilità di accadere, allora il modello utilizzato, detto **Equally Likely Model (ELM)**, calcola la probabilità di un evento A come:
-$$P(A) = \frac{\text{numero di casi favorevoli}}{\text{numero di casi possibile}} = \frac{\#A}{\#S}$$
->***#*** - indica cardinalità -> numero degli elementi di
 
-*Esempi classici di esperimenti di questo tipo sono il lancio di una moneta, il lancio di un dado, l'estrazione di una carta da un mazzo, ecc.*
-### Metodi di conteggio
-Nell'applicare il modello ELM è quindi necessario *contare* il numero di elementi di un insieme. Consideriamo quindi alcune tecniche di conteggio
+$$\begin{align}
+\sigma^2&=\sum_{x \in S_{x}}(x-\mu)^2 f_{x}(x) \\
+&=(0-1)^2 f_{x}(0)+(1-1)^2 f_{x}(1) + (2-1)^2 f_{x}(2) \\
+&=1 \cdot \frac{1}{4}+0 \cdot \frac{1}{2}+1 \cdot \frac{1}{4}= \frac{1}{4} + \frac{1}{4} = \frac{1}{2}
+\end{align}$$
 
-<b><u>Principio della moltiplicazione</u></b>. Se un esperimento di compone di m fasi, realizzabili rispettivamente in n<sub>1</sub>, n<sub>2</sub> ... n<sub>m</sub> modi, allora l'intero esperimento potrà essere realizzato 
-in n<sub>1</sub> n<sub>2</sub> ... n<sub>m</sub> modi
-![[Pasted image 20240422171609.png|500]]
+$$\sigma = \sqrt{ \sigma^2 }=\frac{1}{\sqrt{ 2 }}$$
 
-<b><u>Numero di permutazioni.</u></b> il possibile numero di *permutazioni* di *n* elementi è **n!**
-#### Insiemi ordinati
-Torniamo all'esperimento di estrazione di k palline da un'urna con n indistinguibili palline, ciascuna numerata con un diverso numero in \[1,n\]. Se considero insiemi *ordinati* (in cui cioè due insiemi con gli stessi k elementi ma estratti in ordine diverso sono considerati <u>diversi</u>), il numero di risultati che posso avere dall'esperimento è:
-- n<sup>k</sup> se faccio l'esperimento *con reimmisione*
-- n(n-1)...(n-k+1) nel caso *senza reimmissione*
+---
+<b><i><u>Definizione.</u></i></b> *Si dice ==funzione di ripartizione o di distribuzione di una variabile aleatoria discreta (Cumulative Distribution Function - CDF) F<sub>x</sub>(t)== la funzione:* $$F:R \to [0,1] \space F_{x}(t) = P(X \leq t), \space -\infty < t < \infty$$
+*La **CDF** soddisfa le seguenti proprietà*
+$$\begin{align}
+&1. \space F_{x}(t) \text{ è non decrescente} \\
+&1. \space F_{x}(t) \text{ è continua a destra, cioè: } \lim_{ n \to a^+}F_{x}(t) = F_{x}(a) \\
+&3. \text{ vale: } \lim_{ t \to -\infty } F_{x}(t)=0 \text{ e }\lim_{ t \to +\infty }F_{x}(t)=1  
+\end{align}$$
+### Distribuzione discreta uniforme
+![[Pasted image 20240507165804.png|500]]
 
-![[Pasted image 20240422172347.png|500]]
-#### Insiemi non ordinati
-Sempre nell'esperimento precedente dell'estrazione di palline, se ora considero insiemi *non ordinati* (in cui cioè due insiemi con gli stessi k elementi ma estratti in ordine diverso sono considerati <u>uguali</u>), il numero di risultati che posso avere dall'esperimento è:
-- con reimmissione $$\frac{(n-1+k)!}{(n-1)!k!}$$
-- senza reimmissione (*coefficiente binomiale*)
-	![[Pasted image 20240422172923.png]]
+==**Esempio**== 
+*Lancio un dado e sia X = {il risultato del lancio}*
+
+S<sub>x</sub>=1,...,6
+f<sub>x</sub>(x) = 1/6 ∀x ∈ \[1,6]
+
+μ = 1/6 + 2/6 + 3/6 + 4/6 + 5/6 + 6/6 = 21/6 = 3.5
+σ<sup>2</sup> = (6<sup>2</sup> - 1)/12 = 35/12
+
+
+
+
+
+
+
 
 
 

@@ -1,11 +1,11 @@
- 1. [[Prima Lezione#Multiprogrammazione|Multiprogrammazione]]
+ 1. [[Appunti unibo/Sistemi Operativi/Prima Lezione#Multiprogrammazione|Multiprogrammazione]]
 	 1. Feature del SO per la multiprogrammazione
 	 2. Time-sharing Systems - Interactive Computing
 	 3. Personal-Computer Systems
 	 4. Parallel Systems
 	 5. Real-time Systems
 	 6. Distribute Systems
-2. [[Prima Lezione#Computer-System|Computer-System]]
+2. [[Appunti unibo/Sistemi Operativi/Prima Lezione#Computer-System|Computer-System]]
 	 1. Struttura
 	 2. Architettura
 	 3. Operazioni
@@ -78,6 +78,11 @@
 	1. Files
 		1. Attributi dei file
 	2. Directories
+	3. Allocation
+		1. Contiguous allocation
+		2. Linked allocation
+		3. Indexed allocation
+		4. Free-Space management
 
 
 

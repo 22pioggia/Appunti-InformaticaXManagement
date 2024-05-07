@@ -4,7 +4,7 @@
 ##### Pipelining
 un caso semplice di _**parallelismo**_, divide l'operazione in tante sottofasi e le esegue contemporaneamente (non per forza le stesse fasi=_sottoperiodi_ di ogni operazione), scorrendole nella pipeline (=una sorta di array, nell'esempio del prof ha 3 caselle)
 
-==il pipelining è il motivo per cui la [[Prima Lezione#^d81ac6|Control unit]] è divisa in 3 unità==
+==il pipelining è il motivo per cui la [[Appunti unibo/Sistemi Operativi/Prima Lezione#^d81ac6|Control unit]] è divisa in 3 unità==
 
 affinchè il pipelining funzioni è necessario che le fasi siano equilibrate:
 **se c'è una fase più lenta le altre devono adeguarsi ad essa**
