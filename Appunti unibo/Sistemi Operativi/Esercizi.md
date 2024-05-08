@@ -112,3 +112,59 @@ Usare le proprietà dell'aritmetica modulare per calcolare 26<sup>5</sup> % 11
 
 = (3 x 4) % 11 = 12 % 11 = 1
 
+---
+Process scheduling
+
+- Round robin con quanto di tempo = 3
+
+| Processi | tempo arrivo | burst time |
+| -------- | ------------ | ---------- |
+| A        | 0            | 7          |
+| B        | 2            | 8          |
+| C        | 5            | 3          |
+| D        | 7            | 6          |
+- bisogna tener traccia della lista dei processi ready
+
+| A   | B   | A   | C   | B   | D   | A   | B   | D   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0   | 3   | 6   | 9   | 12  | 15  | 18  | 21  | 24  |
+**Waiting Time**
+- WT(A) = 12
+- WT(B) = 11
+- WT(4) = 4
+- WT(D) = 11
+
+***--Sbagliato--***
+
+---
+Paging
+
+I:F
+Offset più grande > 11111 > significa che abbiamo massimo nbit + 1 > 6
+T.P più grande 24 bit
+no v/i bit
+
+1. Come viene composto l'indirizzo fisico?
+
+{num frame | offset} = 32 bit
+   26 bit          6 bit
+
+\#num frame = 2
+Taglia frame/page = 2<sup>6</sup> byte
+
+2. Come viene composto l'indirizzo logico?
+
+{num frame | offset} = ?? bit
+.                     6 bit
+
+?? possiamo lavorare con la page table > con il numero di entry
+24 MB = 3 \* 8 \* 2<sup>20</sup> = 3 \* 2<sup>23</sup>
+
+quanto è grande la singola entry? n di entry / taglia singola entry
+taglia singola entry = 4 byte (3 byte = 24 (T.P) => approssimazione più vicina =  4 B = 2<sup>2</sup> B = 32 bit)
+
+3 \* 2<sup>23</sup> / 2<sup>2</sup> = 3 \* 2<sup>21</sup> B potenza del 2 non pura > approssimazione piu vicina per eccesso > 2<sup>23</sup>
+prendiamo la potenza e troviamo il *num frame*
+
+{num frame | offset} = 32 bit
+   23 bit          6 bit
