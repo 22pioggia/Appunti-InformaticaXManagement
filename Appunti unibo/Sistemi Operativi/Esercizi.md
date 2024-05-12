@@ -168,3 +168,107 @@ prendiamo la potenza e troviamo il *num frame*
 
 {num frame | offset} = 32 bit
    23 bit          6 bit
+
+---
+
+Stampare le lettere BCEFG > processi P, Q
+Tutti i soli output devono essere:
+- EBFCG
+- EFBCG
+
+s=0
+t=0
+u=0
+
+| P   | Q   |
+| --- | --- |
+| S.P |     |
+| B   | E   |
+| T.P | S.V |
+| C   | F   |
+| U.V | T.V |
+|     | U.P |
+|     | G   |
+
+---
+CPU scheduling
+
+| Processi | Tempo di Arrivo | Burst time |
+| -------- | --------------- | ---------- |
+| p1       | 0               | 10         |
+| p2       | 1               | 8          |
+| p3       | 1               | 6          |
+| p4       | 11              | 3          |
+- Diagramma Gant per SJF preemptive
+
+Tempo 0 > inizia p1
+Tempo 1 > (entra p2 e p3) inizia p3 {e finisce}
+Tempo 7 > inizia p2 (ha meno burst time)
+Tempo 11 > (entra p4) inizia p4 {e finisce}
+Tempo 14 > inizia p2 {e finisce}
+Tempo 18 > inizia p1 {e finisce}
+
+| Processi | Turnaround | Waiting time |
+| -------- | ---------- | ------------ |
+| p1       | 27         | 17           |
+| p2       | 17         | 9            |
+| p3       | 6          | 0            |
+| p4       | 3          | 0            |
+Tournaround medio = 27 + 17 + 6 + 3 / 4 = 53/4
+
+---
+output = AAABAAAB...
+
+s=0
+t=3
+
+| P    | Q    |
+| ---- | ---- |
+| loop | loop |
+|      | S.P  |
+|      | S.P  |
+| T.P  | S.P  |
+| A    | B    |
+| S.V  | T.V  |
+|      | T.V  |
+|      | T.V  |
+>Questa soluzione funziona
+
+---
+- pagine 2<sup>17</sup> B
+- IF 31 bit
+- RAM (spazio ind fisico) = 1/4 spazio logico
+
+1. \# frame?
+
+I.F.      {n frame | offset}
+.               n            m
+
+sappiamo che **n+m = 31**
+m = 17 => frame e pagine hanno stessa taglia
+	=> taglia pagine = ***x di 2<sup>x</sup>*** = offset
+n = 31 - 17 = 14 (n frame)
+
+2. Taglia massima di una page table (assumiamo un solo bit di controllo)
+
+Taglia page table = n° entry \* taglia singola entry
+
+Taglia singola entry = n° bit per singolo frame = 14+1 bit v/i => 15 = 2 B
+
+2<sup>31</sup> \* 4 = 2<sup>33</sup> B => grandezza massima di un processo = spazio di indirizzamento logico (nel nostro caso 4 volte il fisico *{=31}*)
+
+2<sup>33</sup> B / 2<sup>17</sup> pagine = 2<sup>16</sup> 
+
+Quindi taglia max page table = 2<sup>17</sup> (=> taglia del singolo frame)
+
+---
+7<sup>9</sup> % 9 = 
+7<sup>9</sup> = 7<sup>8</sup> \* 7
+
+7<sup>2</sup> % 9 = 4
+7<sup>4</sup> % 9 = 4<sup>2</sup> % 9 = 7
+7<sup>8</sup> % 9 = 7<sup>2</sup> % 9 = 4
+
+= (4 \* 7) % 9 = 28 % 9 = 1
+
+---

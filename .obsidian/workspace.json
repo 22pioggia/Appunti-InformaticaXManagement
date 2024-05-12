@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Sistemi Operativi/Esercizi.md",
+                "file": "Appunti unibo/Statistica/appunti/Terza Lezione.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Sistemi Operativi/Sesta Lezione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77e186123eb0260f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Appunti unibo/Statistica/appunti/Terza Lezione.md",
+                "file": "Appunti unibo/Statistica/appunti/Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti unibo/Sistemi Operativi/Esercizi.md",
+                "file": "Appunti unibo/Statistica/appunti/Terza Lezione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti unibo/Sistemi Operativi/Esercizi.md",
+                "file": "Appunti unibo/Statistica/appunti/Terza Lezione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti unibo/Sistemi Operativi/Esercizi.md"
+                "file": "Appunti unibo/Statistica/appunti/Terza Lezione.md"
               }
             }
           }
@@ -172,13 +160,15 @@
   },
   "active": "2a1b1325ec4d3ffb",
   "lastOpenFiles": [
-    "Appunti unibo/Sistemi Operativi/Sesta Lezione.md",
-    "Appunti unibo/Sistemi Operativi/Indice.md",
-    "Appunti unibo/Statistica/appunti/Indice.md",
-    "Appunti unibo/Sistemi Operativi/Esercizi.md",
     "Appunti unibo/Statistica/appunti/Seconda Lezione.md",
-    "Appunti unibo/Immagini/Pasted image 20240507165804.png",
     "Appunti unibo/Statistica/appunti/Terza Lezione.md",
+    "Appunti unibo/Statistica/appunti/Indice.md",
+    "Appunti unibo/Statistica/appunti/Distribuzione normale.md",
+    "Appunti unibo/Sistemi Operativi/Esercizi.md",
+    "Appunti unibo/Sistemi Operativi/Nona Lezione.md",
+    "Appunti unibo/Sistemi Operativi/Indice.md",
+    "Appunti unibo/Sistemi Operativi/Sesta Lezione.md",
+    "Appunti unibo/Immagini/Pasted image 20240507165804.png",
     "Appunti unibo/Statistica/appunti/Prima Lezione.md",
     "Appunti unibo/Sistemi Operativi/Dodicesima lezione.md",
     "Appunti unibo/Sistemi Operativi/Tredicesima Lezione.md",
@@ -192,7 +182,6 @@
     "Pasted image 20240424130650.png",
     "Appunti unibo/Immagini/Pasted image 20240424130531.png",
     "Appunti unibo/Sistemi Operativi/Undicesima Lezione.md",
-    "Appunti unibo/Statistica/appunti/Distribuzione normale.md",
     "Appunti unibo/Statistica/appunti/Quarta lezione.md",
     "cacca",
     "SPERMA.md",
@@ -208,7 +197,6 @@
     "Vault",
     "Appunti unibo",
     "Appunti unibo/Sistemi Operativi/Decima Lezione.md",
-    "Appunti unibo/Sistemi Operativi/Nona Lezione.md",
     "Appunti unibo/Strategia aziendale/Indice.md",
     "Appunti unibo/Strategia aziendale/Undicesima Lezione.md",
     "Appunti unibo/Strategia aziendale/Decima Lezione.md",

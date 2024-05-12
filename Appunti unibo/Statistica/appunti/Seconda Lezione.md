@@ -85,14 +85,82 @@ f<sub>x</sub>(x) = 1/6 ∀x ∈ \[1,6]
 
 μ = 1/6 + 2/6 + 3/6 + 4/6 + 5/6 + 6/6 = 21/6 = 3.5
 σ<sup>2</sup> = (6<sup>2</sup> - 1)/12 = 35/12
+### Distribuzione binomiale
+*La **distribuzione binomiale** si basa sul ==processo di Bernoulli==, che è un esperimento casuale che ha <i><u>solo</u></i> due possibili risultati: successo(**S**) o insuccesso (**I**).*
+
+*Sia X la variabile aleatoria tale che: {X=0 se S, X=1 se I}, p la probabilità di successo del singolo processo, la **PMF** è:* $$f_{x}(x)=p^x(1-p)^{1-x}, \space x = 0,1, \space S_{x}={0,1}$$
+Si ha che *μ = p* e *σ<sup>2</sup> = np(1-p)*
+
+**==Esempio==**
+*Lancio di una moneta*
+*X* = {*X* = 0 se esce T, *X* = 1 se esce C}
+*p* = 0.5
+
+*f<sub>x</sub>(0) = p<sup>0</sup>(1-p)<sup>1-0</sup> = 0.5<sup>0</sup>(1-0.5)<sup>1</sup> = 1 \* 0.5 = 0.5*
+*f<sub>x</sub>(1) = p<sup>1</sup>(1-p)<sup>1-1</sup> = 0.5<sup>1</sup>(1-0.5)<sup>0</sup> = 0.5 \* 1 = 0.5*
+
+**==Esempio==**
+*Nascita di un figlio*
+*X* = {*X* = 0 se Maschio, *X* = 1 se Femmina}
+*p* = 0.52
+
+*f<sub>x</sub>(0) = p<sup>0</sup>(1-p)<sup>1-0</sup> = 0.52<sup>0</sup>(1-0.52)<sup>1</sup> = 1 \* 0.48 = 0.48*      *probabilità che nasca un maschio*
+*f<sub>x</sub>(1) = p<sup>1</sup>(1-p)<sup>1-1</sup> = 0.52<sup>1</sup>(1-0.52)<sup>0</sup> = 0.52 \* 1 = 0.52*      *probabilità che nasca una femmina*
+
+Il modello binomiale si basa su 3 principi:
+- È costituito da *n* processi di Bernoulli
+- I processi sono tra loro indipendenti
+- ogni processo ha la stesso probabilita *p* di successo
+
+*Se X è la variabile aleatoria che conta i successi negli n processi, allora la PMF di X è:* 
+$$f_{x}(x)= \begin{pmatrix}
+n \\
+x
+\end{pmatrix} p^x(1-p)^(n-x), \space x=0,1,\dots n.$$
+Si ha che la media della distribuzione è *μ = np* e la varianza *σ<sup>2</sup> = n(n-1)p<sup>2</sup>*
+
+**==Esempio==**
+*In una famiglia di 5 figli, sia X = {numero di femmine}. Se supponiamo che la nascita di un maschio abbia probabilità 49% e quella di una femmina 51%, qual è la probabilità P(X=2)?*
+
+*n* = 5
+*p* = 0.51
+*x* = 2
+$$f_{x}(2)=\begin{pmatrix}
+5 \\
+2
+\end{pmatrix} 0.51^20.49^3=0.306\dots$$**==Esempio==**
+*Lancio di 5 dadi contemporaneamente. Sia X = {numero di 6 che escono}. calcolare di ottenere un numero di 6 nell'intervallo \[3,5]*
+
+>*Ogni dado lanciato rispetto ad avere come risultato 6 è un processo di Bernoulli con probabilità   p = 1/6*
+
+*Dobbiamo calcolare P(3 ≤ X ≤ 5). Quindi:* $$P(3\leq X\leq 5) = \sum_{x=7}^9\begin{pmatrix}
+5 \\
+2
+\end{pmatrix} (1/6)^x(5/6)^{5-x}$$
+>boh questa non la capisco, per me dovrebbe essere:$$P(3\leq X\leq 5) = \sum_{x=3}^5\begin{pmatrix}
+5 \\
+x
+\end{pmatrix} (1/6)^x(5/6)^{5-x}$$
 
 
+*Oppure posso scrivere:*$$P(3\leq X\leq 5) = P(x \leq 5) - P(x \leq 2)=F_{x}(5) - F_{x}(2)$$
+### Distribuzione di Poisson
+*La **distribuzione di Poisson** è connessa con eventi 'rari' quali l'arrivo di un cliente in banca, un auto da un benzinaio, errori tipografici, ricettore di particelle su un sensore, incidenti, ecc.*
 
+*Se λ è la media dell'evento nell'intervallo di tempo \[0,1], e X = {numero di eventi che accadono nell'unità di tempo} allora la PMF di X è:*$$f_{x}(x)=e^{-\lambda} \frac{\lambda^x}{x!}, \space x = 0,1,\dots$$
+*Se invece la variabile aleatoria X={numero di eventi che accadono nell'intervallo \[0,t], e λ è sempre la media degli eventi che accadono nell'unità di tempo \[0,1], allora la PMF di X è:*
+$$f_{x}(x)=e^{-\lambda t} \frac{(\lambda t)^x}{x!}, \space x = 0,1,\dots$$
+*In questo caso media e varianza coincidono: μ = σ<sup>2</sup> = λ*
 
+**==Esempio==**
+*Sia λ = 25 media dei clienti in un'ora*
 
-
-
-
-
+1) *Qual è la probabilità che arrivino 30 clienti dalle 9 allle 11?*
+	*x = 30*
+	*t = 2 => \[0,2] (2 ore di lasso di tempo)*
+$$f_{x}(30)=e^{-\lambda t} \cdot \frac{(\lambda t)^x}{x!} = e^{-50} \cdot \frac{50^{30}}{30!}$$
+2) *Qual è la probabilità che arrivino 10 clienti tra le 9 e le 9.30?*
+	*\[0,1/2] -> t = 1/2*
+$$f_{x}(10) = e^{12.5} \cdot \frac{12.5^{10}}{10!}$$
 
 

@@ -11,12 +11,14 @@
 		1. Variabili aleatorie
 		2. Funzione di densità di probabilità - PMF / CDF
 		3. Distribuzione discreta uniforme
+		4. Distribuzione binomiale
 	2. [[Appunti unibo/Statistica/appunti/Terza Lezione|Continue]]
-		1. Distribuzione continua uniforme
-		2. Distribuzione normale
-		3. Distribuzioni di variabili aleatorie di misura di un tempo d'attesa
+		1. Funzioni di variabili casuali continue - PDF / CDF
+		2. Distribuzione continua uniforme
+		3. Distribuzione normale
+		4. Distribuzioni di variabili aleatorie di misura di un tempo d'attesa
 			1. Distribuzione esponenziale
-		4. Distribuzione Chi Quadro
+		5. Distribuzione Chi Quadro
 1. [[Appunti unibo/Statistica/appunti/Quarta lezione#Introduzione al Data Science e Data Mining|Introduzione al Data Science e Data Mining]]
 	1. Perchè Data Mining
 	2. [[Appunti unibo/Statistica/appunti/Quarta lezione#Tipi di dati|Tipi di dati]]
