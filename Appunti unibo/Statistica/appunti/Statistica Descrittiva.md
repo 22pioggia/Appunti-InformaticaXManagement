@@ -1,4 +1,3 @@
-
 ![[Pasted image 20240312161031.png|500]]
 ### Caratteristiche di un insieme di dati
 ![[Pasted image 20240312161150.png|500]]![[Pasted image 20240312162323.png|500]]

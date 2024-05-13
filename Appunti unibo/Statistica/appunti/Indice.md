@@ -29,4 +29,18 @@
 	1. Machine Learning
 	2. Reti neurali per Deep Learning
 3. [[Statistica Descrittiva]]
+	1. Caratteristiche di un insieme di dati
+	2. Misure delle caratteristiche dei dati
+		1. Misure del centro
+		2. Statistica ordinata
+		3. Misure della diffusione dei dati
+		4. Misure della forma
+		5. I cardini e i 5 numeri di sintesi
+		6. Outliers
 4. [[Statistica Inferenziale]]
+	1. Distribuzioni campionarie e Teorema del Limite Centrale
+		1. Media campionaria
+	2. Stima di parametri
+	3. Derivate Parziali
+		1. Il gradiente di una funzione
+		2. Matrice Hessiana

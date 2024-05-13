@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Statistica/appunti/Terza Lezione.md",
+                "file": "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti unibo/Statistica/appunti/Terza Lezione.md",
+                "file": "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti unibo/Statistica/appunti/Terza Lezione.md",
+                "file": "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti unibo/Statistica/appunti/Terza Lezione.md"
+                "file": "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md"
               }
             }
           }
@@ -160,9 +160,17 @@
   },
   "active": "2a1b1325ec4d3ffb",
   "lastOpenFiles": [
-    "Appunti unibo/Statistica/appunti/Seconda Lezione.md",
-    "Appunti unibo/Statistica/appunti/Terza Lezione.md",
     "Appunti unibo/Statistica/appunti/Indice.md",
+    "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
+    "Appunti unibo/Statistica/appunti/Statistica Descrittiva.md",
+    "Appunti unibo/Immagini/Pasted image 20240513155224.png",
+    "Appunti unibo/Immagini/Pasted image 20240513154600.png",
+    "Appunti unibo/Immagini/Pasted image 20240513154358.png",
+    "Appunti unibo/Immagini/Pasted image 20240513153712.png",
+    "Appunti unibo/Immagini/Pasted image 20240513153631.png",
+    "Appunti unibo/Immagini/Pasted image 20240513153511.png",
+    "Appunti unibo/Statistica/appunti/Terza Lezione.md",
+    "Appunti unibo/Statistica/appunti/Seconda Lezione.md",
     "Appunti unibo/Statistica/appunti/Distribuzione normale.md",
     "Appunti unibo/Sistemi Operativi/Esercizi.md",
     "Appunti unibo/Sistemi Operativi/Nona Lezione.md",
@@ -175,12 +183,6 @@
     "Appunti unibo/Immagini/Pasted image 20240502120359.png",
     "Appunti unibo/Immagini/Pasted image 20240502120228.png",
     "Appunti unibo/Immagini/Pasted image 20240502120210.png",
-    "Appunti unibo/Immagini/Pasted image 20240502111654.png",
-    "Appunti unibo/Immagini/Pasted image 20240502111613.png",
-    "Appunti unibo/Immagini/Pasted image 20240502111255.png",
-    "Appunti unibo/Immagini/Pasted image 20240502111137.png",
-    "Pasted image 20240424130650.png",
-    "Appunti unibo/Immagini/Pasted image 20240424130531.png",
     "Appunti unibo/Sistemi Operativi/Undicesima Lezione.md",
     "Appunti unibo/Statistica/appunti/Quarta lezione.md",
     "cacca",
@@ -204,8 +206,6 @@
     "N.B..md",
     "Appunti unibo/Sistemi Operativi/Progetto.md",
     "Appunti unibo/Sistemi Operativi/Tutor/Tutor 1.md",
-    "Appunti unibo/Strategia aziendale/Nona Lezione.md",
-    "Appunti unibo/Sistemi Operativi/Prima Lezione.md",
     "Senza nome.canvas",
     "Sistemi Operativi/Senza nome.canvas"
   ]

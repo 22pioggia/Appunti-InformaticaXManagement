@@ -42,6 +42,8 @@ $$\sigma= \int_{a}^b(x-\mu)^2 3x^2 \, dx$$
 ### Distribuzione Normale
 
 ![[Pasted image 20240227162550.png]]
+>a < x < b 
+
 ![[Pasted image 20240227162638.png]]
 di solito si usa per errori/rumori
 
