@@ -1,5 +1,13 @@
 
-1. [[Appunti unibo/Strategia aziendale/Terza Lezione#Analisi di settore|Analisi di settore]]
+1. [[Appunti unibo/Strategia aziendale/Seconda Lezione|Il concetto di Strategia]]
+	1. La strategia e il successo nelle organizzazioni
+	2. L'analisi SWOT
+	3. La coerenza strategica
+	4. Definizione di Strategia
+	5. I diversi ruoli dell gestione strategica dell'impresa
+	6. Strategia deliberata e Strategia emergente
+	7. Applicazione dell'analisi per la formulazione della strategia
+2. [[Appunti unibo/Strategia aziendale/Terza Lezione#Analisi di settore|Analisi di settore]]
 	1. Analisi ambientale
 	2. Analisi PEST
 	3. Redditività del settore
@@ -14,13 +22,13 @@
 	8. Rivalità tra concorrenti affermati
 	9. Come prevedere la futura redditività del settore
 	10. Fattori critici di successo nel settore
-2. [[Appunti unibo/Strategia aziendale/Quarta Lezione|Dall'analisi di settore all'analisi dei concorrenti]]
+3. [[Appunti unibo/Strategia aziendale/Quarta Lezione|Dall'analisi di settore all'analisi dei concorrenti]]
 	1. Prodotti complementari
 	2. Ecosistemi di imprese
 	3. [[Appunti unibo/Strategia aziendale/Quarta Lezione#Teoria dei Giochi|Teoria dei giochi]]
 	4. [[Appunti unibo/Strategia aziendale/Quarta Lezione#Segmentazione|Segmentazione]]
 	5. Analisi dei gruppi strategici
-3. [[Appunti unibo/Strategia aziendale/Quinta Lezione#Analisi Interna|Analisi Interna]]
+4. [[Appunti unibo/Strategia aziendale/Quinta Lezione#Analisi Interna|Analisi Interna]]
 	1. Resource-based view of the firm
 	2. Risorse e competenze come forme di profitto
 	3. Sfruttamento delle differenze
@@ -40,7 +48,7 @@
 		1. Conseguimento
 		2. Mantenimento
 		3. Sfruttamento
-4. [[Appunti unibo/Strategia aziendale/Sesta Lezione#Forme organizzative e sistemi direzionali|Forme organizzative e sistemi direzionali]]
+5. [[Appunti unibo/Strategia aziendale/Sesta Lezione#Forme organizzative e sistemi direzionali|Forme organizzative e sistemi direzionali]]
 	1. Sistema di pianificazione strategica
 		1. Ciclo annuale di pianificazione strategica
 		2. Progettazione organizzativa
@@ -53,7 +61,7 @@
 				3. A matrice
 				4. Meccanicistiche ed organiche
 		3. Approcci recenti alla progettazione organizzativa
-5. [[Appunti unibo/Strategia aziendale/Settima Lezione#Fonti e dimensioni del vantaggio competitivo|Fonti e dimensioni del vantaggio competitivo]]
+6. [[Appunti unibo/Strategia aziendale/Settima Lezione#Fonti e dimensioni del vantaggio competitivo|Fonti e dimensioni del vantaggio competitivo]]
 	1. Fonti esterne
 	2. Fonti interne
 	3. Difesa del vantaggio competitivo
@@ -71,14 +79,14 @@
 			3. I segnali e la reputazione
 			4. I marchi
 			5. I costi della differenziazione
-6. [[Appunti unibo/Strategia aziendale/Ottava Lezione|L'evoluzione di settore e il cambiamento strategico]]
+7. [[Appunti unibo/Strategia aziendale/Ottava Lezione|L'evoluzione di settore e il cambiamento strategico]]
 	1. Il ciclo di vita di un settore
 	2. Modelli dominanti e standard tecnici
 	3. Dall'innovazione del prodotto all'innovazione del processo
 	4. Generalizzazioni del modello del ciclo di vita
 	5. Adattamento organizzativo e fallimento
 		1. Contrastare l'inerzia organizzativa
-7. [[Appunti unibo/Strategia aziendale/Nona Lezione#Tecnologia e gestione dell'innovazione|Tecnologia e gestione dell'innovazione]] 
+8. [[Appunti unibo/Strategia aziendale/Nona Lezione#Tecnologia e gestione dell'innovazione|Tecnologia e gestione dell'innovazione]] 
 	1. La cattura del valore dell'innovazione
 		1. Diritti di proprietà dell'innovazione
 		2. Codificabilità e complessità della tecnologia
@@ -88,7 +96,7 @@
 	5. Gli standard
 	6. Fonti interne ed esterne dell'innovazione
 	7. Modelli di innovazione
-8. [[Appunti unibo/Strategia aziendale/Decima Lezione#Le strategie di gruppo I|Le strategie di gruppo I]] 
+9. [[Appunti unibo/Strategia aziendale/Decima Lezione#Le strategie di gruppo I|Le strategie di gruppo I]] 
 	1. L'integrazione verticale
 		1. Le 3 C dell'integrazione verticale
 		2. Rischi
@@ -105,7 +113,7 @@
 		5. Diversificazione correlata e non correlata
 	6. Fusioni, acquisizioni e alleanze
 		1. Motivazioni
-9. [[Appunti unibo/Strategia aziendale/Undicesima Lezione#Le strategie di gruppo II|Le strategie di gruppo II]] 
+10. [[Appunti unibo/Strategia aziendale/Undicesima Lezione#Le strategie di gruppo II|Le strategie di gruppo II]] 
 	1. La gestione delle imprese diversificate
 		1. La gestione del portafoglio di attività
 			1. La matrice Ge-Mckinsey
