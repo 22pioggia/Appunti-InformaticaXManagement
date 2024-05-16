@@ -84,6 +84,7 @@ Credibilità/verosimiglianza dei segnali dipendente spesso dalla reputazione del
 Punti di forza: 
 - studio delle contromosse dei competitors
 - rigorosità del sistema
+
 Punti di debolezza: 
 - limitata applicabilità a situazioni reali; 
 - migliore applicabilità nella spiegazione del passato, più che nella previsione del futuro; 

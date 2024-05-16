@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Seconda Lezione.md",
-                "mode": "source",
+                "file": "Appunti unibo/Strategia aziendale/Quarta Lezione.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Indice.md",
+                "file": "Appunti unibo/Strategia aziendale/Decima Lezione.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,9 +42,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4d5852e349f5bb0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Appunti unibo/Strategia aziendale/Domande e Risposte.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Indice.md",
+                "file": "Appunti unibo/Strategia aziendale/Quarta Lezione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Indice.md",
+                "file": "Appunti unibo/Strategia aziendale/Quarta Lezione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Indice.md"
+                "file": "Appunti unibo/Strategia aziendale/Quarta Lezione.md"
               }
             }
           }
@@ -171,17 +182,18 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "f49979258dba1449",
+  "active": "2a1b1325ec4d3ffb",
   "lastOpenFiles": [
-    "Appunti unibo/Strategia aziendale/Seconda Lezione.md",
+    "Appunti unibo/Strategia aziendale/Terza Lezione.md",
+    "Appunti unibo/Strategia aziendale/Decima Lezione.md",
     "Appunti unibo/Strategia aziendale/Indice.md",
+    "Appunti unibo/Strategia aziendale/Domande e Risposte.md",
+    "Appunti unibo/Strategia aziendale/Seconda Lezione.md",
     "Appunti unibo/Immagini/Pasted image 20240515182824.png",
     "Appunti unibo/Strategia aziendale/Glossario.md",
-    "Appunti unibo/Strategia aziendale/Terza Lezione.md",
     "Appunti unibo/Immagini/Pasted image 20240515182154.png",
     "Appunti unibo/Immagini/Pasted image 20240515182119.png",
     "Appunti unibo/Immagini/Pasted image 20240515174106.png",
-    "Appunti unibo/Strategia aziendale/Decima Lezione.md",
     "Appunti unibo/Immagini/Pasted image 20240515173240.png",
     "Appunti unibo/Immagini/Pasted image 20240515172654.png",
     "Appunti unibo/Immagini/Pasted image 20240515172602.png",

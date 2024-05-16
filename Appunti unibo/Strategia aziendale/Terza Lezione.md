@@ -92,7 +92,7 @@ Per comprendere l’intensità della concorrenza tra le imprese che operano all�
 	→ Il livello di utilizzo della capacità produttiva ha un’elevata influenza sui costi unitari di produzione e dunque sulla redditività dell’impresa.
 	
 - **caratteristiche del business: costi fissi, deperibilità, costi di stoccaggio** 
-	→ Le imprese che operano in settori ad alta intensità di capitale o che offrono prodotti deperibili o con elevati costi di stoccaggio in determinate circostanze devono promuovere la vendita dei propri beni o servizi a pezzi ribassati per evitare delle perdite, ma questo può causare un incremento della concorrenza e una riduzione dei profitti complessivi del settore.
+	→ Le imprese che operano in settori ad alta intensità di capitale o che offrono prodotti deperibili o con elevati costi di stoccaggio in determinate circostanze devono promuovere la vendita dei propri beni o servizi a prezzi ribassati per evitare delle perdite, ma questo può causare un incremento della concorrenza e una riduzione dei profitti complessivi del settore.
 	
 - **presenza di barriere all’uscita** 
 	→ Anche la presenza di barriere all’uscita influisce sul grado di rivalità di un settore. Ad esempio, un’impresa che opera nel settore dell’acciaio ha sostenuto ingenti investimenti nello stabilimento produttivo (impianti, fornaci ecc.) e se abbandonasse il settore quegli investimenti andrebbero perduti. In altri casi, le barriere all’uscita possono essere legate ai rapporti istituzionali dell’impresa con il governo, la pubblica amministrazione o i sindacati, che per varie ragioni potrebbero opporsi alla chiusura di impianti e stabilimenti produttivi. In qualche caso, infine, perfino i legami emotivi con i dipendenti (soprattutto per le PMI) o verso il business possono incidere nella scelta del management di non abbandonare l’attività.
@@ -111,8 +111,8 @@ esistono vari tipi di barriere all'entrata:
 - accesso a canali distributivi 
 - barriere istituzionali e legali 
 - ritorsione 
-	una grande azienda può entrare nel settore di una piccola azienda per complicargli le cose
-- efficacia delle barriere all’entrata
+	 *una grande azienda può entrare nel settore di una piccola azienda per complicargli le cose*
+
 
 #### Concorrenza dei prodotti sostitutivi
 
