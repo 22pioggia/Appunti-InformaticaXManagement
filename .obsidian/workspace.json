@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Ottava Lezione.md",
+                "file": "Appunti unibo/Strategia aziendale/Decima Lezione.md",
                 "mode": "preview",
                 "source": false
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Domande e Risposte.md",
+                "file": "Appunti unibo/Strategia aziendale/Decima Lezione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Domande e Risposte.md",
+                "file": "Appunti unibo/Strategia aziendale/Decima Lezione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Domande e Risposte.md"
+                "file": "Appunti unibo/Strategia aziendale/Decima Lezione.md"
               }
             }
           }
@@ -183,13 +182,13 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "4d5852e349f5bb0e",
+  "active": "2a1b1325ec4d3ffb",
   "lastOpenFiles": [
-    "Appunti unibo/Strategia aziendale/Ottava Lezione.md",
-    "Appunti unibo/Strategia aziendale/Glossario.md",
-    "Appunti unibo/Strategia aziendale/Domande e Risposte.md",
     "Appunti unibo/Strategia aziendale/Nona Lezione.md",
     "Appunti unibo/Strategia aziendale/Decima Lezione.md",
+    "Appunti unibo/Strategia aziendale/Ottava Lezione.md",
+    "Appunti unibo/Strategia aziendale/Domande e Risposte.md",
+    "Appunti unibo/Strategia aziendale/Glossario.md",
     "Appunti unibo/Strategia aziendale/Indice.md",
     "Appunti unibo/Strategia aziendale/Settima Lezione.md",
     "Appunti unibo/Strategia aziendale/Sesta Lezione.md",

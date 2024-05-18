@@ -23,7 +23,7 @@ La ***strategia di business*** (_o s. competitiva_) si interessa di:
 Si fa per evitare perdita di controllo sull azienda e *know-how*
 
 - ***Catena del valore*** = un insieme di attività e processi tra loro concatenati i quali contribuiscono, nella loro sequenzialità e interdipendenza, a trasformare i vari input dell’impresa in output aventi un valore per il mercato. 
->	- ***Catena esterna del valore*** = concerne la filiera produttiva di cui l’impresa fa parte, che comprende le catene del valore dei fornitori, dei distributori e dei clienti.
+	>- ***Catena esterna del valore*** = concerne la filiera produttiva di cui l’impresa fa parte, che comprende le catene del valore dei fornitori, dei distributori e dei clienti.
 
 ![[Pasted image 20240325124226.png|400]]
 
@@ -43,7 +43,7 @@ Accanto alle motivazioni che possono spingere le imprese a integrarsi verticalme
 	>
 	>Questo aspetto, di per sé intuitivo, assume una rilevanza particolare quando nel settore si verificano dei cambiamenti tecnologici significativi. Quanto detto è testimoniato da numerose ricerche che hanno dimostrato come le imprese maggiormente integrate verticalmente subiscano generalmente un contraccolpo maggiore sui tassi di redditività quando devono affrontare un radicale salto tecnologico.
 - la perdita di focalizzazione.
->	<font color="#92cddc">La perdita di focalizzazione, concetto strettamente correlato a quello di flessibilità, fa riferimento al fatto che al variare della tipologia e della natura delle attività che un’impresa gestisce internamente corrisponde generalmente un aumento della difficoltà nel riuscire a svolgerle tutte in maniera efficiente.</font>
+	><font color="#92cddc">La perdita di focalizzazione, concetto strettamente correlato a quello di flessibilità, fa riferimento al fatto che al variare della tipologia e della natura delle attività che un’impresa gestisce internamente corrisponde generalmente un aumento della difficoltà nel riuscire a svolgerle tutte in maniera efficiente.</font>
 ### Esternalizzazione
 ---
 - L’esternalizzazione consente alle imprese di essere più flessibili e più tempestive nel dare le risposte al mercato, affidando determinate attività ad altre imprese che sono in grado di svolgerle in maniera più efficiente. 
@@ -102,7 +102,7 @@ _Le imprese entrano nei mercati esteri alla ricerca di redditività. Le modalit�
 L’ingresso può avvenire in due modalità: 
 1. rapporti commerciali 
 2. investimento diretto
-
+---
 1. <i><font color="#92cddc">Il vantaggio competitivo è specifico dell’azienda o legato a risorse del Paese ospitante?</font></i> <font color="#b2a2c7">Se il vantaggio competitivo dell’impresa è legato al paese di origine, il miglior modo di sfruttare le possibilità di internazionalizzazione è l’esportazione di beni.</font> 
 2. <i><font color="#92cddc">Il prodotto è trasferibile?</font></i> <font color="#b2a2c7">Se il prodotto non è trasferibile a causa di limitazioni alla possibilità di trasportarlo o di vincoli alle importazioni, l’entrata nel mercato richiede un investimento diretto nella realizzazione di stabilimenti di produzione o la cessione di licenze ad aziende locali.</font>
 3. <i><font color="#92cddc">L’azienda possiede una gamma completa di risorse e competenze per stabilire un vantaggio competitivo nel mercato estero?</font></i> <font color="#b2a2c7">Per competere in un mercato estero, è probabile che l’impresa debba acquisire nuove risorse e competenze attraverso la collaborazione con imprese locali. </font>
@@ -112,8 +112,8 @@ L’ingresso può avvenire in due modalità:
 
 ![[Pasted image 20240325133255.png|550]]
 ### Diversificazione
-_Le ricerche empiriche condotte da studiosi e consulenti di strategie d’impresa hanno delineato una chiara relazione **tra il grado di diversificazione e la redditività aziendale._** 
->	<font color="#b2a2c7">Le imprese che operano in un numero circoscritto di settori o mercati tra loro correlati ottengono, generalmente, <u>migliori performance di quelle che operano in un singolo business.</u></font>
+_Le ricerche empiriche condotte da studiosi e consulenti di strategie d’impresa hanno delineato una chiara relazione **tra il grado di diversificazione e la redditività aziendale.**_ 
+><font color="#b2a2c7">Le imprese che operano in un numero circoscritto di settori o mercati tra loro correlati ottengono, generalmente, <u>migliori performance di quelle che operano in un singolo business.</u></font>
 
 __Un livello moderato di diversificazione correlata porta a elevati livelli di performance,__ _mentre una strategia di diversificazione troppo spinta determina l’effetto opposto._
 
@@ -147,9 +147,9 @@ Per decidere se la diversificazione creerà effettivamente valore per gli azioni
 >Le economie di scopo esistono per ragioni simili alle economie di scala. La differenza fondamentale è che le economie di scala si riferiscono ai risparmi di costo generati dall’aumentare la scala di produzione del singolo prodotto; le economie di scopo sono i risparmi di costo generati da un aumento dell’output di più prodotti.
 
 ---
-***Le economie di scala** sono riduzioni del costo medio unitario originate da un più elevato sfruttamento degli impianti.* 
+***Le economie di scala*** *sono riduzioni del costo medio unitario originate da un più elevato sfruttamento degli impianti.* 
 
-***Le economie di scopo**, sono contrazioni nel costo medio unitario originate dalla condivisione di una medesima attività (tangibile o intangibile) fra due o più prodotti.*
+***Le economie di scopo***, *sono contrazioni nel costo medio unitario originate dalla condivisione di una medesima attività (tangibile o intangibile) fra due o più prodotti.*
 
 La natura delle economie di scopo varia a seconda del tipo di risorsa o competenza: 
 - ***risorse tangibili*** (es.: reti di distribuzione, i sistemi informativi, la forza di vendita e i laboratori di ricerca) 
@@ -162,6 +162,7 @@ La natura delle economie di scopo varia a seconda del tipo di risorsa o competen
 - Il management del gruppo ha accesso a maggiori informazioni rispetto a quelle disponibili nei mercati esterni. 
 - L’impresa diversificata è più efficiente nel riallocare capitali e forza lavoro. 
 - La diversificazione ha maggiore successo in aziende consolidate che in aziende neo-costituite.
+
 ***Risultati economici:***
 - Non è emersa alcuna relazione sistematica tra redditività e diversificazione. 
 - Oltre un certo grado di diversificazione, la complessità di gestione genera minore redditività. 
@@ -181,7 +182,7 @@ Le decisioni di diversificazione avvengono sulla base di correlazione *percepita
 Fusioni, acquisizioni e alleanze sono importanti strumenti della <u>strategia di gruppo</u>. 
 
 Costituiscono i mezzi principali con cui le imprese *estendono la dimensione e la gamma delle proprie attività.* 
->	Perché fusioni, acquisizioni e alleanze contribuiscano agli obiettivi strategici dell’impresa, bisogna riconoscere che non sono strategie in sé: sono strumenti della strategia – ossia i mezzi con cui un’impresa implementa la propria strategia.
+>Perché fusioni, acquisizioni e alleanze contribuiscano agli obiettivi strategici dell’impresa, bisogna riconoscere che non sono strategie in sé: sono strumenti della strategia – ossia i mezzi con cui un’impresa implementa la propria strategia.
 
 Data la diversità di motivazioni, contesti e risultati, le decisioni che riguardano fusioni, acquisizioni e alleanze devono essere prese dopo attenta analisi dei loro specifici obiettivi strategici, delle caratteristiche delle aziende partner coinvolte e dei loro ambienti settoriali e nazionali. 
 

@@ -35,6 +35,7 @@ i quattro fattori fondamentali che determinano la misura nella quale gli innovat
 2. codificabilità e complessità della tecnologia
 3. vantaggio temporale
 4. risorse complementari
+	->*sono le risorse e le capacità necessarie per finanziare, produrre e commercializzare l’innovazione.*
 #### Diritti di proprietà dell'innovazione
 
 1. _**Brevetti**_
