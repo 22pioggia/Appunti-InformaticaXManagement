@@ -30,7 +30,7 @@ _**Standard tecnico**_ = una tecnologia o una specificazione importante per la c
 
 _**Invenzione**_ = creazione di nuovi prodotti o processi attraverso lo sviluppo di nuova conoscenza o nuove combinazioni di conoscenze esistenti
 
-_**Innovazione**_ = commercializzazione dell'innovazione
+_**Innovazione**_ = commercializzazione dell'invenzione
 
 ***Integrazione verticale (o insourcing)*** = Strategia che prevede di svolgere internamente processi o attività aziendali precedentemente condotti da fornitori esterni. 
 

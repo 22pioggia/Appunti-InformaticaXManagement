@@ -9,7 +9,7 @@ La ricerca del vantaggio competitivo stimola l'innovazione e le innovazioni di s
 ---
 _**Invenzione**_: creazione di nuovi prodotti o processi attraverso lo sviluppo di nuova conoscenza o nuove combinazioni di conoscenze esistenti
 
-_**Innovazione**_: commercializzazione dell'innovazione
+_**Innovazione**_: commercializzazione dell'invenzione
 
 Effetti:
 - Lato della domanda -> adozione
@@ -68,11 +68,11 @@ Codificabilità e complessità non costituiscono barriere permanenti all'imitazi
 ![[Pasted image 20240327132150.png|550]]
 ### Innovatori o imitatori
 _ci sono vantaggi e svantaggi nell'essere sia innovatori che imitatori, la loro entità dipende da:_
-1. _**possibilità di tutelare l'innovazione attraverso diritti di proprieta e/o il vantaggio iniziale in termini di tempo_**, <b><font color="#b2a2c7">essere pionieri è probabilmente vantaggioso</font></b> 
+1. ***possibilità di tutelare l'innovazione attraverso diritti di proprieta e/o il vantaggio iniziale in termini di tempo***, <b><font color="#b2a2c7">essere pionieri è probabilmente vantaggioso</font></b> 
 2. _**importanza delle risorse complementari**_
 	>_quanto maggiore è l’importanza delle risorse complementari per lo sfruttamento di un’innovazione, tanto più alti sono i costi e i rischi assunti dall’impresa innovatrice;_
 3. _**potenziale per imporre standard tecnici**_
->	_quanto maggiore è l’importanza degli standard tecnici, tanto più grandi sono i vantaggi associati all’essere fra i pionieri e al poter influenzare questi standard, acquisendo così un controllo del mercato tale da raggiungere una posizione di leadership._
+	>_quanto maggiore è l’importanza degli standard tecnici, tanto più grandi sono i vantaggi associati all’essere fra i pionieri e al poter influenzare questi standard, acquisendo così un controllo del mercato tale da raggiungere una posizione di leadership._
 
 Le **finestre strategiche** sono i periodi di tempo in cui le risorse e le competenze delle imprese sono allineate con le opportunità disponibili nel mercato, può convenire:
 - sfruttare il _==vantaggio della prima mossa==_ (una piccola impresa ad alta tecnologia può non avere altra scelta se non quella di essere all’avanguardia nell’innovazione); 
@@ -105,7 +105,7 @@ Gli standard possono essere:
 - Fonti esterne: clienti e collaboratori
 	- **Clienti come fonti di innovazione**
 	- **Open innovation** <font color="#b2a2c7">(coinvolgere i clienti nel processo di innovazione rappresenta un passo verso l’innovazione aperta)</font>
-	- **Acquisto di innovazione** <font color="#b2a2c7">(coinvolgere i clienti nel processo di innovazione rappresenta un passo verso l’innovazione aperta)</font>
+	- **Acquisto di innovazione** <font color="#b2a2c7">(acquisizione di piccole realtà; ciò implica sia il prendere in licenza o il comprare brevetti sia l’acquisire <i>in toto</i> giovani imprese tecnologiche).</font>
 ### Modelli di innovazione
 
 ![[Pasted image 20240327132803.png|500]]

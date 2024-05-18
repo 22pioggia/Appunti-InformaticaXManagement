@@ -1,5 +1,5 @@
 ## Forme organizzative e sistemi direzionali
-**_Affinché una strategia possa portare a dei risultati, essa deve essere supportata dall’impegno e tradotta in piani d’azione.**_
+**_Affinché una strategia possa portare a dei risultati, essa deve essere supportata dall’impegno e tradotta in piani d’azione._**
 
 _**In passato**_ 
 La gestione strategica considerata come un processo a due fasi: 
@@ -18,7 +18,9 @@ ha sottolineato come in corso di implementazione la **strategia deliberata** sia
 	Insieme di decisioni strategiche che adattano la strategia deliberata ai cambiamenti delle circostanze esterne.
 
 La strategia deliberata di qualunque organizzazione è inevitabilmente incompleta: include obiettivi, direzioni e priorità, ma non potrà mai essere omnicomprensiva. 
+
 È durante la fase dell’implementazione che le lacune verranno colmate e, con il mutare delle circostanze e l’emergere di questioni non vagliate in precedenza, la strategia subirà un adattamento. 
+
 Allo stesso modo, la formulazione strategica deve considerare le condizioni in cui avviene l’implementazione.
 ### Sistema di pianificazione strategica
 
@@ -67,7 +69,7 @@ La direzione aziendale utilizza dei meccanismi di controllo per il riallineament
 	>_Alcune organizzazioni riescono a conseguire elevati livelli di collaborazione e bassi livelli di conflittualità sugli obiettivi senza ricorrere né a controlli punitivi, né a incentivi collegati alla performance. I membri di comunità religiose, organizzazioni di beneficenza, associazioni e organizzazioni di volontariato condividono solitamente valori che servono uno scopo comune._ 
 	_I valori di un’organizzazione sono uno degli elementi costitutivi della cultura dell’organizzazione._
 
-L’implementazione della strategia richiede leadership e la **==persuasione==**. Il linguaggio riveste un ruolo centrale, sia per concepire la strategia sia per implementarla. La leadership richiede la capacità di influenzare gli altri, per cui la retorica – cioè l’uso del linguaggio a scopi persuasivi – risulta essere un’abilità fondamentale.
+L’implementazione della strategia richiede leadership e **==persuasione==**. Il linguaggio riveste un ruolo centrale, sia per concepire la strategia sia per implementarla. La leadership richiede la capacità di influenzare gli altri, per cui la retorica – cioè l’uso del linguaggio a scopi persuasivi – risulta essere un’abilità fondamentale.
 ##### Problema del coordinamento
 Ci sono 3 differenti meccanismi di coordinamento: 
 1. _**le norme e le direttive**_

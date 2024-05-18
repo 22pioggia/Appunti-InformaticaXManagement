@@ -175,7 +175,7 @@ Funzioni dei marchi:
 - garanzia di responsabilità 
 - incentivo a mantenere la qualità del prodotto 
 - grande rilevanza nel commercio elettronico
-### I costi della differenziazione
+##### I costi della differenziazione
 Tra i costi connessi alla differenziazione ci sono: 
 - approvvigionamenti di maggiore qualità 
 - formazione dei dipendenti 

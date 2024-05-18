@@ -90,7 +90,7 @@ Spesso il cambiamento organizzativo viene ostacolato da alcune fonti di inerzia:
 - _**Fissazione di obiettivi sempre più ambiziosi.**_
 	>_Un approccio alternativo per reagire all’inerzia organizzativa è mettere pressione continua all’organizzazione fissando obiettivi di performance via via più ambiziosi._
 - _**Iniziative aziendali quali catalizzatori di cambiamento.**_
->	_Gli amministratori delegati incontrano dei limiti nella possibilità di avviare e implementare il cambiamento. Tuttavia, combinando sia leadership autoritaria sia leadership carismatica, possono portare avanti specifiche iniziative capaci di grande impatto._
+	> *Gli amministratori delegati incontrano dei limiti nella possibilità di avviare e implementare il cambiamento. Tuttavia, combinando sia leadership autoritaria sia leadership carismatica, possono portare avanti specifiche iniziative capaci di grande impatto.*
 - _**Riorganizzazione della struttura aziendale.**_
 	>_Attraverso la riorganizzazione della struttura il top management può redistribuire potere, ruoli direzionali e introdurre nuova linfa nell’organizzazione._
 - _**Nuova leadership.**_

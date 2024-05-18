@@ -12,9 +12,9 @@ Negli ultimi decenni, due fattori hanno determinato una crescente attenzione sul
 
 nell'analisi interna tutti i fattori sono importanti ma ==le risorse umane sono fondamentali==
 ### Resource-based view of the firm
-La **==resource based view**== of the firm è un corpus di teorie che afferma che la differenza di performance ottenuta dalle imprese che operano in un medesimo business è dovuta fondamentalmente al set di risorse e competenze da ciascuna detenute, che ne indirizzano le scelte strategiche. 
+La ==**resource based view**== of the firm è un corpus di teorie che afferma che la differenza di performance ottenuta dalle imprese che operano in un medesimo business è dovuta fondamentalmente al set di risorse e competenze da ciascuna detenute, che ne indirizzano le scelte strategiche. 
 
-Secondo tale prospettiva, la chiave del successo e della redditività delle imprese operanti in un settore non risiede nell’imitazione delle condotte competitive dei concorrenti – sebbene anche questa possa essere una strategia possibile – quanto nello sfruttamento delle differenze rispetto ai competitor, ovvero dei fattori distintivi dell’impresa. 
+Secondo tale prospettiva, la chiave del successo e della redditività delle imprese operanti in un settore non risiede nell’imitazione delle condotte competitive dei concorrenti – *sebbene anche questa possa essere una strategia possibile* – quanto nello sfruttamento delle differenze rispetto ai competitor, ovvero dei fattori distintivi dell’impresa. 
 
 Pertanto, una strategia capace di costruire un vantaggio competitivo deve basarsi sullo sfruttamento dei punti di forza specifici dell’impresa, che risiedono nelle risorse e nelle competenze.
 
@@ -34,7 +34,7 @@ Le fonti principali di una redditività superiore sono:
 - l’attrattività del settore 
 - il vantaggio competitivo → la fonte più importante
 
-_Piuttosto che proteggersi dalle asperità della concorrenza, l’obiettivo prioritario della strategia è diventato la ricerca del vantaggio competitivo attraverso lo sviluppo e lo sfruttamento delle risorse e delle competenze._
+>_Piuttosto che proteggersi dalle asperità della concorrenza, l’obiettivo prioritario della strategia è diventato la ricerca del vantaggio competitivo attraverso lo sviluppo e lo sfruttamento delle risorse e delle competenze._
 
 A queste fonti di redditività corrisponde la distinzione tra: 
 - rendite **==monopolistiche==**, cioè i profitti derivanti da posizioni di supremazia nel mercato; 
@@ -48,8 +48,8 @@ L’approccio alla formulazione della strategia basato sulle risorse prevede la 
 1. che sfrutti i principali punti di forza di un’impresa 
 2. protegga l’impresa dai propri punti deboli
 ### Risorse
-risorse = beni produttivi posseduti
-competenze = cose che si è in grado di fare/realizzare
+***risorse*** = beni produttivi posseduti
+***competenze*** = cose che si è in grado di fare/realizzare
 
 Le risorse non conferiscono da sole un vantaggio competitivo 
 	->devono essere integrate tra loro per creare le competenze organizzative.
@@ -62,7 +62,7 @@ Le risorse non conferiscono da sole un vantaggio competitivo
 L’analisi delle risorse prevede la comprensione dello sfruttamento del loro potenziale per creare vantaggio competitivo:
 1. quali opportunità sussistono per realizzare economie nel loro impiego? 
 	→ Si possono utilizzare meno risorse per realizzare lo stesso volume di attività? 
-1. quali sono le possibilità per un migliore impiego delle risorse esistenti? 
+2. quali sono le possibilità per un migliore impiego delle risorse esistenti? 
 	→ Le risorse esistenti possono essere impiegate in maniera più redditizia?
 ###### Intangibili
 - rappresentano, in generale, una quota molto più elevata del valore dei beni patrimoniali rispetto alle risorse tangibili; 
