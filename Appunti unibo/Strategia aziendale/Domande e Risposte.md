@@ -222,4 +222,74 @@ _**6.**_ Descrivi due modi in cui un’impresa può ottenere maggiori profitti r
 _**7.**_ Spiega cosa si intende per economie di scala e come possono rappresentare un vantaggio competitivo.
 
 ---
+# L'evoluzione del settore e il cambiamento strategico - Lezione 8
 
+**1. Quali sono due dei principali fattori che guidano l'evoluzione del settore?**
+
+- a) Storia politica e cambiamenti climatici
+- ==b) Tecnologia e domanda dei consumatori==
+- c) Architettura dell'edificio e orari di lavoro
+- d) Stato dell'economia e tendenze della moda
+
+**2. Cosa rappresenta il ciclo di vita di un settore?**
+
+- a) Il ciclo di vita dei prodotti all'interno di un'azienda
+- b) Il ciclo di vita di un'azienda leader nel settore
+- ==c) Il ciclo di vita delle tecnologie utilizzate nel settore==
+- d) Il ciclo di vita delle politiche governative che influenzano il settore
+
+**3. Cosa caratterizza la fase di introduzione nel ciclo di vita di un settore?**
+
+- a) Elevata penetrazione di mercato
+- b) Tecnologia consolidata e prezzi competitivi
+- ==c) Basso tasso di penetrazione, tecnologia innovativa e prezzi elevati==
+- d) Domanda di sostituzione e saturazione del mercato
+
+**4. Qual è uno dei principali ostacoli al cambiamento organizzativo?**
+
+- a) Innovazione continua
+- b) Strutture flessibili
+- ==c) Routine organizzative==
+- d) Fluttuazioni casuali
+
+**5. Cosa può fare un top manager per favorire il cambiamento strategico?**
+
+- a) Mantenere lo status quo
+- b) Ridurre gli obiettivi di performance
+- ==c) Riorganizzare la struttura aziendale==
+- d) Ignorare i feedback dei dipendenti
+
+**6. Cosa rappresenta un modello dominante in un settore?**
+
+- ==a) Un'architettura di prodotto che definisce aspetto, funzionalità e metodo di produzione==
+- b) Una politica di prezzi aggressiva
+- c) Un'organizzazione con molti livelli gerarchici
+- d) Un'azienda con una lunga storia nel settore
+
+**7. Qual è uno dei modi per contrastare l'inerzia organizzativa?**
+
+- a) Mantenere le stesse routine organizzative
+- ==b) Creare la percezione di una crisi==
+- c) Ridurre la comunicazione interna
+- d) Resistere a qualsiasi cambiamento
+
+**8. Cosa rappresenta la fase di sviluppo nel ciclo di vita di un settore?**
+
+- a) Bassa penetrazione di mercato e prezzi elevati
+- ==b) Tecnologia standardizzata e rapida crescita delle vendite==
+- c) Declino delle vendite e saturazione del mercato
+- d) Domanda di sostituzione e saturazione del mercato
+
+**9. Cosa rappresenta la fase di declino nel ciclo di vita di un settore?**
+
+- ==a) Domanda di sostituzione e saturazione del mercato==
+- b) Tecnologia innovativa e prezzi elevati
+- c) Rapida crescita delle vendite e bassi prezzi
+- d) Elevata penetrazione di mercato e prezzi competitivi
+
+**10. Cosa caratterizza la fase di maturità nel ciclo di vita di un settore?**
+
+- a) Tecnologia innovativa e prezzi elevati
+- b) Rapida crescita delle vendite e bassi prezzi
+- ==c) Rallentamento della crescita e domanda di sostituzione==
+- d) Bassa penetrazione di mercato e prezzi elevati
