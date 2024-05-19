@@ -13,20 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Decima Lezione.md",
+                "file": "Appunti unibo/Strategia aziendale/Quarta Lezione.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f49979258dba1449",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Appunti unibo/Strategia aziendale/Indice.md",
-                "mode": "source",
                 "source": false
               }
             }
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Glossario.md",
+                "file": "Appunti unibo/Strategia aziendale/Quinta Lezione.md",
                 "mode": "preview",
                 "source": false
               }
@@ -55,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Decima Lezione.md",
+                "file": "Appunti unibo/Strategia aziendale/Quinta Lezione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Decima Lezione.md",
+                "file": "Appunti unibo/Strategia aziendale/Quinta Lezione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Decima Lezione.md"
+                "file": "Appunti unibo/Strategia aziendale/Quinta Lezione.md"
               }
             }
           }
@@ -182,20 +171,21 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "2a1b1325ec4d3ffb",
+  "active": "63e773e5bbca7416",
   "lastOpenFiles": [
-    "Appunti unibo/Strategia aziendale/Nona Lezione.md",
-    "Appunti unibo/Strategia aziendale/Decima Lezione.md",
-    "Appunti unibo/Strategia aziendale/Ottava Lezione.md",
-    "Appunti unibo/Strategia aziendale/Domande e Risposte.md",
-    "Appunti unibo/Strategia aziendale/Glossario.md",
     "Appunti unibo/Strategia aziendale/Indice.md",
-    "Appunti unibo/Strategia aziendale/Settima Lezione.md",
-    "Appunti unibo/Strategia aziendale/Sesta Lezione.md",
-    "Appunti unibo/Strategia aziendale/Quinta Lezione.md",
-    "Appunti unibo/Strategia aziendale/Seconda Lezione.md",
+    "Appunti unibo/Strategia aziendale/Glossario.md",
     "Appunti unibo/Strategia aziendale/Quarta Lezione.md",
     "Appunti unibo/Strategia aziendale/Terza Lezione.md",
+    "Appunti unibo/Strategia aziendale/Nona Lezione.md",
+    "Appunti unibo/Strategia aziendale/Seconda Lezione.md",
+    "Appunti unibo/Strategia aziendale/Quinta Lezione.md",
+    "Appunti unibo/Strategia aziendale/Sesta Lezione.md",
+    "Appunti unibo/Strategia aziendale/Decima Lezione.md",
+    "Appunti unibo/Strategia aziendale/Domande e Risposte.md",
+    "Appunti unibo/Strategia aziendale/Ottava Lezione.md",
+    "Appunti unibo/Strategia aziendale/Undicesima Lezione.md",
+    "Appunti unibo/Strategia aziendale/Settima Lezione.md",
     "Appunti unibo/Immagini/Pasted image 20240515182824.png",
     "Appunti unibo/Immagini/Pasted image 20240515182154.png",
     "Appunti unibo/Immagini/Pasted image 20240515182119.png",
@@ -219,7 +209,6 @@
     "Appunti unibo/Statistica/appunti/Prima Lezione.md",
     "Appunti unibo/Sistemi Operativi/Dodicesima lezione.md",
     "Appunti unibo/Sistemi Operativi/Tredicesima Lezione.md",
-    "Appunti unibo/Sistemi Operativi/Undicesima Lezione.md",
     "cacca",
     "new yoo",
     "rep",

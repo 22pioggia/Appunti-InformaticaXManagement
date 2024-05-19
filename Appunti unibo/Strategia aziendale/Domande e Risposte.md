@@ -1,4 +1,76 @@
-# Cinque forze di Porter
+# Il Concetto di strategia - Lezione 2
+
+**1. Quali sono i tre modi in cui la strategia favorisce una gestione efficace delle organizzazioni?**
+
+- a) Migliorando la qualità delle decisioni
+- b) Facilitando la coordinazione
+- c) Portando le organizzazioni a riflettere sul perseguimento di obiettivi a lungo termine
+- ==d) Tutte le precedenti==
+
+**2. Quali sono alcuni modi in cui la strategia migliora il processo decisionale?**
+
+- a) Semplificando il processo decisionale vincolando il numero delle alternative
+- b) Consentendo di raggruppare le conoscenze di diverse persone
+- c) Facilitando l'applicazione di strumenti analitici
+- ==d) Tutte le precedenti==
+
+**3. Quali sono alcuni dei fattori che determinano il successo delle organizzazioni?**
+
+- a) Abilità di riconoscere opportunità
+- b) Chiara direzione da seguire
+- c) Flessibilità per sfruttare le opportunità
+- ==d) Tutte le precedenti==
+
+**4. Cos'è l'analisi SWOT?**
+
+- ==a) Un modello per valutare opportunità e minacce dell'ambiente esterno e punti di forza e debolezza interni==
+- b) Un approccio per esaminare solo le minacce esterne di un'azienda
+- c) Un metodo per valutare solo i punti di forza di un'organizzazione
+- d) Un concetto astratto senza applicazione pratica
+
+**5. Quali sono le fasi dell'analisi SWOT?**
+
+- ==a) Esame delle opportunità e delle minacce, rilevazione dei punti di forza e debolezza, individuazione delle linee di azione==
+- b) Valutazione degli investimenti, rilevazione dei punti deboli, confronto dei fattori esterni
+- c) Assegnazione dell'importanza ai fattori, analisi del budget, confronto dei mercati
+- d) Tutte le precedenti
+
+**6. Qual è la definizione di strategia d'impresa?**
+
+- a) Un piano volto a conseguire un vantaggio competitivo
+- b) La capacità di distinguersi sul mercato rispetto alla concorrenza
+- c) Una scelta dei settori e mercati in cui competere
+- ==d) Tutte le precedenti==
+
+**7. Quali sono i diversi ruoli della gestione strategica dell'impresa?**
+
+- a) Supporto alle decisioni, strumento di coordinamento e comunicazione, obiettivo
+- b) Analisi dei competitor, pianificazione finanziaria, implementazione delle politiche aziendali
+- c) Sviluppo del prodotto, ricerca e sviluppo, gestione delle risorse umane
+- ==d) Tutte le precedenti==
+
+**8. Qual è la differenza tra strategia deliberata e strategia emergente?**
+
+- ==a) Strategia deliberata è pianificata, strategia emergente si sviluppa dal basso==
+- b) Strategia deliberata è reattiva, strategia emergente è proattiva
+- c) Strategia deliberata è flessibile, strategia emergente è rigida
+- d) Non c'è differenza tra le due
+
+**9. Cosa rappresenta la teoria delle contingenze?**
+
+- ==a) Non esiste un unico modo migliore per progettare, gestire e guidare un'organizzazione==
+- b) Esiste una sola strategia efficace per ogni tipo di impresa
+- c) La strategia deve essere sempre rigida e adattabile
+- d) Tutte le precedenti
+
+**10. Quali sono le fasi della definizione di una strategia di business?**
+
+- ==a) Definizione dell'agenda strategica, analisi della situazione, formulazione della strategia, implementazione della strategia==
+- b) Identificazione della strategia corrente, valutazione del risultato, analisi delle risorse e delle competenze, confronto del posizionamento
+- c) Esame delle opportunità e delle minacce, individuazione delle linee di azione, definizione del vantaggio competitivo, controllo del budget
+- d) Tutte le precedenti
+---
+# Cinque forze di Porter - Lezione 3
 **1. Qual è l'impatto della bassa differenziazione del prodotto sulla rivalità tra imprese esistenti?**
 
 - A. Riduce la rivalità poiché i clienti sono fedeli.
@@ -293,3 +365,152 @@ _**7.**_ Spiega cosa si intende per economie di scala e come possono rappresenta
 - b) Rapida crescita delle vendite e bassi prezzi
 - ==c) Rallentamento della crescita e domanda di sostituzione==
 - d) Bassa penetrazione di mercato e prezzi elevati
+---
+# Strategie di gruppo I - Lezione 10
+
+**1. Qual è il focus principale della strategia di gruppo?**
+
+- a) Diversificazione della produzione
+- b) Ampiezza del mercato di riferimento
+- c) Grado di integrazione verticale
+- ==d) Tutte le precedenti==
+
+**2. Quale delle seguenti è una caratteristica della strategia di business?**
+
+- a) Diversificazione della produzione
+- ==b) Condotta di un'azienda in un particolare mercato==
+- c) Espansione geografica
+- d) Grado di integrazione verticale
+
+**3. Qual è uno svantaggio dell'integrazione verticale?**
+
+- a) Maggiore flessibilità
+- b) Maggiori economie di scala
+- ==c) Carenza di competenze==
+- d) Maggiore focalizzazione
+
+**4. Cosa implica l'esternalizzazione per un'impresa?**
+
+- ==a) Perdita di controllo e di informazioni importanti==
+- b) Aumento dei costi operativi
+- c) Miglioramento delle competenze interne
+- d) Riduzione dell'efficienza
+
+**5. Quale delle seguenti NON è una delle 3 C dell'integrazione verticale?**
+
+- a) Controllo
+- b) Competenza
+- ==c) Costi==
+- d) Coordinazione
+
+**6. Quale delle seguenti è una motivazione per la diversificazione?**
+
+- ==a) Riduzione del rischio==
+- b) Aumento della focalizzazione
+- c) Miglioramento delle competenze interne
+- d) Maggiore rigidità
+
+**7. Cosa rappresentano le economie di scopo?**
+
+- ==a) Vantaggi di costo derivati dall'utilizzo di una risorsa in molteplici attività==
+- b) Riduzione del costo medio unitario di un singolo prodotto
+- c) Vantaggi competitivi basati su risorse interne
+- d) Aumento della flessibilità
+
+**8. Qual è uno dei principali rischi dell'integrazione verticale?**
+
+- a) Maggiore flessibilità
+- b) Riduzione del controllo
+- ==c) Perdita di focalizzazione==
+- d) Maggiori economie di scala
+
+**9. Quale forma di alleanza strategica comporta la creazione di una nuova società?**
+
+- a) Alleanza contrattuale
+- b) Equity alliance
+- ==c) Joint venture==
+- d) Outsourcing
+
+**10. Qual è una delle implicazioni dell'internazionalizzazione per la concorrenza secondo il modello delle 5 forze di Porter?**
+
+- a) Diminuzione del potere degli acquirenti
+- b) Riduzione della rivalità tra le imprese esistenti
+- ==c) Aumento dei potenziali entranti==
+- d) Diminuzione del potere dei fornitori
+---
+# Strategie di gruppo II - Lezione 11
+
+**1. Quale delle seguenti è una delle quattro attività attraverso le quali la gestione di gruppo aggiunge valore alle attività?**
+
+- a) Riduzione delle risorse umane
+- ==b) Gestione delle interdipendenze tra le diverse attività==
+- c) Aumento delle tasse
+- d) Monitoraggio delle condizioni climatiche
+
+**2. Cosa è centrale nella gestione del portafoglio per un'azienda diversificata?**
+
+- a) Mantenere le attività in perdita
+- ==b) Individuare imprese sottovalutate e allocare capitali in modo efficiente==
+- c) Acquisire solo aziende di grandi dimensioni
+- d) Evitare qualsiasi tipo di investimento rischioso
+
+**3. Quale delle seguenti affermazioni è vera riguardo alle matrici di pianificazione del portafoglio?**
+
+- a) Utilizzano esclusivamente dati futuri
+- ==b) Ignorano le interdipendenze tra attività==
+- c) Non mostrano il posizionamento delle attività dell'impresa
+- d) Sono usate solo in piccole imprese
+
+**4. Quale è una delle modalità attraverso le quali le aziende diversificate sfruttano le interdipendenze tra risorse e capacità?**
+
+- ==a) Attraverso l'accentramento di servizi comuni a livello di impresa==
+- b) Attraverso l'assunzione di più dipendenti
+- c) Attraverso la riduzione dei salari
+- d) Attraverso l'acquisto di nuovi edifici
+
+**5. Cosa implica la gestione delle interdipendenze tra le attività per il centro del gruppo?**
+
+- a) Nessun ruolo attivo del centro del gruppo
+- ==b) Un ruolo attivo nello sviluppo e condivisione di risorse e competenze==
+- c) Riduzione delle interazioni tra unità di business
+- d) Eliminazione di servizi comuni
+
+**6. Quale strategia può adottare la capogruppo per creare valore in aziende gestite male?**
+
+- a) Lasciarle operare in autonomia
+- ==b) Introdurre una strategia di ristrutturazione==
+- c) Ridurre le risorse disponibili
+- d) Aumentare i prezzi dei prodotti
+
+**7. Cosa si intende per sistema di pianificazione strategica in grandi aziende diversificate?**
+
+- a) Si concentra solo sui risultati a breve termine
+- b) È focalizzato esclusivamente sui profitti immediati
+- ==c) Include iniziative come la sistematizzazione dell'esecuzione strategica==
+- d) Ignora le questioni strategiche critiche
+
+**8. Qual è la principale differenza tra pianificazione strategica e controllo finanziario?**
+
+- a) La pianificazione strategica si concentra sui risultati a breve termine
+- b) Il controllo finanziario si concentra sui risultati a medio e lungo termine
+- ==c) La pianificazione strategica si preoccupa dei risultati di medio e lungo periodo==
+- d) Non esistono differenze significative
+
+**9. Quali sono le questioni fondamentali della governance di grandi imprese diversificate?**
+
+- ==a) I diritti degli azionisti, le responsabilità del consiglio d'amministrazione, il ruolo del management di gruppo==
+- b) Il monitoraggio delle condizioni climatiche, l'assunzione di più dipendenti, la riduzione delle tasse
+- c) L'aumento delle risorse umane, la riduzione dei salari, l'acquisto di nuovi edifici
+- d) Nessuna delle precedenti
+
+**10. Cosa è necessario affinché i membri del consiglio d'amministrazione svolgano efficacemente il loro ruolo?**
+
+- ==a) Agire in buona fede, applicando la dovuta diligenza e attenzione==
+- b) Evitare di esaminare la strategia del gruppo
+- c) Ignorare i business plan
+- d) Concentrarsi esclusivamente sui profitti immediati
+---
+
+
+
+

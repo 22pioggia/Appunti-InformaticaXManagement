@@ -224,3 +224,4 @@ Per anticipare eventuali problemi di integrazione ci si può focalizzare su acqu
 - I prodotti dell’azienda acquisita sono adatti alla nostra filiera attuale, alle strutture di produzione e alla distribuzione? 
 - Le persone che lavorano per noi possono servire subito i clienti dell’azienda acquisita?
 
+[[Appunti unibo/Strategia aziendale/Undicesima Lezione|Next]]

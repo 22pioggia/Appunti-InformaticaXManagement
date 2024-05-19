@@ -14,7 +14,7 @@ _**competenze**_ = cose che si è in grado di fare/realizzare
 ***Strategia di business (business strategy)*** = volta a definire il modo di competere all’interno di un determinato settore o mercato.
 
 ***Catena del valore*** = un insieme di attività e processi tra loro concatenati i quali contribuiscono, nella loro sequenzialità e interdipendenza, a trasformare i vari input dell’impresa in output aventi un valore per il mercato. 
->	***Catena esterna del valore*** = <font color="#b2a2c7">concerne la filiera produttiva di cui l’impresa fa parte, che comprende le catene del valore dei fornitori, dei distributori e dei clienti.</font>
+>***Catena esterna del valore*** = <font color="#b2a2c7">concerne la filiera produttiva di cui l’impresa fa parte, che comprende le catene del valore dei fornitori, dei distributori e dei clienti.</font>
 
 _**Strategia deliberata**_ =Una strategia che viene definita seguendo un processo di pianificazione strutturato, in coerenza con la missione e nel perseguimento degli obiettivi dell’organizzazione.
 

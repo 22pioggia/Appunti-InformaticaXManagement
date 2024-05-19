@@ -66,13 +66,13 @@ L’efficacia dei processi di pianificazione strategica di grandi aziende divers
 - La ***pianificazione strategica*** si preoccupa dei risultati di medio e lungo periodo; 
 - La ***pianificazione e il controllo finanziario*** si concentrano sui risultati entro un orizzonte temporale di due anni.
 
->	Le aziende con sistemi manageriali fortemente orientati al raggiungimento di ambiziosi obiettivi finanziari e operativi utilizzano robusti incentivi a livello individuale per creare un contesto motivante per i manager di divisione
+>Le aziende con sistemi manageriali fortemente orientati al raggiungimento di ambiziosi obiettivi finanziari e operativi utilizzano robusti incentivi a livello individuale per creare un contesto motivante per i manager di divisione
 
->	In settori in cui l’orizzonte temporale degli investimenti e il tempo intercorrente tra la decisione strategica e i suoi effetti sono più lunghi, la sfida per riconciliare obiettivi di breve e medio termine con i risultati di lungo termine è più ardua
+>In settori in cui l’orizzonte temporale degli investimenti e il tempo intercorrente tra la decisione strategica e i suoi effetti sono più lunghi, la sfida per riconciliare obiettivi di breve e medio termine con i risultati di lungo termine è più ardua
 
 ![[Pasted image 20240409181225.png|500]]
 ####  La governance dell'impresa diversificata
-Nelle imprese diversificate diventa particolarmente rilevante il problema dell’agenzia: la propensione dei manager (gli agenti) a gestire le aziende in modo da anteporre i propri interessi a quelli dei proprietari. 
+Nelle imprese diversificate diventa particolarmente rilevante il problema dell’agenzia: la propensione dei manager (*gli agenti*) a gestire le aziende in modo da anteporre i propri interessi a quelli dei proprietari. 
 
 Le questioni fondamentali della governance di grandi imprese diversificate sono tre: 
 1. i diritti degli azionisti 
