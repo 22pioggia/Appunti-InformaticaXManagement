@@ -32,7 +32,7 @@ _**Il ciclo di pianificazione strategica.**_
 - _**Impostazione del contesto:**_ 
 	>linee guida, previsioni, assunzioni. L’amministratore delegato dà in genere inizio al processo indicando delle priorità strategiche, influenzate dal resoconto ottenuto rivedendo i risultati precedenti. In aggiunta, l’unità di pianificazione strategica può offrire assunti o previsioni capaci di fornire a tutte le unità organizzative una base comune per la pianificazione strategica. 
 - _**Business plan.**_ 
->	Sulla base di tali priorità e assunti nella pianificazione, le diverse unità organizzative – divisioni di prodotto, dipartimenti funzionali e unità geografiche – creano piani strategici poi commentati e discussi dal top management.
+>Sulla base di tali priorità e assunti nella pianificazione, le diverse unità organizzative – divisioni di prodotto, dipartimenti funzionali e unità geografiche – creano piani strategici poi commentati e discussi dal top management.
 - _**Piano di gruppo.**_ 
 	>Una volta approvati, i business plan vengono integrati per creare il piano strategico di gruppo, poi presentato al consiglio d’amministrazione per essere approvato. 
 - _**Budget di spesa.**_ 

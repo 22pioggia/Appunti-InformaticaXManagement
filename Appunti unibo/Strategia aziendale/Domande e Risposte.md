@@ -143,7 +143,72 @@
 - ==C. Collocare l'azienda nella posizione in cui le pressioni competitive sono più deboli.==
 - D. Minimizzare gli investimenti iniziali.
 ---
-# Risorse e Competenze - lezione 5
+# Dall'analisi di settore all'analisi dei concorrenti - Lezione 4
+
+**1. Qual è l'effetto dei prodotti complementari su un prodotto base?**
+
+- a) Riducono il valore del prodotto base
+- ==b) Aumentano il valore del prodotto base==
+- c) Non hanno alcun effetto sul valore del prodotto base
+- d) Dipende dal tipo di prodotto complementare
+
+**2. Quale delle seguenti affermazioni è vera riguardo agli ecosistemi di imprese?**
+
+- a) Gli ecosistemi di imprese si limitano ai confini del settore
+- b) Gli ecosistemi di imprese non influenzano l'attività di impresa
+- c) Gli ecosistemi di imprese coinvolgono solo le organizzazioni direttamente concorrenti
+- ==d) Gli ecosistemi di imprese comprendono organizzazioni, istituzioni e individui che influenzano l'attività di impresa==
+
+**3. Cosa rappresenta la teoria dei giochi nell'ambito della concorrenza tra imprese?**
+
+- a) Un insieme di regole per la cooperazione tra imprese
+- b) Un modello per prevedere il comportamento dei consumatori
+- c) Un approccio per prevedere l'andamento dei mercati finanziari
+- ==d) Uno strumento per studiare le decisioni strategiche e le possibili contromosse dei concorrenti==
+
+**4. Qual è l'obiettivo della dissuasione secondo la teoria dei giochi?**
+
+- a) Aumentare la cooperazione tra le imprese
+- ==b) Imporre costi agli altri attori per comportamenti considerati non desiderabili==
+- c) Creare un impegno a lungo termine con i concorrenti
+- d) Promuovere la flessibilità nelle strategie aziendali
+
+**5. Cos'è la segmentazione nel contesto aziendale?**
+
+- a) Il processo di aggregazione dei settori in mercati specifici
+- b) L'identificazione dei concorrenti diretti di un'azienda
+- ==c) La divisione delle attività aziendali in segmenti di mercato==
+- d) L'analisi dei profitti di un'azienda in base alle varie linee di prodotto
+
+**7. Cosa si intende per segmentazione verticale?**
+
+- a) Divisione dei mercati in segmenti di clientela
+- b) Identificazione dei concorrenti diretti di un'azienda
+- ==c) Scomposizione dei profitti totali di un settore in base alle attività==
+- d) Analisi dei gruppi strategici all'interno di un settore
+
+**8. Cosa sono i gruppi strategici all'interno di un settore?**
+
+- ==a) Gruppi di aziende con posizionamenti competitivi simili==
+- b) Gruppi di consumatori con preferenze simili
+- c) Aziende che operano in settori diversi ma con sinergie
+- d) Tutte le precedenti
+
+**9. Qual è uno degli obiettivi dell'analisi dei concorrenti?**
+
+- ==a) Prevedere le strategie future dei concorrenti==
+- b) Creare alleanze con i concorrenti per aumentare i profitti
+- c) Ridurre il numero dei concorrenti nel settore
+- d) Tutte le precedenti
+
+**10. Qual è l'utilità principale della teoria dei giochi nell'ambito aziendale?**
+
+- ==a) Studiare le contromosse dei concorrenti e prevedere i loro comportamenti==
+- b) Prevedere l'andamento del mercato azionario
+- c) Identificare i segmenti di mercato più redditizi
+- d) Tutte le precedenti
+---
+# Risorse e Competenze - Lezione 5
 
 **1. Qual è l'obiettivo principale dell'analisi interna?**    
 
@@ -214,6 +279,78 @@
 - ==B) Adottare una strategia di nicchia.==
 - C) Espandere rapidamente il business.
 - D) Imitare i concorrenti.
+---
+# Forme organizzative e sistwemi direzionali - Lezione 6
+
+**1. Quale fase della gestione strategica considera la strategia come un processo di interazione tra formulazione e implementazione?**
+
+- a) Formulazione
+- b) Implementazione
+- ==c) Adattamento==
+- d) Monitoraggio
+
+**2. Cosa definisce la strategia deliberata di un'organizzazione?**
+
+- a) Una strategia che emerge spontaneamente durante l'implementazione
+- b) Una strategia che si adatta costantemente alle circostanze esterne
+- ==c) Una strategia pianificata in coerenza con la missione e gli obiettivi dell'organizzazione==
+- d) Una strategia che non tiene conto delle condizioni di implementazione
+
+**3. Quale meccanismo di controllo è considerato uno dei più tipici nella direzione aziendale per riallineare gli obiettivi dei dipendenti?**
+
+- ==a) Supervisione gerarchica==
+- b) Condivisione di valori
+- c) Incentivi di performance
+- d) Routine operative
+
+**4. Qual è uno dei problemi principali affrontati nella cooperazione all'interno delle organizzazioni?**
+
+- a) Il problema della conformità
+- b) Il problema della specializzazione
+- ==c) Il problema del coordinamento==
+- d) Il problema della competizione
+
+**5. Qual è uno dei meccanismi di coordinamento più semplici che coinvolge l'adattamento reciproco degli individui impegnati in compiti correlati?**
+
+- a) Supervisione gerarchica
+- b) Norme e direttive
+- ==c) Adattamento reciproco==
+- d) Routine operative
+
+**6. Quale struttura organizzativa è preferita da gruppi industriali che operano in più settori e consente di decentrare il processo decisionale?**
+
+- a) Struttura funzionale
+- ==b) Struttura multidivisionale==
+- c) Struttura a matrice
+- d) Struttura gerarchica
+
+**7. Cosa caratterizza le organizzazioni basate su team o adhocrazie?**
+
+- a) Elevato controllo centralizzato
+- b) Autorità formale
+- ==c) Partecipazione e comunicazione flessibile==
+- d) Struttura burocratica
+
+**8. Quale approccio alla progettazione organizzativa si concentra principalmente sul coordinamento anziché sul controllo?**
+
+- a) Strutture a rete
+- ==b) Organizzazioni basate sul progetto==
+- c) Strutture funzionali
+- d) Strutture gerarchiche
+
+**9. Quali sono le caratteristiche comuni ai fenomeni recenti della progettazione organizzativa?**
+
+- a) Focus sul controllo e sulle procedure standardizzate
+- b) Affidamento a sistemi formali di coordinamento
+- c) Uso prevalente della gerarchia
+- ==d) Focus sul coordinamento e affidamento a sistemi informali==
+
+**10. Quali sono le strutture organizzative più adatte quando i mercati sono turbolenti o l'innovazione è una priorità?**
+
+- a) Strutture funzionali
+- b) Strutture a matrice
+- c) Strutture burocratiche
+- ==d) Strutture organiche==
 ---
 # Fonti e dimensioni del vantaggio competitivo - lezione 7
 
@@ -365,6 +502,78 @@ _**7.**_ Spiega cosa si intende per economie di scala e come possono rappresenta
 - b) Rapida crescita delle vendite e bassi prezzi
 - ==c) Rallentamento della crescita e domanda di sostituzione==
 - d) Bassa penetrazione di mercato e prezzi elevati
+---
+# Tecnologia e gestione dell'innovazione - Lezione 9
+
+**1. Qual è una delle fasi del processo innovativo?**
+
+- a) Implementazione
+- ==b) Invenzione==
+- c) Commerciale
+- d) Standardizzazione
+
+**2. Cosa caratterizza il regime di appropriabilità forte?**
+
+- a) L'innovatore non può catturare alcun valore
+- b) Le altre parti coinvolte ottengono gran parte del valore
+- ==c) L'innovatore cattura una quota sostanziale del valore creato==
+- d) L'innovazione non ha alcun valore
+
+**3. Qual è un esempio di diritto di proprietà dell'innovazione?**
+
+- a) Condivisione di valori
+- b) Open innovation
+- ==c) Brevetti==
+- d) Codificazione della tecnologia
+
+**4. Cosa rappresentano i marchi registrati?**
+
+- a) Diritti esclusivi di produzione
+- ==b) Segni utilizzati per distinguere prodotti o servizi==
+- c) Brevetti sulla conoscenza tacita
+- d) Metodi per mantenere la segretezza
+
+**5. Qual è un fattore che determina la capacità di un innovatore di appropriarsi del valore dell'innovazione?**
+
+- ==a) Complessità della tecnologia==
+- b) Dimensione dell'azienda
+- c) Esclusività degli standard
+- d) Livello di imitazione del mercato
+
+**6. Cosa rappresentano le finestre strategiche nell'innovazione?**
+
+- a) Periodi di tempo in cui le risorse delle imprese non sono allineate con le opportunità di mercato
+- b) Momenti in cui le imprese hanno completato la loro innovazione
+- ==c) Periodi di tempo in cui le risorse delle imprese sono allineate con le opportunità di mercato==
+- d) Momenti in cui le imprese non hanno risorse sufficienti per innovare
+
+**7. Qual è una fonte esterna dell'innovazione?**
+
+- a) Risorse complementari
+- ==b) Clienti==
+- c) Abrasione creativa
+- d) Processo creativo interno
+
+**8. Cosa rappresentano gli standard nell'innovazione?**
+
+- ==a) Formati e interfacce==
+- b) Metodi per mantenere la segretezza
+- c) Risorse complementari
+- d) Condizioni per la creatività
+
+**9. Cosa sono le fonti interne dell'innovazione?**
+
+- a) Collaboratori esterni
+- ==b) Processo creativo interno==
+- c) Clienti come fonti di innovazione
+- d) Acquisto di innovazione
+
+**10. Qual è una strategia utile per limitare il rischio nell'innovazione?**
+
+- ==a) Collaborare con gli acquirenti principali==
+- b) Non essere flessibili
+- c) Evitare strategie multiple
+- d) Limitare la comunicazione con il mercato
 ---
 # Strategie di gruppo I - Lezione 10
 
