@@ -13,38 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Nona Lezione.md",
-                "mode": "preview",
+                "file": "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "63e773e5bbca7416",
+            "id": "aa602b2741a69d40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Indice.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d5852e349f5bb0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Appunti unibo/Strategia aziendale/Domande e Risposte.md",
+                "file": "Appunti unibo/Statistica/appunti/Indice.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Domande e Risposte.md",
+                "file": "Appunti unibo/Statistica/appunti/Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Domande e Risposte.md",
+                "file": "Appunti unibo/Statistica/appunti/Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti unibo/Strategia aziendale/Domande e Risposte.md"
+                "file": "Appunti unibo/Statistica/appunti/Indice.md"
               }
             }
           }
@@ -171,44 +159,43 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "4d5852e349f5bb0e",
+  "active": "aa602b2741a69d40",
   "lastOpenFiles": [
+    "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
+    "Appunti unibo/Statistica/appunti/Indice.md",
+    "Appunti unibo/Immagini/Pasted image 20240529205629.png",
+    "Appunti unibo/Immagini/Pasted image 20240529205353.png",
+    "Appunti unibo/Immagini/Pasted image 20240529205321.png",
+    "Appunti unibo/Immagini/Pasted image 20240529205225.png",
+    "Appunti unibo/Immagini/Pasted image 20240529204158.png",
+    "Appunti unibo/Immagini/Pasted image 20240529202416.png",
+    "Appunti unibo/Statistica/appunti/Prima Lezione.md",
+    "Appunti unibo/Statistica/appunti/Quarta lezione.md",
+    "Appunti unibo/Statistica/appunti/Terza Lezione.md",
+    "Appunti unibo/Immagini/Pasted image 20240529193334.png",
+    "Appunti unibo/Immagini/Pasted image 20240529192938.png",
+    "Appunti unibo/Statistica/appunti/Statistica Descrittiva.md",
+    "Appunti unibo/Strategia aziendale/Undicesima Lezione.md",
     "Appunti unibo/Strategia aziendale/Nona Lezione.md",
     "Appunti unibo/Strategia aziendale/Domande e Risposte.md",
-    "Appunti unibo/Strategia aziendale/Sesta Lezione.md",
-    "Appunti unibo/Strategia aziendale/Indice.md",
-    "Appunti unibo/Strategia aziendale/Quarta Lezione.md",
     "Appunti unibo/Strategia aziendale/Quinta Lezione.md",
+    "Appunti unibo/Strategia aziendale/Indice.md",
+    "Appunti unibo/Strategia aziendale/Sesta Lezione.md",
+    "Appunti unibo/Strategia aziendale/Quarta Lezione.md",
     "Appunti unibo/Strategia aziendale/Terza Lezione.md",
     "Appunti unibo/Strategia aziendale/Glossario.md",
     "Appunti unibo/Strategia aziendale/Seconda Lezione.md",
     "Appunti unibo/Strategia aziendale/Decima Lezione.md",
     "Appunti unibo/Strategia aziendale/Ottava Lezione.md",
-    "Appunti unibo/Strategia aziendale/Undicesima Lezione.md",
     "Appunti unibo/Strategia aziendale/Settima Lezione.md",
     "Appunti unibo/Immagini/Pasted image 20240515182824.png",
     "Appunti unibo/Immagini/Pasted image 20240515182154.png",
-    "Appunti unibo/Immagini/Pasted image 20240515182119.png",
-    "Appunti unibo/Immagini/Pasted image 20240515174106.png",
-    "Appunti unibo/Immagini/Pasted image 20240515173240.png",
-    "Appunti unibo/Immagini/Pasted image 20240515172654.png",
-    "Appunti unibo/Immagini/Pasted image 20240515172602.png",
-    "Appunti unibo/Immagini/Pasted image 20240515172420.png",
-    "Appunti unibo/Immagini/Pasted image 20240515172109.png",
-    "Appunti unibo/Immagini/Pasted image 20240515172013.png",
-    "Appunti unibo/Statistica/appunti/Indice.md",
-    "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
-    "Appunti unibo/Statistica/appunti/Statistica Descrittiva.md",
-    "Appunti unibo/Statistica/appunti/Terza Lezione.md",
     "Appunti unibo/Statistica/appunti/Seconda Lezione.md",
     "Appunti unibo/Statistica/appunti/Distribuzione normale.md",
     "Appunti unibo/Sistemi Operativi/Esercizi.md",
     "Appunti unibo/Sistemi Operativi/Nona Lezione.md",
     "Appunti unibo/Sistemi Operativi/Indice.md",
     "Appunti unibo/Sistemi Operativi/Sesta Lezione.md",
-    "Appunti unibo/Statistica/appunti/Prima Lezione.md",
-    "Appunti unibo/Sistemi Operativi/Dodicesima lezione.md",
-    "Appunti unibo/Sistemi Operativi/Tredicesima Lezione.md",
     "cacca",
     "new yoo",
     "rep",

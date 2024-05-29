@@ -44,3 +44,16 @@
 	3. Derivate Parziali
 		1. Il gradiente di una funzione
 		2. Matrice Hessiana
+	4. Ottimizzazione
+	5. Outline
+		1. Intervalli di confidenza
+			1. Popolazione normale
+			2. Popolazione NON normale
+			3. Funzioni python
+		2. Test di ipotesi
+			1. Interpretazione del p-value
+			2. Tipi di errore
+			3. Sensitività e Specificità
+			4. Prevalenza e Incidenza
+			5. Funzioni python
+			6. Test di normalità
