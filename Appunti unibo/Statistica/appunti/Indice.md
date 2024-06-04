@@ -45,15 +45,28 @@
 		1. Il gradiente di una funzione
 		2. Matrice Hessiana
 	4. Ottimizzazione
-	5. Outline
-		1. Intervalli di confidenza
-			1. Popolazione normale
-			2. Popolazione NON normale
-			3. Funzioni python
-		2. Test di ipotesi
-			1. Interpretazione del p-value
-			2. Tipi di errore
-			3. Sensitività e Specificità
-			4. Prevalenza e Incidenza
-			5. Funzioni python
-			6. Test di normalità
+	5. Intervalli di confidenza
+		1. Popolazione normale
+		2. Popolazione NON normale
+		3. Funzioni python
+	6. Test di ipotesi
+		1. Interpretazione del p-value
+		2. Tipi di errore
+		3. Sensitività e Specificità
+		4. Prevalenza e Incidenza
+		5. Funzioni python
+		6. Test di normalità 
+5. [[Regressione Lineare]]
+	1. Semplice
+		1. Modellazione statistica
+		2. Correlazione
+			1. Matrice di correlazione
+		3. Regressione lineare - Introduzione
+			1. Modello di regressione lineare semplice
+				1. Stima dei parametri: MLE
+				2. Stima dei parametri: Minimi Quadrati
+				3. Significato dei parametri della retta
+				4. Inferenza sui parametri
+				5. Valori predetti
+				6. Il coefficiente r<sup>2</sup>
+				7. Librerie di python

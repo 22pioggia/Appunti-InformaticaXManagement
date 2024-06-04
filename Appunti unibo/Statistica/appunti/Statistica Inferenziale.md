@@ -103,9 +103,9 @@ $$\nabla^2f(x_{1},x_{2})=\begin{pmatrix}
 
 ![[Pasted image 20240529193334.png|500]]
 
-## Outline
-### Intervalli di confidenza
-#### Popolazione normale
+
+## Intervalli di confidenza
+### Popolazione normale
 Siano X<sub>1</sub> , X<sub>2</sub>, … X<sub>n</sub> SRS(n) da una distribuzione normale con (<b><font color="#92cddc">media=mu, sd=sigma</font></b>). Consideriamo come statistica campionaria la media 𝑋. 
 Stimando con la media campionaria la media della distribuzione, si commette un errore non noto. 
 
@@ -128,14 +128,14 @@ Cosa posso dire di questa approssimazione?
 - SE *n* è grande S tende alla deviazione standard esatta 
 - Se *n* è piccolo, sostituisco il valore del quantile della distribuzione normale con quello della distribuzione t di student (*df=1*):
 $$\bar{X} \pm t_{\alpha/2}(df=1) \frac{S}{\sqrt{ n }}$$
-#### Popolazione NON normale
+### Popolazione NON normale
 Siano X1 , X2, … Xn SRS(n) da una distribuzione qualunque con (<b><font color="#92cddc">media=mu, sd=sigma</font></b>). Consideriamo come statistica campionaria la media 𝑋. 
 
 Per il Teorema del Limite Centrale, se n è sufficientemente grande la variabile aleatoria media campionaria si comporta come nel caso di campioni estratti da distribuzione normale. Quindi l’intervallo di confidenza si calcola sempre come:
 $$\left( \bar{X}-z_{\alpha/2} \frac{\sigma}{\sqrt{ n }}, \quad \bar{X}+ z_{\alpha/2} \frac{\sigma}{\sqrt{ n }} \right)$$
 Purtroppo è molto difficile nel caso di distribuzioni **non** normali avere la deviazione standard esatta quindi la sostituisco con quella campionaria S.
 $$\bar{X} \pm z_{\alpha/2} \frac{S}{\sqrt{ n }}$$
-#### Funzioni python
+### Funzioni python
 Funzione Python per calcolare il quantile di ordine p della distribuzione normale standard: 
 
 <font color="#92cddc">from scipy import stats </font>
@@ -152,9 +152,9 @@ Nel caso di distribuzione t di student con gradi di libertà n:
 <font color="#92cddc">Q=stats.t.ppf(0.99, 4)</font>
 
 ---
-### Test di ipotesi
+## Test di ipotesi
 
-*Supponiamo che tu sia il direttore di una scuola. Se gli studenti ottengono un punteggio di 110 nell’esame finale, visto che la media nazionale è di 100, ottieni un incentivo. Se il voto è significativamente minore non lo ottieni (devi assumere piu insegnanti), ma anche se è significativamente maggiore non lo ottieni (hai speso troppo e quindi devi licenziare delle insegnanti). *
+*Supponiamo che tu sia il direttore di una scuola. Se gli studenti ottengono un punteggio di 110 nell’esame finale, visto che la media nazionale è di 100, ottieni un incentivo. Se il voto è significativamente minore non lo ottieni (devi assumere piu insegnanti), ma anche se è significativamente maggiore non lo ottieni (hai speso troppo e quindi devi licenziare delle insegnanti).*
 
 *Come fare a decidere?*
 
@@ -168,7 +168,7 @@ Step:
 4. Calcolo una statistica (la media campionaria) 
 5. Confronto il valore della statistica calcolata con quello della ipotesi nulla e calcolo un valore detto ***p-value*** 
 6. Interpreto il p-value e decido se l’ipotesi nulla è da rigettare oppure no
-#### Interpretazione del p-value
+### Interpretazione del p-value
 Il p-value è un valore p nell’intervallo \[0,1]. 
 
 Se p < 0.05 possiamo interpretare così: 
@@ -182,7 +182,7 @@ In pratica però di solito il p-value si utilizza così per decidete il test di 
 >**Se p<0.05 si rigetta l’ipotesi nulla a favore di quella alternativa, per una differenza statisticamente significativa del valore osservato rispetto all’ipotesi nulla.** 
 
 Attenzione però che il p-value rappresenta solo una verosimiglianza che l’ipotesi nulla sia vera, niente di piu!
-#### Tipi di errore
+### Tipi di errore
 
 **Type I errors**:
 >Sono gli errori che si commettono quando l’ipotesi nulla è vera anche se la statistica misurata Differisce significativamente. 
@@ -191,7 +191,7 @@ Attenzione però che il p-value rappresenta solo una verosimiglianza che l’ipo
 **Type II errors:**
 >Sono gli errori che si commettono quando si accetta l’ipotesi nulla perché la statistica non differisce da essa significativamente anche se l’ipotesi nulla è falsa. 
 >Sono detti *consumer risk errors* perchè si accettano misure anche se non conformi ai requisiti richiesti.
-#### Sensività e Specificità
+### Sensività e Specificità
 Sopponiamo di fare un test di ipotesi utilizzando una grandezza che identifica l’esistenza o meno di un tumore. Quindi: 
 - Ipotesi nulla: il paziente ha il tumore 
 - Ipotesi alternativa: il paziente NON ha il tumore. 
@@ -211,7 +211,7 @@ Per rispondere a questa domanda:
 *Se un paziente ha un test positivo, qual è la probabilità che sia veramente ammalato?* 
 
 Dobbiamo considerare altri due fattori: la **prevalenza** e l’**incidenza**.
-#### Prevalenza e Incidenza
+### Prevalenza e Incidenza
 **Prevalenza**: quante persone su 100000(*numero fissato*) è ammalata 
 **Incidenza**: il numero di nuovi casi diagnosticati su 100000 persone.
 
@@ -222,7 +222,7 @@ Dobbiamo considerare altri due fattori: la **prevalenza** e l’**incidenza**.
 
 ![[Pasted image 20240529205321.png|500]]
 ![[Pasted image 20240529205353.png|500]]
-#### Funzioni python
+### Funzioni python
 
 Test di ipotesi per decidere se due campioni x e y provengono dalla stessa distribuzione:
 
@@ -232,7 +232,7 @@ Test di ipotesi per decidere se due campioni x e y provengono dalla stessa distr
 <font color="#92cddc">Res.pvalue</font> 
 
 [[scipy.stats.wilcoxon — SciPy v1.10.1 Manual]]
-#### Test di normalità
+### Test di normalità
 QQ-plot: Il quantile del data set considerato e’ plottato rispetto al quantile di una distribuzione (normale in questo caso) di riferimento. 
 
 <font color="#646a73">Se le due distribuzioni sono simili, I punti devono stare molto vicini alla retta.</font>
