@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti unibo/Statistica/appunti/Indice.md",
+                "file": "Appunti unibo/Statistica/appunti/Regressione Lineare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti unibo/Statistica/appunti/Indice.md",
+                "file": "Appunti unibo/Statistica/appunti/Regressione Lineare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti unibo/Statistica/appunti/Indice.md"
+                "file": "Appunti unibo/Statistica/appunti/Regressione Lineare.md"
               }
             }
           }
@@ -159,10 +158,16 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "aa602b2741a69d40",
+  "active": "2a1b1325ec4d3ffb",
   "lastOpenFiles": [
+    "Appunti unibo/Statistica/appunti/Terza Lezione.md",
     "Appunti unibo/Statistica/appunti/Regressione Lineare.md",
     "Appunti unibo/Statistica/appunti/Indice.md",
+    "Appunti unibo/Statistica/appunti/Distribuzione normale.md",
+    "Appunti unibo/Immagini/Pasted image 20240605164931.png",
+    "Appunti unibo/Immagini/Pasted image 20240321094655.png",
+    "Appunti unibo/Immagini/Pasted image 20240419153819.png",
+    "Appunti unibo/Immagini/Pasted image 20240605164553.png",
     "Appunti unibo/Immagini/Pasted image 20240604175749.png",
     "Appunti unibo/Immagini/Pasted image 20240604174747.png",
     "Appunti unibo/Immagini/Pasted image 20240604174403.png",
@@ -171,14 +176,8 @@
     "Appunti unibo/Immagini/Pasted image 20240604172524.png",
     "Appunti unibo/Immagini/Pasted image 20240531175810.png",
     "Appunti unibo/Statistica/appunti/Prima Lezione.md",
-    "Appunti unibo/Immagini/Pasted image 20240530171158.png",
-    "Appunti unibo/Immagini/Pasted image 20240530165401.png",
-    "Pasted image 20240530165336.png",
     "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
-    "Appunti unibo/Statistica/appunti/Distribuzione normale.md",
-    "Appunti unibo/Immagini/Pasted image 20240529205629.png",
     "Appunti unibo/Statistica/appunti/Quarta lezione.md",
-    "Appunti unibo/Statistica/appunti/Terza Lezione.md",
     "Appunti unibo/Statistica/appunti/Statistica Descrittiva.md",
     "Appunti unibo/Strategia aziendale/Undicesima Lezione.md",
     "Appunti unibo/Strategia aziendale/Nona Lezione.md",

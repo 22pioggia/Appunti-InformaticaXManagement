@@ -40,7 +40,7 @@ Un altro modo per visualizzare le correlazioni di coppie di variabili è la **ma
 >f.tight_layout()
 
 ![[Pasted image 20240530171158.png|400]]
-## Regressione lineare - introduzione
+## Regressione lineare
 La **regressione lineare** è il cuore della statistica.
 Risponde alla domanda: 
 ><font color="#bfbfbf">« come posso utilizzare i dati che ho misurato per fare previsoni su dati che non conosco?»</font> 
@@ -200,3 +200,20 @@ In finanza e marketing, dipende da quali dati stiamo considerando.
 #### Librerie python
 
 [Slides](https://virtuale.unibo.it/pluginfile.php/2047577/mod_resource/content/0/slides_regr_note.pdf)-> pg. 39
+## Regressione polinomiale
+Posso modellare i dati non come un polinomio di grado 1 (*retta*) ,ma come un polinomio di grado k (*parabola*) rispetto alla variabile indipendente.
+
+y=β<sub>0</sub>+β<sub>1</sub> x+β<sub>2</sub> x<sup>2</sup>y
+
+Ci sono ora tre coefficienti da stimare per individuare la parabola che meglio approssima i dati secondo una stima MLE o equivalentemente
+
+![[Pasted image 20240605164553.png|300]]
+## Regressione lineare multipla
+Quando si ha un numero di variabili indipendenti *maggiore di uno* si parla di **regressione lineare multipla**.
+
+In questo caso la variabile aleatoria dipende da più di una variabile indipendente.
+
+Il modello lineare diventa:
+$$\hat{Y_{i}}=\hat{\beta_{0}}+\hat{\beta_{1}}X_{1i}+\dots+\hat{\beta_{k}}X_{ki}$$
+Dove:
+![[Pasted image 20240605164931.png|600]]

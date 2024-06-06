@@ -61,7 +61,7 @@
 		1. Modellazione statistica
 		2. Correlazione
 			1. Matrice di correlazione
-		3. Regressione lineare - Introduzione
+		3. Regressione lineare
 			1. Modello di regressione lineare semplice
 				1. Stima dei parametri: MLE
 				2. Stima dei parametri: Minimi Quadrati
@@ -70,3 +70,5 @@
 				5. Valori predetti
 				6. Il coefficiente r<sup>2</sup>
 				7. Librerie di python
+		4. Regressione polinomiale
+		5. Regressione lineare multipla
