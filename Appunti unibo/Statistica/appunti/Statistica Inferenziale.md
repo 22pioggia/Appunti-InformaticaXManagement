@@ -13,14 +13,14 @@ media/devianza popolazione = stimata
 
 Il campione scelto deve essere: 
 1. casuale- scelto in modo random dalla popolazione 
-2. Rappresentativo – deve coprire le i diversi valori delle caratteristiche considerate 
+2. Rappresentativo – deve coprire i diversi valori delle caratteristiche considerate 
 3. Di dimensione adeguata- non troppo piccolo rispetto alla varianza dei valori considerati 
 4. Non bias - non ci devono essere distorsioni rispetto alla statistica da misurare.
 ### Distribuzioni campionarie e teorema del limite centrale
 #### Media campionaria
 Siano X1 , X2, … Xn SRS(n) da una distribuzione aleatoria normale con (media=mu, sd=sigma). 
 Allora: 
-1. la variabile aleatoria X media campionaria ha distribuzione normale (media=mu, sd=sigma/ ). 
+1. la variabile aleatoria X media campionaria ha distribuzione normale (media=mu, sd=sigma ). 
 2. La variabile aleatoria: $$Z = \frac{\bar{X}-\mu}{\sigma/\sqrt{ n }}$$
  
 Ha distribuzione campionaria normale standard

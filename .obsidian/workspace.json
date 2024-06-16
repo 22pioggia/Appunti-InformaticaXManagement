@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Statistica/appunti/Regressione Lineare.md",
-                "mode": "source",
+                "file": "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Statistica/appunti/Indice.md",
+                "file": "Appunti unibo/Statistica/appunti/ESERCIZI - AIUTI.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti unibo/Statistica/appunti/Regressione Lineare.md",
+                "file": "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti unibo/Statistica/appunti/Regressione Lineare.md",
+                "file": "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti unibo/Statistica/appunti/Regressione Lineare.md"
+                "file": "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md"
               }
             }
           }
@@ -160,9 +160,13 @@
   },
   "active": "2a1b1325ec4d3ffb",
   "lastOpenFiles": [
-    "Appunti unibo/Statistica/appunti/Terza Lezione.md",
-    "Appunti unibo/Statistica/appunti/Regressione Lineare.md",
+    "Appunti unibo/Statistica/appunti/ESERCIZI - AIUTI.md",
+    "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
     "Appunti unibo/Statistica/appunti/Indice.md",
+    "Appunti unibo/Immagini/Pasted image 20240614183428.png",
+    "Appunti unibo/Immagini/Pasted image 20240614183354.png",
+    "Appunti unibo/Statistica/appunti/Regressione Lineare.md",
+    "Appunti unibo/Statistica/appunti/Terza Lezione.md",
     "Appunti unibo/Statistica/appunti/Distribuzione normale.md",
     "Appunti unibo/Immagini/Pasted image 20240605164931.png",
     "Appunti unibo/Immagini/Pasted image 20240321094655.png",
@@ -173,10 +177,7 @@
     "Appunti unibo/Immagini/Pasted image 20240604174403.png",
     "Appunti unibo/Immagini/Pasted image 20240604173232.png",
     "Appunti unibo/Statistica/appunti/Seconda Lezione.md",
-    "Appunti unibo/Immagini/Pasted image 20240604172524.png",
-    "Appunti unibo/Immagini/Pasted image 20240531175810.png",
     "Appunti unibo/Statistica/appunti/Prima Lezione.md",
-    "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
     "Appunti unibo/Statistica/appunti/Quarta lezione.md",
     "Appunti unibo/Statistica/appunti/Statistica Descrittiva.md",
     "Appunti unibo/Strategia aziendale/Undicesima Lezione.md",
@@ -194,7 +195,6 @@
     "Appunti unibo/Strategia aziendale/Settima Lezione.md",
     "Appunti unibo/Sistemi Operativi/Esercizi.md",
     "Appunti unibo/Sistemi Operativi/Nona Lezione.md",
-    "Appunti unibo/Sistemi Operativi/Indice.md",
     "cacca",
     "new yoo",
     "rep",
