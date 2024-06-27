@@ -5,6 +5,7 @@
 - Lo spazio di indirizzamento (*address space*) logico può essere molto più grande dello spazio fisico
 - Consente allo spazio di indirizzamento di essere condiviso da vari processi
 - Consente una creazione di processi più efficente
+
 La ***memoria virtuale*** può essere implementata tramite
 - *raffinamento di* **Paging**
 - *raffinamento di* **Segmentation**
@@ -68,6 +69,8 @@ valuta un algoritmo eseguendolo su una particolare stringa di referenze alla mem
 questo algoritmo non considera l'**uso effettivo** delle pagine, prende sempre la prima, non sa quale gli serva di più e quale di meno, non sa il **valore delle pagine**
 ##### Algoritmo ottimale
 ![[Pasted image 20240411112909.png|400]]
+
+![[Pasted image 20240626194016.png|400]]
 ##### LRU - Last Recently Used
 ![[Pasted image 20240411115308.png|400]]
 

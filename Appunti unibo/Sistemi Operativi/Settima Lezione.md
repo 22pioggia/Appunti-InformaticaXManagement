@@ -248,7 +248,7 @@ il sistema operativo sa che dovrà garantire l'atomicità a certe instruzioni
 i semafori che attuano **busy-waiting** (quelli che aspettano attivamente nel while) sono detti _**spinlock**_
 
 qualsiasi accorgimento usiamo per limitare il parallelismo va <u>contro l'efficienza</u>, fatto sta che l'obiettivo più importante è la **correttezza**, meglio avere un processo lento che sbagliato
->	_conviene usare i semafori in situazioni di sezioni critiche **ridotte** e tempi di attesa **minimi**_
+>_conviene usare i semafori in situazioni di sezioni critiche **ridotte** e tempi di attesa **minimi**_
 
 **==Semaforo che elimina il busy-waiting==**
 >P(S) { 

@@ -1,4 +1,4 @@
-[[https://www.cs.unibo.it/~sangio/SO_currentAA/Luc_SO/Security/SecurityKurosePartI-rotated.pdf| Slide]]
+[Slides](https://www.cs.unibo.it/~sangio/SO_currentAA/Luc_SO/Security/SecurityKurosePartI-rotated.pdf)
 ## Network Security
 quali proprietà vogliamo garantire?
 - ***confidentiality***: solo il *sender* e il *receiver* devono capire il messaggio

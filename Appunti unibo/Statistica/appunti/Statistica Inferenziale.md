@@ -73,9 +73,9 @@ $$\begin{align}
 &p=(1,-2) \\
 &\nabla f(1,-2)=(8,-5)
 \end{align}$$
->*il **gradiente di una funzione** in un punto fornisce direzione e verso nei quali la funzione cresce più rapidamente
+>*il **gradiente di una funzione** in un punto fornisce direzione e verso nei quali la funzione cresce più rapidamente*
 >
->Nel verso opposto al gradiente avviene la massima decrescenza
+>*Nel verso opposto al gradiente avviene la massima decrescenza*
 
 ### Matrice hessiana
 $$f:R^n\to R, \qquad \nabla^2f:R^n\to R^{n \times n}$$
@@ -83,7 +83,7 @@ $$H=\nabla^2f \begin{pmatrix}
 \frac{\delta^2t}{\delta x_{1}^2} &\frac{\delta^2t}{\delta x_{1}\delta x_{2} } &\dots &\frac{\delta^2t}{\delta x_{1}\delta x_{n}} \\
 \frac{\delta^2t}{\delta x_{1}\delta x_{2} } &\frac{\delta^2t}{\delta x_{2}^2} \\
 \vdots & &\ddots \\
-\frac{\delta^2t}{\delta x_{1}\delta x_{n} } & &\frac{\delta^2t}{\delta x_{n}^2}
+\frac{\delta^2t}{\delta x_{1}\delta x_{n} } & & &\frac{\delta^2t}{\delta x_{n}^2}
 \end{pmatrix}$$
 matrice n x n ***simmetrica***
 

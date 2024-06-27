@@ -128,7 +128,8 @@ Si ha che la media della distribuzione è *μ = np* e la varianza *σ<sup>2</sup
 $$f_{x}(2)=\begin{pmatrix}
 5 \\
 2
-\end{pmatrix} 0.51^20.49^3=0.306\dots$$**==Esempio==**
+\end{pmatrix} 0.51^20.49^3=0.306\dots$$
+**==Esempio==**
 *Lancio di 5 dadi contemporaneamente. Sia X = {numero di 6 che escono}. calcolare di ottenere un numero di 6 nell'intervallo \[3,5]*
 
 >*Ogni dado lanciato rispetto ad avere come risultato 6 è un processo di Bernoulli con probabilità   p = 1/6*

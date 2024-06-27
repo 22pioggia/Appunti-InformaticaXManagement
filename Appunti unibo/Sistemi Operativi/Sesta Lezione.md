@@ -17,13 +17,13 @@ le decisioni del **CPU scheduling** avvengono quando un processo
 - Passa da _**waiting**_ a _**ready**_
 - Termina
 
-ci interessano i moduli _**==short time scheduling==**_, ovvero quelli che si occupano di decidere quale processo in stato ready far partire (_e quindi spostare sul processore_), diversi dai _**==long time scheduling**==_, che decidono quale processo portare sulla memoria centrale
+ci interessano i moduli _**==short time scheduling==**_, ovvero quelli che si occupano di decidere quale processo in stato ready far partire (_e quindi spostare sul processore_), diversi dai _**==long time scheduling==**_, che decidono quale processo portare sulla memoria centrale
 
 quando ci sono problemi con la memoria centrale entra in gioco il _**==medium time scheduling==**_, che si occupa di liberare la memoria interrompendo temporaneamente certi processi e spostandoli in memoria secondaria, _interviene raramente_
 
 un algoritmo può essere
 - **==nonpreemptive==**
-	_non interviene su un processo **running**  finchè a cose da fare con il processore_
+	_non interviene su un processo **running**  finchè ha cose da fare con il processore_
 - **==preemptive==**
 	_se un algoritmo è preemptive un processo non ha la certezza di terminare tutte le sue azioni prima di essere interrotto_
 ### Criteri di Scheduling
@@ -54,7 +54,7 @@ Due varianti
 ![[Pasted image 20240307093850.png|400]]
 
 **_come facciamo a stimare i comportamenti futuri di un processo?_**
->	_tramite il principio di località_
+>_tramite il principio di località_
 
 noi sappiamo che il comportamento di un processo cambia in maniera molto lenta e a noi interessa **l'immediato futuro** -> il periodo di CPU burst
 _possiamo pensare di approssimare questo periodo guardando al passato_
