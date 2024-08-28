@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Sistemi Operativi/Seconda Lezione.md",
+                "file": "Appunti unibo/Sistemi Operativi/Sesta Lezione.md",
                 "mode": "preview",
                 "source": false
               }
@@ -89,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti unibo/Sistemi Operativi/Seconda Lezione.md",
+                "file": "Appunti unibo/Sistemi Operativi/Sesta Lezione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti unibo/Sistemi Operativi/Seconda Lezione.md",
+                "file": "Appunti unibo/Sistemi Operativi/Sesta Lezione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti unibo/Sistemi Operativi/Seconda Lezione.md"
+                "file": "Appunti unibo/Sistemi Operativi/Sesta Lezione.md"
               }
             }
           }
@@ -174,20 +173,21 @@
   "active": "2a1b1325ec4d3ffb",
   "lastOpenFiles": [
     "Appunti unibo/Sistemi Operativi/Indice.md",
-    "Appunti unibo/Sistemi Operativi/Prima Lezione.md",
-    "Appunti unibo/Sistemi Operativi/Sesta Lezione.md",
     "Appunti unibo/Sistemi Operativi/Quarta Lezione.md",
-    "Appunti unibo/Sistemi Operativi/Dodicesima lezione.md",
+    "Appunti unibo/Sistemi Operativi/Undicesima Lezione.md",
     "Appunti unibo/Sistemi Operativi/Seconda Lezione.md",
+    "Appunti unibo/Sistemi Operativi/Sesta Lezione.md",
+    "Appunti unibo/Sistemi Operativi/Settima Lezione.md",
+    "Appunti unibo/Sistemi Operativi/Ottava lezione.md",
+    "Appunti unibo/Sistemi Operativi/Nona Lezione.md",
     "Appunti unibo/Sistemi Operativi/Decima Lezione.md",
+    "Appunti unibo/Sistemi Operativi/Quinta Lezione.md",
+    "Appunti unibo/Sistemi Operativi/Prima Lezione.md",
+    "Appunti unibo/Sistemi Operativi/Dodicesima lezione.md",
     "Appunti unibo/Sistemi Operativi/Esercizi.md",
     "Appunti unibo/Immagini/Pasted image 20240626194016.png",
-    "Appunti unibo/Sistemi Operativi/Undicesima Lezione.md",
     "Slides.md",
-    "Appunti unibo/Sistemi Operativi/Nona Lezione.md",
-    "Appunti unibo/Sistemi Operativi/Ottava lezione.md",
     "Appunti unibo/Statistica/appunti/Statistica Inferenziale.md",
-    "Appunti unibo/Sistemi Operativi/Settima Lezione.md",
     "Appunti unibo/Sistemi Operativi/Progetto.md",
     "Appunti unibo/Statistica/appunti/ESERCIZI - AIUTI.md",
     "Appunti unibo/Statistica/appunti/Regressione Lineare.md",
@@ -208,7 +208,6 @@
     "Appunti unibo/Immagini/Pasted image 20240604174403.png",
     "Appunti unibo/Statistica/appunti/Statistica Descrittiva.md",
     "Appunti unibo/Strategia aziendale/Undicesima Lezione.md",
-    "Appunti unibo/Strategia aziendale/Nona Lezione.md",
     "cacca",
     "new yoo",
     "rep",

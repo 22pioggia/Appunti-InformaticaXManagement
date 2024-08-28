@@ -75,6 +75,7 @@ First fit e best-fit migliore del worst-fit in termini di velocità e utilizzo d
 ### Frammentazione
 - **==External Fragmentation==** - La memoria totale esiste per soddisfare una richiesta, ma non è contigua
 - **==Internal Fragmentation==** - la memoria allocata può essere leggermente più grande della memoria richiesta; Questa differenza di dimensioni è la memoria interna a una partizione, ma non viene utilizzata 
+
 Ridurre la frammentazione esterna mediante compattazione (***compaction***) 
 - Mescola il contenuto della memoria per mettere insieme tutta la memoria libera in un unico grande blocco 
 - La compattazione è possibile solo se la rilocazione è dinamica e viene eseguita al momento dell'esecuzione 

@@ -110,8 +110,7 @@ ogni processo ha bisogno di un *numero minimo* di pagine
 - ***equal allocation*** - si dividono i frame ai processi in parti uguali
 - ***proportional allocation*** - alloca in base alla dimensione del processo
 
-$$ s_{i}= \text{dimensione del processo } p_{i}
-$$$$S=\sum s_{i}$$ $$m = \text{numero totale di frames}$$
+$$ s_{i}= \text{dimensione del processo } p_{i}$$$$S=\sum s_{i}$$ $$m = \text{numero totale di frames}$$
 $$a_{i} = \text{allocazione per } p_{i}=\frac{s_{i}}{S}m$$
 #### Priority Allocation
 usa uno *schema di allocazione proporzionale* utilizzando le priorità piuttosto che la dimensione

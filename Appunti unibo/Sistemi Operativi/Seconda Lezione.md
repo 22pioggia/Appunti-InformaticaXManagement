@@ -59,7 +59,7 @@ alla fine del processo viene inviato un solo interrupt
 - Memoria secondaria
 		_estensione della memoria centrale molto capiente ma meno rapida, non viene perso nulla in caso di spegnimento_
 - Magnetic disks 
-		_rigid metal or glass platters covered with magnetic recording material __
+		_rigid metal or glass platters covered with magnetic recording material_
 	- Disk surface is logically divided into tracks, which are subdivided into sectors. 
 	- The disk controller determines the logical interaction between the device and the computer.
 - Memoria cache

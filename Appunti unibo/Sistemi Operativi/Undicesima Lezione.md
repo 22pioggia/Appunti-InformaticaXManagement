@@ -50,7 +50,7 @@ Sender e receiver devono avere accesso alla tabella
 DES = Data Encryption Standard
 
 >Problema = dover manipolare un blocco di bit di dimensioni considerevoli
-	Idea = pensiamo il blocco in sottoblocchi, usiamo un pò del bit della chiave per una porzione dei nostri bit
+Idea = pensiamo il blocco in sottoblocchi, usiamo un pò del bit della chiave per una porzione dei nostri bit
 
 Primo passaggio - tutti i bit vengono tradotti separatamente (applicando la funzione ***f***)
 

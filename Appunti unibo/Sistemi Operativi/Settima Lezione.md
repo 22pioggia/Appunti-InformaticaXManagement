@@ -5,7 +5,7 @@ distinguiamo 3 tipi di gestione di processi multipli:
 - _**Distributed Processing**_ - più processi su un insieme di computer distribuiti e indipendenti - parallelismo <font color="#00b050">reale</font>
 
 Esecuzione concorrente: 
->	due programmi si dicono in esecuzione concorrente se vengono eseguiti in parallelo (con parallelismo reale o apparente)
+>due programmi si dicono in esecuzione concorrente se vengono eseguiti in parallelo (con parallelismo reale o apparente)
 
 Concorrenza: 
 - è l'insieme di notazioni per descrivere l'esecuzione concorrente di due o più programmi 
@@ -13,16 +13,17 @@ Concorrenza:
 
 _Dove possiamo trovare la concorrenza?_ 
 - Applicazioni multiple 
-	>la multiprogrammazione è stata inventata per condividere del processore da parte di più processi indipendenti 
+>la multiprogrammazione è stata inventata per condividere del processore da parte di più processi indipendenti 
 - Applicazioni strutturate 
->	estensione del principio di progettazione modulare; alcune applicazioni possono essere progettate come un insieme di processi o thread concorrenti ! 
+>estensione del principio di progettazione modulare; alcune applicazioni possono essere progettate come un insieme di processi o thread concorrenti ! 
 - Struttura del sistema operativo 
->	molte funzioni del sistema operativo possono essere implementate come un insieme di processi o thread
+>molte funzioni del sistema operativo possono essere implementate come un insieme di processi o thread
 
 In un singolo processore: 
 - processi multipli sono "_alternati nel tempo_" per dare l'impressione di avere un multiprocessore 
 - ad ogni istante, al massimo un processo è in esecuzione 
 - si parla di _**interleaving**_ 
+
 In un sistema multiprocessore: 
 - più processi vengono eseguiti simultaneamente su processori diversi 
 - i processi sono "_alternati nello spazio_" 
@@ -99,7 +100,7 @@ la parte di un programma o processo che utilizza una risorsa condivisa prende il
 #### Soluzioni ai problemi di regione critica
 
 1. _**Mutual exclusion**_
-	>Se un processo <font color="#0070c0">P_i</font> sta eseguendo nella sua zona critica, allora nessun altro processo può eseguirsi nella sua zona critica
+	>Se un processo <font color="#0070c0">P<sub>i</sub></font> sta eseguendo nella sua zona critica, allora nessun altro processo può eseguirsi nella sua zona critica
 2. _**Progress**_
 	>Se nessun processo sta utilizzando la sua zona critica e esiste un processo che vuole entrare nella propria zona critica, la selezione del processo che vuole entrare in zona critica <u>non può essere posticipato indefinitivamente</u> ^ed117b
 3. _**Bounded Waiting**_
@@ -230,7 +231,9 @@ V(S) = incrementa la chiave da 0 a 1
 <font color="#ff0000">Problemi</font> = 
 - due processi arrivano contemporaneamente ed entrano entrambi in sezione critica
 - il solito problema dell'aggiornamento di una variabile
-<font color="#00b0f0">Risoluzione</font> = **Semaforo ennario** -> risorsa disponibile da 1 a **n** processi per volta -> possono verificarsi un qualsiasi numero di incrementi e decrementi contemporaneamente senza problemi
+
+<font color="#00b0f0">Risoluzione</font> = 
+- **Semaforo ennario** -> risorsa disponibile da 1 a **n** processi per volta -> possono verificarsi un qualsiasi numero di incrementi e decrementi contemporaneamente senza problemi
 
 può essere utilizzato solo tramite due operazioni <u>indivisibili</u> (**atomiche**)
 - P(S): **while** S <= 0 **do** no-op; 
@@ -350,7 +353,7 @@ sommando empty e full si ottiene buffer_size <font color="#ff0000">SE NON</font>
 >	full.V(); 
 >}
 
-**==Metodo remove()**==
+**==Metodo remove()==**
 >public Object remove() { 
 >	full.P(); 
 >	mutex.P(); 
