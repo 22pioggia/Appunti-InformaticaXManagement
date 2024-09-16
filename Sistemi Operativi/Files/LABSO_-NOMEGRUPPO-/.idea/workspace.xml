@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5df2d000-b728-4bbe-9ef0-c770c3fb9eea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Appunti/Definizioni.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Appunti/Esercizi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Appunti/Indice.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Appunti/Minimum spanning tree.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Appunti/Strutture Merge-Find.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Files.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Introduzione Modulo 3/L00-1-introduzione-modulo3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Introduzione Modulo 3/L00-2-compareLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Introduzione Modulo 3/L00-3-codice-VecSum/vecsum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Introduzione Modulo 3/L00-3-codice-VecSum/vecsum_improved.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Introduzione Modulo 3/L00-3-codice-VecSum/vecsumdi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Introduzione Modulo 3/L00-3-codice-VecSum/vecsumpd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Introduzione Modulo 3/L00-4-Esercitazioni.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Minimum spanning tree/L03-1-Minimum-Spanning-Tree.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Minimum spanning tree/L03-2-codice/Kruskal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Minimum spanning tree/L03-2-codice/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Minimum spanning tree/L03-2-codice/MinHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Minimum spanning tree/L03-2-codice/Prim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Minimum spanning tree/L03-2-codice/grafo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Minimum spanning tree/L03-2-codice/in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Minimum spanning tree/L03-3-esercizi-MST.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Minimum spanning tree/Minimum spanning tree.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Algoritmi/Files/Minimum spanning tree/Strutture-Merge-Find.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Decima Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Dodicesima lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Esercizi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Files/codici/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Files/codici/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Files/codici/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Files/codici/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Files/codici/Socket/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Files/thread_lab_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Indice.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Nona Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Ottava lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Prima Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Progetto.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Quarta Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Quinta Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Seconda Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Sesta Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Settima Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Sistemi Operativi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Tredicesima Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Tutor/Tutor 1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Sistemi Operativi/Undicesima Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/appunti/Distribuzione normale.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/appunti/ESERCIZI - AIUTI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/appunti/Esercizi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/appunti/Indice.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/appunti/Prima Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/appunti/Quarta lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/appunti/Regressione Lineare.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/appunti/Seconda Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/appunti/Statistica Descrittiva.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/appunti/Statistica Inferenziale.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/appunti/Terza Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/11_03/esempio.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/11_03/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/11_03/plotting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/11_03/scatterplot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/Data1/btc_2015_2024.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/Data1/ice_cream.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/Data1/most_watched_600_youtube_videos_2024.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/Data1/order_details.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/Data1/order_details2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/old/intro_panda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/old/introduzione_numpy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/old/prima_lezione.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/old/primo_es_probabilità.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/old/primo_test_numpy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/old/random_gaussiana.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Statistica/python/old/slicing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Strategia aziendale/Decima Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Strategia aziendale/Domande e Risposte.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Strategia aziendale/Glossario.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Strategia aziendale/Indice.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Strategia aziendale/Nona Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Strategia aziendale/Ottava Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Strategia aziendale/Quarta Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Strategia aziendale/Quinta Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Strategia aziendale/Seconda Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Strategia aziendale/Sesta Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Strategia aziendale/Settima Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Strategia aziendale/Terza Lezione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Appunti unibo/Strategia aziendale/Undicesima Lezione.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2hVtQfuE4uyNBntnZpueRJlvGuo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.client.Client" />
+      <module name="LABSO_-NOMEGRUPPO-" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.server.Server" />
+      <module name="LABSO_-NOMEGRUPPO-" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5df2d000-b728-4bbe-9ef0-c770c3fb9eea" name="Changes" comment="" />
+      <created>1717691057440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717691057440</updated>
+      <workItem from="1717691058737" duration="3497000" />
+      <workItem from="1719937772582" duration="14000" />
+      <workItem from="1720019393884" duration="2179000" />
+      <workItem from="1720543899842" duration="146000" />
+      <workItem from="1726504504152" duration="239000" />
+      <workItem from="1726504752922" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
