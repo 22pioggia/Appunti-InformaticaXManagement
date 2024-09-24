@@ -146,3 +146,6 @@ Gli attributi che formano la chiave primaria sono *per convenzione* indicati con
 Come fare nel caso tutte le chiavi presentino dei valori NULL? *Aggiungere codici o identificativi progressivi* 
 ![[Pasted image 20240924113546.png|450]]
 
+***Una chiave può essere composta da più attributi.***
+![[Pasted image 20240924114019.png|450]]
+![[Pasted image 20240924114103.png|450]]
