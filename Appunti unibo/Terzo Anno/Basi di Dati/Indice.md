@@ -10,3 +10,8 @@
 	2. Vincoli di Integrità
 		1. Vincoli di Ennupla
 		2. Vincoli di Chiave
+			1. Chiavi
+		3. Vincoli inter-relazionali
+		4. Recap
+		5. Altri Modelli
+		6. 

@@ -127,7 +127,7 @@ Come regola generale, le chiavi dovrebbero essere definite **a livello di schema
 ![[Pasted image 20240924112306.png|450]]
 - {Nome} è una chiave in questa istanza, ma è un caso fortuito
 - Per definire una chiave a livello di schema, servono informazioni aggiuntive sul dominio dei dati
-## Chiavi
+#### Chiavi
 *Ma a cosa servono le chiavi?*
 - Per accedere a ciascuna ennupla della base di dati, in maniera univoca. 
 - Per correlare dati tra relazioni differenti.
@@ -149,3 +149,59 @@ Come fare nel caso tutte le chiavi presentino dei valori NULL? *Aggiungere codic
 ***Una chiave può essere composta da più attributi.***
 ![[Pasted image 20240924114019.png|450]]
 ![[Pasted image 20240924114103.png|450]]
+## Vincoli inter-relazionali
+- Nel modello relazionale, una base di dati può essere composta da molte relazioni collegate tra loro.
+- Collegamenti tra relazioni differenti sono espresse mediante valori comuni in attributi replicati.
+![[Pasted image 20240925101246.png|500]]
+
+In molti scenari d’uso, risulta utile imporre **un vincolo sulle dipendenze tra relazioni**.
+
+>Ogni riga della tabella referenziante si collega **al massimo ad una riga della riga della tabella referenziata**, sulla base dei <u>valori comuni</u> nell’attributo/negli attributi replicati.
+![[Pasted image 20240925101433.png|450]]
+
+>Un *vincolo di integrità referenziale* (“**foreign key**”) fra gli attributi X di una relazione R<sub>1</sub> e un’altra relazione R<sub>2</sub> impone ai valori (diversi da NULL) su X in R<sub>1</sub> di comparire come valori della chiave primaria di R<sub>2</sub>.
+
+In pratica: il vincolo consente di collegare le informazioni tra tabelle diverse attraverso valori comuni
+
+Per definire il vincolo di integrità referenziale, occorre esplicitare i nomi degli attributi (su cui si applica il vincolo) di entrambe le tabelle: 
+- VOLI.Arrivi -> AEROPORTO.IdAeroporto 
+- Notazione: SCHEMA.NomeAttributo
+## Recap
+Pro
+- Modello intuitivo 
+- Basato su proprietà dell’algebra relazionale 
+- Garantisce indipendenza dallo schema fisico 
+- Riflessività -> meta-informazioni di una relazione sono gestite a loro volta attraverso relazioni.
+Contro
+- **Poca flessibilità** -> Tutte le istanza di una relazione devono possedere la stessa struttura
+- **Ridondanza** dei dati causata dai vincoli
+## Altri modelli
+Oltre al modello relazionale (proposto negli anni settanta), esistono altri modelli logici di organizzazione dei dati: 
+- Modello gerarchico 
+- Modello reticolare 
+- Modello ad oggetti 
+- Modello XML-based
+- ...
+
+***Modello Gerarchico***
+- I dati sono rappresentati come record.
+- Le associazioni tra tabelle sono rappresentate con puntatori in una struttura ad albero.
+![[Pasted image 20240925104236.png|450]]
+
+***Modello Reticolare***
+- I dati sono rappresentati come record. 
+- Le associazioni tra tabelle sono rappresentate con puntatori in una struttura a grafo complesso.
+![[Pasted image 20240925104340.png|450]]
+
+***Modello a Oggetti***
+- Una base di dati è una collezione di oggetti. 
+- Ogni oggetto ha un **indentificatore univoco (OID)** gestito dal sistema (a differenza delle chiavi). 
+- Ogni oggetto ha uno <u>stato</u>, definito come una struttura complessa a partire da dati semplici. 
+- Ogni oggetto ha dei metodi che consentono di manipolare lo stato. 
+- Gli oggetti possono essere incapsulati in altri oggetti, estesi (mediante ereditarietà), etc
+
+***Modelli no SQL***
+- Non un singolo modello, ma un insieme di approcci accomunati dal tentativo di **superare la rigidità del modello relazionale**, e di **migliorare la scalabilità della gestione di una base di dati** in ambienti distribuiti. 
+- Approcci Key/Value -> Redis, BigTable, etc 
+- Approcci document-oriented (JSON/XML)
+

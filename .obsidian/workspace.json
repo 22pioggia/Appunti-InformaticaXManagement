@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f482c130045f20c5",
+            "id": "f01b756668e5cb1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Terzo Anno/Basi di Dati/Modello Relazionale.md",
+                "file": "Appunti unibo/Terzo Anno/Tecnologie Web/Open API.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Terzo Anno/Basi di Dati/Indice.md",
+                "file": "Appunti unibo/Terzo Anno/Tecnologie Web/Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti unibo/Terzo Anno/Basi di Dati/Modello Relazionale.md",
+                "file": "Appunti unibo/Terzo Anno/Tecnologie Web/Open API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti unibo/Terzo Anno/Basi di Dati/Modello Relazionale.md",
+                "file": "Appunti unibo/Terzo Anno/Tecnologie Web/Open API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti unibo/Terzo Anno/Basi di Dati/Modello Relazionale.md"
+                "file": "Appunti unibo/Terzo Anno/Tecnologie Web/Open API.md"
               }
             }
           }
@@ -160,22 +160,23 @@
   },
   "active": "c7691301ebb12b2c",
   "lastOpenFiles": [
-    "Appunti unibo/Immagini/Pasted image 20240924114103.png",
-    "Appunti unibo/Immagini/Pasted image 20240924114019.png",
-    "Appunti unibo/Immagini/Pasted image 20240924113546.png",
-    "Appunti unibo/Terzo Anno/Basi di Dati/Introduzione.md",
-    "Appunti unibo/Terzo Anno/Basi di Dati/Indice.md",
-    "Appunti unibo/Terzo Anno/Basi di Dati/Modello Relazionale.md",
-    "Appunti unibo/Immagini/Pasted image 20240924112908.png",
-    "Appunti unibo/Immagini/Pasted image 20240924112645.png",
-    "Appunti unibo/Immagini/Pasted image 20240924112306.png",
-    "Appunti unibo/Immagini/Pasted image 20240924111438.png",
-    "Appunti unibo/Immagini/Pasted image 20240924110711.png",
-    "Appunti unibo/Immagini/Pasted image 20240924105741.png",
-    "Appunti unibo/Immagini/Pasted image 20240924105424.png",
-    "Appunti unibo/Immagini/Pasted image 20240924105058.png",
+    "Appunti unibo/Immagini/Pasted image 20240925125255.png",
+    "Appunti unibo/Immagini/Pasted image 20240925125016.png",
+    "Appunti unibo/Immagini/Pasted image 20240925124738.png",
+    "Appunti unibo/Immagini/Pasted image 20240925124536.png",
+    "Appunti unibo/Immagini/Pasted image 20240925124319.png",
+    "Appunti unibo/Immagini/Pasted image 20240925123520.png",
     "Appunti unibo/Terzo Anno/Tecnologie Web/Indice.md",
+    "Appunti unibo/Terzo Anno/Tecnologie Web/Open API.md",
+    "Appunti unibo/Immagini/Pasted image 20240925122613.png",
     "Appunti unibo/Terzo Anno/Tecnologie Web/Uniform Resource Identifier (URI).md",
+    "Appunti unibo/Terzo Anno/Basi di Dati/Modello Relazionale.md",
+    "Appunti unibo/Terzo Anno/Basi di Dati/Indice.md",
+    "Appunti unibo/Immagini/Pasted image 20240925104340.png",
+    "Appunti unibo/Immagini/Pasted image 20240925104236.png",
+    "Appunti unibo/Immagini/Pasted image 20240925101433.png",
+    "Appunti unibo/Immagini/Pasted image 20240925101246.png",
+    "Appunti unibo/Terzo Anno/Basi di Dati/Introduzione.md",
     "Senza nome.canvas",
     "Appunti unibo/Terzo Anno/Tecnologie Web",
     "Appunti unibo/Secondo Anno/Sistemi Operativi/Esercizi.md",
@@ -201,7 +202,6 @@
     "Appunti unibo/Secondo Anno/Sistemi Operativi/Ottava lezione.md",
     "Appunti unibo/Secondo Anno/Sistemi Operativi/Nona Lezione.md",
     "Appunti unibo/Secondo Anno/Sistemi Operativi/Decima Lezione.md",
-    "Appunti unibo/Secondo Anno/Sistemi Operativi/Quinta Lezione.md",
     "cacca",
     "new yoo",
     "rep",

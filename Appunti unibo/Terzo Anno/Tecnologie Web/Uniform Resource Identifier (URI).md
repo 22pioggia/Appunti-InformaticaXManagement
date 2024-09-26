@@ -73,3 +73,7 @@ Una route è un'associazione della parte path di un URI ad una risorsa gestita o
 Risolvere un URI relativo significa identificare l'URI assoluto cercato sulla base dell'URI
 ![[Pasted image 20240918133951.png|500]]
 ![[Pasted image 20240918134009.png|500]]
+
+ho perso la lezione, continua su -> [HTTP](https://virtuale.unibo.it/pluginfile.php/2311813/mod_resource/content/0/03a-HTTP.pdf) e [REST](https://virtuale.unibo.it/pluginfile.php/2222495/mod_resource/content/0/03b-REST.pdf)
+
+[[Open API|Next]]
