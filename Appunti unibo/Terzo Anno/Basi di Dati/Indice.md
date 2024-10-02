@@ -14,4 +14,9 @@
 		3. Vincoli inter-relazionali
 		4. Recap
 		5. Altri Modelli
-		6. 
+3. [[Linguaggio SQL]]
+	1. SQL
+		1. DML
+			1. Domini elementari
+			2. Vincoli
+		2. DDL
