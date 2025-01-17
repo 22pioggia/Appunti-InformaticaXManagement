@@ -19,7 +19,7 @@ Alcune funzionalità:
 ### Caratteristiche
 ![[Pasted image 20240918104948.png|500]]
 #### Efficienza
-- DBMS forniscono adeguate strutture dati per organizzare i dati all’interno dei file, e per supportare le operazioni di ricercar, aggiornamento, inserimento, modifica (operazioni **CRUD**).
+- DBMS forniscono adeguate strutture dati per organizzare i dati all’interno dei file, e per supportare le operazioni di ricerca, aggiornamento, inserimento, modifica (operazioni **CRUD**).
 	- In genere, parliamo di strutture dati ad albero o tabelle hash.
 
 ***Indice*** = struttura che contiene informazioni sulla posizione dei contenuti di interesse sulla base del valore di un campo chiave
@@ -61,4 +61,4 @@ Proprietà (*auspicabili*) dei livelli in un DBMS:
 - ***Indipendenza fisica*** -> interagire con il modello logico in modo indipendente dallo schema fisico. 
 - ***Indipendenza logica*** -> interagire con il livello esterno in modo indipendente dallo schema logico dei dati.
 
-[[Modello Relazionale|Next.]]
+[[(3) Modello Relazionale|Next.]]

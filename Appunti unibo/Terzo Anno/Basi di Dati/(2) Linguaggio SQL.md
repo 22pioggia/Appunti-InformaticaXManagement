@@ -1,4 +1,4 @@
-[Inizio slides che mi sono perso svegliandomi tardi](https://virtuale.unibo.it/pluginfile.php/2274099/mod_resource/content/2/3_SQL_1.pdf)
+[Slides 1](https://virtuale.unibo.it/pluginfile.php/2274099/mod_resource/content/2/3_SQL_1.pdf)
 ## SQL
 **SQL** è un linguaggio per basi di dati basate sul modello relazionale. 
 
@@ -129,7 +129,7 @@ Il vincolo ***not null*** indica che il valore null <u>non è ammesso</u> come v
 *Es. NUMEROORE SMALLINT DEFAULT 40*
 
 ---
-Il vincolo ***unique*** impone che l’attributo/attributi su cui sia applica non presenti valori comuni in righe differenti à ossia che l’attributo/i sia una superchiave della tabella. 
+Il vincolo ***unique*** impone che l’attributo/attributi su cui sia applica non presenti valori comuni in righe differenti -> ossia che l’attributo/i sia una superchiave della tabella. 
 Due sintassi: 
 - Attributo Dominio \[ValDefault] unique 
 	- Se la superchiave è <u>un solo attributo</u>. 
@@ -164,7 +164,8 @@ Il costrutto foreign key si utilizza nel caso il vincolo di integrità referenzi
 	MATRICOLA CHARACTER(20) PRIMARY KEY, 
 	NOME VARCHAR(20), 
 	COGNOME VARCHAR(20), 
-	DATANASCITA DATE, FOREIGN KEY(NOME,COGNOME,DATANASCITA) REFERENCES ANAGRAFICA(NOME,COGNOME,DATA) 
+	DATANASCITA DATE, 
+	FOREIGN KEY(NOME,COGNOME,DATANASCITA) REFERENCES ANAGRAFICA(NOME,COGNOME,DATA) 
    );
    
 ---
@@ -210,7 +211,96 @@ E’ possibile **modificare** gli schemi di dati precedentemente creati tramite 
 	drop column NomeAttributo 
 	add contraint DefVincolo
 	...
-## DDL
+## DML/DQL
 
-[parla delle query, spero di saperle fare](https://virtuale.unibo.it/pluginfile.php/2274100/mod_resource/content/4/3_SQL_2.pdf)
-	
+[Slide 2](https://virtuale.unibo.it/pluginfile.php/2274100/mod_resource/content/4/3_SQL_2.pdf)
+
+*Note* ---
+- UNION
+- INTERSECT
+- EXCEPT
+per fare operazioni insiemistiche -> ex. selezionare da due tabelle diverse e unire, intersecare o escludere i dati
+
+> SELECT
+> FROM
+> WHERE
+> UNION/INTERSECT/EXCEPT
+> SELECT
+> FROM
+> WHERE
+
+---
+
+- insert -> inserisce una o più righe. 
+- delete -> cancella una o più righe. 
+- update -> aggiorna un attributo o più.
+
+\[[Pag. 81](https://virtuale.unibo.it/pluginfile.php/2274100/mod_resource/content/4/3_SQL_2.pdf)] per approfondimenti
+
+### Interrogazioni Annidate e Viste
+
+[Slide 3](https://virtuale.unibo.it/pluginfile.php/2274101/mod_resource/content/2/3_SQL_3.pdf)
+
+>RICORDA: puoi annidare solo nel where
+
+Esistono operatori speciali di confronto nel caso di interrogazioni annidate: 
+- ***ANY*** -> la riga soddisfa la condizione se è vero il confronto tra il valore dell’ attributo ed ALMENO UNO dei valori ritornati dalla query annidata. 
+- ***ALL*** -> la riga soddisfa la condizione se eè vero il confronto tra il valore dell’ attributo e TUTTI i valori ritornati dalla query annidata.
+- ***IN*** -> restituisce true se un certo valore è contenuto nel risultato di una interrogazione nidificata, false altrimenti.
+- ***EXISTS*** -> restituisce true se l’interrogazione nidificata restituisce un risultato non vuoto (>=1 elemento trovato).
+
+<i><font color="#7f7f7f">Es. Estrarre nome e cognome degli strutturati del dipartimento di Informatica che guadagnano <u>quanto un loro collega</u> di Fisica.</font> </i>
+
+>SELECT NOME, COGNOME 
+>FROM STRUTTURATI 
+>WHERE (DIPARTIMENTO=“INFORMATICA”) AND 
+>	(STIPENDIO = ANY (SELECT STIPENDIO 
+>					FROM STRUTTURATI 
+>					WHERE (DIPARTIMENTO=“FISICA”)))
+
+<i><font color="#7f7f7f">Es. Estrarre nome e cognome degli strutturati del dipartimento di Informatica che guadagnano <u>più di tutti</u> i colleghi di Fisica.</font> </i>
+
+>SELECT NOME, COGNOME 
+>FROM STRUTTURATI 
+>WHERE (DIPARTIMENTO=“INFORMATICA”) AND 
+>	(STIPENDIO > ALL (SELECT STIPENDIO 
+>					FROM STRUTTURATI 
+>					WHERE (DIPARTIMENTO=“FISICA”)))
+
+---
+
+Le interrogazioni nidificate possono essere: 
+- ***Semplici*** -> non c’è passaggio di binding tra un contesto all’altro. Le interrogazioni vengono valutate dalla più interna alla più esterna. 
+- ***Complesse*** -> c’è passaggio di binding attraverso variabili condivise tra le varie interrogazioni. In questo caso, le interrogazioni più interne vengono valutate su ogni tupla.
+
+[Esempi pag. 18!](https://virtuale.unibo.it/pluginfile.php/2274101/mod_resource/content/2/3_SQL_3.pdf)
+
+---
+
+Le ***viste*** rappresentano “*tabelle virtuali*” ottenute da dati contenute in altre tabelle del database. Ogni vista ha associato un nome ed una lista di attributi, e si ottiene dal risultato di una **select**. 
+
+>create view NomeView \[ListaAttributi] 
+>as SELECTSQL 
+>\[with \[local | cascade] check option]
+
+[pag. 32](https://virtuale.unibo.it/pluginfile.php/2274101/mod_resource/content/2/3_SQL_3.pdf)
+
+---
+
+Le ***Common Table Expression*** (CTE) rappresentano viste temporanee che possono essere usate in una query come se fossero una vista a tutti gli effetti. 
+
+>Differenza con la vista -> una CTE non esiste a livello di schema del DB!
+
+[pag. 48](https://virtuale.unibo.it/pluginfile.php/2274101/mod_resource/content/2/3_SQL_3.pdf)
+
+---
+
+Le ***asserzioni*** (SQL2) sono un costrutto per definire vincoli generici a livello di schema.
+
+>*create assertion NomeAsserzione check Condizione*
+
+- Consentono di definire vincoli non altrimenti definibili con i costrutti visti fin qui. 
+- Il vincolo può essere immediato o differito (ossia verificato al termine di una transazione).
+
+[pag. 50](https://virtuale.unibo.it/pluginfile.php/2274101/mod_resource/content/2/3_SQL_3.pdf)
+ 
