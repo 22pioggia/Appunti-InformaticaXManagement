@@ -31,4 +31,5 @@
 	2. Progettazione Logica
 	3. Progettazione Fisica
 7. [[(7) Raccolta dei Requisiti|Raccolta dei Requisiti]]
-8. 
+8. [[(8) Diagramma Entità-Relazione|Diagramma Entità-Relazione]]
+9. 

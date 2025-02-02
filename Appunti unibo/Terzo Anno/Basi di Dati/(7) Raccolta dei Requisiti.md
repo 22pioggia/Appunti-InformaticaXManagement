@@ -58,3 +58,4 @@ Ricapitolando:
 	3. Costruzione di un glossario. 
 	4. Definizione delle operazioni sui dati
 
+[[(8) Diagramma Entità-Relazione|Next.]]
