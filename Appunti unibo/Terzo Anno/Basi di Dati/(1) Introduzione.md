@@ -61,4 +61,4 @@ Proprietà (*auspicabili*) dei livelli in un DBMS:
 - ***Indipendenza fisica*** -> interagire con il modello logico in modo indipendente dallo schema fisico. 
 - ***Indipendenza logica*** -> interagire con il livello esterno in modo indipendente dallo schema logico dei dati.
 
-[[(3) Modello Relazionale|Next.]]
+[[(2) Modello Relazionale|Next.]]

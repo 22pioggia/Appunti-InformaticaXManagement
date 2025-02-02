@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(-) Esami.md",
+                "file": "Appunti unibo/Terzo Anno/Basi di Dati/(8) Diagramma Entità-Relazione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(-) Esami"
+              "title": "(8) Diagramma Entità-Relazione"
             }
           },
           {
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/Indice.md",
+                "file": "Appunti unibo/Terzo Anno/Basi di Dati/Indice.md",
                 "mode": "source",
                 "source": false
               },
@@ -54,7 +54,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Esplora risorse"
@@ -153,10 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(-) Esami.md"
+                "file": "Appunti unibo/Terzo Anno/Basi di Dati/(8) Diagramma Entità-Relazione.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di (-) Esami"
+              "title": "Struttura di (8) Diagramma Entità-Relazione"
             }
           }
         ],
@@ -178,48 +182,48 @@
   },
   "active": "14a69716449f1f7b",
   "lastOpenFiles": [
-    "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(7) Dinamiche concorrenziali.md",
-    "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(-) Esami.md",
-    "Appunti unibo/Immagini/Pasted image 20250116201052.png",
-    "Appunti unibo/Immagini/Pasted image 20250116201027.png",
-    "Appunti unibo/Immagini/Pasted image 20250116200716.png",
-    "Appunti unibo/Immagini/Pasted image 20250116200628.png",
-    "Appunti unibo/Immagini/Pasted image 20250116200548.png",
-    "Appunti unibo/Immagini/Pasted image 20250116200504.png",
-    "Appunti unibo/Immagini/Pasted image 20250116200425.png",
-    "Appunti unibo/Immagini/Pasted image 20250116200404.png",
-    "Appunti unibo/Immagini/Pasted image 20250116200317.png",
-    "Appunti unibo/Immagini/Pasted image 20250116200144.png",
-    "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/Indice.md",
-    "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(5) Concorrenti e concorrenza.md",
+    "Appunti unibo/Terzo Anno/Basi di Dati/(7) Raccolta dei Requisiti.md",
+    "Appunti unibo/Terzo Anno/Basi di Dati/(8) Diagramma Entità-Relazione.md",
+    "Appunti unibo/Terzo Anno/Basi di Dati/Indice.md",
+    "Appunti unibo/Immagini/Pasted image 20250201200606.png",
+    "Appunti unibo/Terzo Anno/Basi di Dati/(6) Progettazione di Basi di Dati.md",
+    "Appunti unibo/Immagini/Pasted image 20250201195242.png",
+    "Appunti unibo/Immagini/Pasted image 20250201193742.png",
+    "Appunti unibo/Immagini/Pasted image 20250201193545.png",
+    "Appunti unibo/Immagini/Pasted image 20250201193300.png",
+    "Appunti unibo/Terzo Anno/Basi di Dati/(5) Big-Data - Database NoSQL.md",
+    "Appunti unibo/Immagini/Pasted image 20250201192915.png",
+    "Appunti unibo/Immagini/Pasted image 20250201191804.png",
+    "Appunti unibo/Immagini/Pasted image 20250201191715.png",
+    "Appunti unibo/Immagini/Pasted image 20250201191222.png",
+    "Appunti unibo/Immagini/Pasted image 20250201191108.png",
+    "Appunti unibo/Terzo Anno/Basi di Dati/(4) MySQL - Transazioni.md",
+    "Appunti unibo/Terzo Anno/Basi di Dati/(3) Linguaggio SQL.md",
+    "Appunti unibo/Secondo Anno/Sistemi Operativi/Indice.md",
+    "Appunti unibo/Secondo Anno/Sistemi Operativi/Prima Lezione.md",
+    "Appunti unibo/Secondo Anno/Sistemi Operativi/Dodicesima lezione.md",
+    "Appunti unibo/Secondo Anno/Sistemi Operativi/Quarta Lezione.md",
     "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(4) I confini verticali dell’impresa.md",
+    "Appunti unibo/Terzo Anno/Basi di Dati/(2) Modello Relazionale.md",
+    "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(-) Esami.md",
     "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(3) Diversificazione.md",
     "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(2) I confini orizzontali dell’impresa.md",
     "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(1) Principi generali.md",
     "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(6) Entrata e uscita dai settori.md",
+    "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(7) Dinamiche concorrenziali.md",
+    "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(5) Concorrenti e concorrenza.md",
+    "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/Indice.md",
     "Appunti unibo/Secondo Anno/Strategia aziendale/Indice.md",
     "Appunti unibo/Secondo Anno/Strategia aziendale/Quinta Lezione.md",
     "Appunti unibo/Secondo Anno/Strategia aziendale/Terza Lezione.md",
     "Appunti unibo/Secondo Anno/Strategia aziendale/Quarta Lezione.md",
-    "Appunti unibo/Terzo Anno/Basi di Dati/(2) Linguaggio SQL.md",
-    "Appunti unibo/Terzo Anno/Basi di Dati/Indice.md",
     "Appunti unibo/Terzo Anno/Basi di Dati/(1) Introduzione.md",
-    "Appunti unibo/Terzo Anno/Basi di Dati/(3) Modello Relazionale.md",
-    "Appunti unibo/Terzo Anno/Tecnologie Web/Open API.md",
-    "Appunti unibo/Terzo Anno/Tecnologie Web/Indice.md",
-    "Appunti unibo/Terzo Anno/Tecnologie Web/Uniform Resource Identifier (URI).md",
     "Senza nome.canvas",
     "Appunti unibo/Terzo Anno/Tecnologie Web",
-    "Appunti unibo/Secondo Anno/Sistemi Operativi/Esercizi.md",
-    "Appunti unibo/Secondo Anno/Sistemi Operativi/Dodicesima lezione.md",
     "Appunti unibo/Terzo Anno/Basi di Dati",
     "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati",
     "Appunti unibo/Terzo Anno",
     "Appunti unibo/Secondo Anno",
-    "Appunti unibo/Secondo Anno/Algoritmi/Appunti/Minimum spanning tree.md",
-    "Appunti unibo/Secondo Anno/Algoritmi/Appunti/Strutture Merge-Find.md",
-    "Appunti unibo/Secondo Anno/Algoritmi/Appunti/Indice.md",
-    "Appunti unibo/Secondo Anno/Algoritmi/Appunti/Esercizi.md",
     "cacca",
     "new yoo",
     "rep",

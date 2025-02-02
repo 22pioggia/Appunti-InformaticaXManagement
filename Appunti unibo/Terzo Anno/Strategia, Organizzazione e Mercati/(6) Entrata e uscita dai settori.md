@@ -52,8 +52,8 @@
 	3. Espansione della capacità produttiva
 ### Strategia del prezzo limite
 - L’impresa presente sul mercato fissa un prezzo basso prima dell’eventuale entrata del concorrente per scoraggiare l’ingresso. 
-- L’entrante osserva il basso prezzo e conclude che il prezzo postentrata sarebbe almeno altrettanto basso. 
-- L’impresa esistente preferisce essere un monopolista che - vende al prezzo limite piuttosto che dividere il mercato in un duopolio.
+- L’entrante osserva il basso prezzo e conclude che il prezzo post-entrata sarebbe almeno altrettanto basso. 
+- L’impresa esistente preferisce essere un monopolista che vende al prezzo limite piuttosto che dividere il mercato in un duopolio.
 
 ![[Pasted image 20250115213112.png|500]]
 ![[Pasted image 20250115213141.png|500]]

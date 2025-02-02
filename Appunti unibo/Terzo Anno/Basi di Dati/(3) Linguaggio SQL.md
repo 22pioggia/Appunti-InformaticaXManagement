@@ -303,4 +303,52 @@ Le ***asserzioni*** (SQL2) sono un costrutto per definire vincoli generici a liv
 - Il vincolo può essere immediato o differito (ossia verificato al termine di una transazione).
 
 [pag. 50](https://virtuale.unibo.it/pluginfile.php/2274101/mod_resource/content/2/3_SQL_3.pdf)
- 
+### Stored procedures
+[Pag. 4](https://virtuale.unibo.it/pluginfile.php/2274102/mod_resource/content/3/3_SQL_4.pdf)
+
+***Stored Procedures*** -> Frammenti di codice SQL, con la possibilità di specificare un nome, dei parametri in ingresso e dei valori di ritorno.
+
+Le estensioni procedurali consentono di: 
+- Aggiungere **strutture di controllo** al linguaggio SQL (es. cicli, strutture condizionali if then else, etc). 
+- Dichiarare **variabili** e tipi di dato **user-defined**. 
+- Definire procedure sui dati avanzate, che sono ritenute “**sicure**” dal DBMS.
+### Trigger
+[Pag. 11](https://virtuale.unibo.it/pluginfile.php/2274102/mod_resource/content/3/3_SQL_4.pdf)
+
+Trigger (*o regole attive*) -> meccanismi di gestione della base di dati basati sul paradigma ECA (Evento/Condizione/Azione). 
+- **Evento**: primitive per la manipolazione dei dati (insert, delete, update) 
+- **Condizione**: Predicato *booleano* 
+- **Azione**: sequenza di istruzioni SQL, talvolta procedure SQL specifiche del DBMS.
+
+![[Pasted image 20250130192618.png|550]]
+- **Modo** -> *before/after* 
+- **Evento** -> *insert/delete/update* 
+- **Referencing** -> qui possono essere inserite variabili globali per aumentare l’espressività del trigger… 
+- **Livello** -> *row* (Il trigger agisce a livello di righe) *statement* (Il trigger agisce globalmente a livello di tabella) 
+Due modalità di esecuzione: **immediata** vs **differita**.
+
+![[Pasted image 20250130193429.png|550]]
+### Permessi
+[Pag. 18](https://virtuale.unibo.it/pluginfile.php/2274102/mod_resource/content/3/3_SQL_4.pdf)
+
+SQL2/SQL3 prevede meccanismi di controllo di accesso alle risorse dello schema del DB
+Di default, ogni risorsa appartiene all’utente che l’ha definita … Su ciascuna risorsa sono definiti dei privilegi (*grant*): 
+- insert/update/delete -> tabelle/viste 
+- select -> tabelle/viste 
+- references -> tabelle/attributi 
+- usage -> domini
+
+![[Pasted image 20250130193829.png]]
+
+In SQL3 è possibile definire dei ruoli per regolare l’accesso alle risorse di un database. 
+
+Ruolo -> Contenitore di privilegi 
+
+Esempio di Ruolo
+- Insert su Tabella Impiegati 
+- Select su Tabella Retribuzioni 
+- Update su Tabella Progetti 
+
+- Comandi SQL3: *create role/set role*
+
+[[(4) MySQL - Transazioni|Next.]]

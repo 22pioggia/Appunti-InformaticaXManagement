@@ -205,4 +205,4 @@ Oltre al modello relazionale (proposto negli anni settanta), esistono altri mode
 - Approcci Key/Value -> Redis, BigTable, etc 
 - Approcci document-oriented (JSON/XML)
 
-[[(2) Linguaggio SQL|Next]]
+[[(3) Linguaggio SQL|Next]]
