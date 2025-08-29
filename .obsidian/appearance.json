@@ -1,3 +1,6 @@
 {
-  "accentColor": "#ff00dd"
+  "accentColor": "#ff00dd",
+  "enabledCssSnippets": [
+    "defaultimagesize"
+  ]
 }

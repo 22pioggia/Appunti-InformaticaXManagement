@@ -32,4 +32,15 @@
 	3. Progettazione Fisica
 7. [[(7) Raccolta dei Requisiti|Raccolta dei Requisiti]]
 8. [[(8) Diagramma Entità-Relazione|Diagramma Entità-Relazione]]
-9. 
+9. [[(9) Progettazione Concettuale|Progettazione Concettuale]]
+	1. Strategie di progettazione
+	2. Pattern di progettazione
+	3. Analisi di prestazione
+10. [[(10) Progettazione Logica|Progettazione Logica]]
+	1. Ristrutturazione Modello concettuale
+	2. Traduzione nel Modello logico
+11. [[(11) Normalizzazione|Normalizzazione]]
+	1. Dipendenza Funzionale
+	2. Algoritmo di Normalizzazione in Terza Forma Normale (TFN)
+12. [[(12) Web Information System|Web Information System]]
+	1. PHP
