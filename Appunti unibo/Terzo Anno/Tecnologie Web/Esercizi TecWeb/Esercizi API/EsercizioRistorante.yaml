@@ -1,0 +1,96 @@
+openapi: 3.0.4
+info:
+  title: Ristorante e Menu
+  version: 1.0.0
+
+paths:
+  /menus/:
+    get:
+      summary: ritorna elenco dei menu
+      operationId: listamenu
+      responses:
+        '200':
+          description: successo
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Menu'
+        '400':
+          description: Errore richiesta
+
+  /menus/{menuId}:
+    get:
+      summary: restituisce info su un dato menu
+      operationId: infomenu
+      parameters:
+        - in: path
+          name: menuId
+          description: id del menu
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Menu'
+        '400':
+          description: ID non valido
+
+  /menus/{menuId}/piatti:
+    post:
+      summary: aggiunge piatti a un menu
+      operationId: aggiungiPiatto
+      parameters:
+        - in: path
+          name: menuId
+          description: id del menu
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Piatto'
+      responses:
+        '200':
+          description: successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Piatto'
+        '400':
+          description: ID non valido
+
+components:
+  schemas:
+    Menu:
+      type: object
+      required:
+        - ID
+        - descrizione
+      properties:
+        ID:
+          type: integer
+          minimum: 0
+        descrizione:
+          type: string
+          example: Menu di terra
+    Piatto:
+      type: object
+      required:
+        - ID
+        - descrizione
+      properties:
+        ID:
+          type: integer
+          minimum: 0
+        descrizione:
+          type: string
+          example: Spaghetti al burro

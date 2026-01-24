@@ -1,0 +1,116 @@
+openapi: 3.0.4
+info:
+  version: 1.0.0
+  title: Annotazione immagini
+  description: API per gestire l'annotazione di immagini
+paths:
+  /images:
+    get:
+      summary: restituisce ogni immagine per una data categoria
+      operationId: getImagesbyCategory
+      parameters:
+        - name: category
+          in: query
+          description: categoria da filtrare
+          schema:
+            type: string
+      responses:
+        '200':
+          description: successo
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Immagine'
+        '400':
+          description: errore
+  /images/{imageId}:
+    get:
+      summary: restituisce tutti i tag di un'immagine
+      operationId: getTagsbyImage
+      parameters:
+        - name: imageId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: successo
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Tag'
+        '400':
+          description: ID non valido
+  /images/{imageId}/{tagId}:
+    put:
+      summary: aggiunge un tag a un'immagine tramite ID
+      operationId: addTagtoImage
+      parameters:
+        - name: imageId
+          in: path
+          required: true
+          schema:
+            type: integer
+        - name: tagId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Tag aggiunto con successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Immagine'
+        '400':
+          description: errore
+
+components:
+  schemas:
+    Immagine:
+      type: object
+      required:
+        - ID
+        - URL
+        - categoria
+      properties:
+        ID:
+          type: integer
+          minimum: 0
+        URL:
+          type: string
+          example: blablabla
+        categoria:
+          type: string
+          example: pittura
+          enum:
+            - pittura
+            - pubblicita
+            - fotografia
+        tags:
+          type: array
+          items:
+            $ref: '#/components/schemas/Tag'
+    Tag:
+      type: object
+      required:
+        - ID
+        - nome
+      properties:
+        ID:
+          type: integer
+          minimum: 0
+        nome:
+          type: string
+          example: forte
+        score:
+          type: integer
+          example: 2
+          minimum: 0
+          maximum: 3

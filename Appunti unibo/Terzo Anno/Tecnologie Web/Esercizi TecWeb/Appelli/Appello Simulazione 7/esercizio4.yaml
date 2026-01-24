@@ -1,0 +1,111 @@
+openapi: 3.0.4
+info:
+  version: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0
+  title: Negozio Caffè
+  description: Api per la gestione di un negozio di vendita Macchine di caffè
+paths:
+  /macchine/:
+    get:
+      summary: restituisce tutte le macchine per data categoria con prezzo inferiore di X euro
+      operationId: filterMacchine
+      parameters:
+        - in: query
+          name: category
+          required: true
+          schema:
+            $ref: '#/components/schemas/Macchina/properties/categoria'
+        - in: query
+          name: price
+          required: true
+          schema:
+            type: integer
+            minimum: 0
+      responses:
+        '200':
+          description: Successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Macchina'
+        '400':
+          description: Errore
+  /macchine/{categoria}:
+    post:
+      summary: Aggiungi una macchina a una data categoria
+      operationId: addMacchina
+      parameters:
+        - in: path
+          name: categoria
+          required: true
+          schema:
+            $ref: '#/components/schemas/Macchina/properties/categoria'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Macchina'
+      responses:
+        '200':
+          description: successo
+        '400':
+          description: errore
+  /listino/{categoria}:
+    put:
+      summary: Modifica la descrizione di una data categoria
+      operationId: editDesc
+      parameters:
+        - in: path
+          name: categoria
+          required: true
+          schema:
+            $ref: '#/components/schemas/Macchina/properties/categoria'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Listino/properties/descrizione'
+      responses:
+        '200':
+          description: successo
+        '400':
+          description: errore
+components:
+  schemas:
+    Macchina:
+      type: object
+      required:
+        - id
+        - prezzo
+        - categoria
+      properties:
+        id:
+          type: integer
+          minimum: 1
+        prezzo:
+          type: integer
+          minimum: 0
+        categoria:
+          type: string
+          enum:
+            - cialde
+            - capsule
+            - chicchi
+    Listino:
+      type: object
+      required:
+        - anno
+        - descrizione
+        - immagine
+      properties:
+        anno:
+          type: string
+          format: date
+          example: 10-10-2010
+        descrizione:
+          type: string
+          example: macchina molto ergonomica
+        immagine:
+          type: string
+          example: image.jpgAHSBJSFJBFJASBJFBJ

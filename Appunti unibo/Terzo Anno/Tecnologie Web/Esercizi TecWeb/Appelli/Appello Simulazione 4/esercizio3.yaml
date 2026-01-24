@@ -1,0 +1,112 @@
+openapi: 3.0.4
+info:
+  version: 1.0.0
+  title: Agenzie immobiliari
+  description: API per gestire una catena di agenzie immobiliari
+paths:
+  /agenzie:
+    get:
+      summary: ottieni tutte le agenzie che hanno un fatturato superiore a X
+      operationId: filterAgency
+      parameters:
+        - in: query
+          required: false
+          name: fatturato
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successo
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Agenzia'
+        '400':
+          description: errore
+  /agenzie/{nomeAg}/{nomeDip}:
+    put:
+      summary: aggiorno i dati di un dipendente di una data Agenzia
+      operationId: editEmpl
+      parameters:
+        - in: path
+          required: true
+          name: nomeAg
+          schema:
+            type: string
+        - in: path
+          required: true
+          name: nomeDip
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Dipendente'
+      responses:
+        '200':
+          description: Successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Dipendente'
+        '400':
+          description: errore
+    delete:
+      summary: elimino un dipendente di una data Agenzia
+      operationId: deleteEmp
+      parameters:
+        - in: path
+          required: true
+          name: nomeAg
+          schema:
+            type: string
+        - in: path
+          required: true
+          name: nomeDip
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Dipendente'
+        '400':
+          description: errore
+components:
+  schemas:
+    Agenzia:
+      type: object
+      required:
+        - nome
+        - fatturato
+      properties:
+        nome:
+          type: string
+          example: McDonald's
+        fatturato:
+          type: integer
+          example: 1000000
+    Dipendente:
+      type: object
+      required:
+        - nome
+        - agenzia
+        - assunzione
+      properties:
+        nome:
+          type: string
+          example: Ronald McDonald's
+        agenzia:
+          type: string
+          example: McDonald's
+        assunzione:
+          type: string
+          format: date
+          example: 20-10-2020
+

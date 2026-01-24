@@ -1,0 +1,117 @@
+openapi: 3.0.4
+info:
+    version: 1.0.0
+    title: Serie TV
+    description: API per gestire serie TV
+paths:
+    /Serie:
+        get:
+            summary: restituisce tutte le serie di un genere X pubblicate dopo una data Y
+            operationId: filterSeries
+            parameters:
+                - name: genere
+                  in: query
+                  required: false
+                  schema:
+                    type: string
+                - name: data
+                  in: query
+                  required: false
+                  schema:
+                    type: string
+            responses:
+                '200':
+                    description: successo
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/Serie'
+                '400':
+                    description: errore
+    /Serie/{serieId}:
+        post:
+            summary: aggiungo un Episodio a una Serie
+            operationId: addEpisode
+            parameters:
+                - name: serieId
+                  in: path
+                  required: true
+                  schema:
+                    type: integer
+            requestBody:
+                  required: true
+                  content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/Episodio'
+            responses:
+                '200':
+                    description: successo
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/Serie'
+                '400':
+                    description: errore
+    /Serie/{episodeId}:
+        put:
+            summary: modificare il titolo di un episodio dato il suo id
+            operationId: editEpisode
+            parameters:
+                - in: path
+                  name: episodeId
+                  required: true
+                  schema:
+                    type: integer
+            requestBody:
+                required: true
+                content:
+                    application/json:
+                        schema:
+                            type: string
+                            example: L'estate sta arrivando
+components:
+    schemas:
+        Serie:
+            type: object
+            required:
+                - ID
+                - titolo
+                - pubblicazione
+                - episodi
+                - genere
+            properties:
+                ID:
+                    type: integer
+                    minimum: 0
+                titolo:
+                    type: string
+                    example: Game of Thrones
+                pubblicazione:
+                    type: string
+                    example: 20/10/2011
+                episodi:
+                    type: array
+                    items:
+                        $ref: '#/components/schemas/Episodio'
+                genere:
+                    type: string
+                    enum:
+                        - Animazione
+                        - Avventura
+                        - Commedia
+                        - Azione
+                        - Documentario
+        Episodio:
+            type: object
+            required:
+                - numero
+                - titolo
+            properties:
+                numero:
+                    type: integer
+                    minimum: 1
+                titolo:
+                    type: string
+                    example: L'inverno sta arrivando
+

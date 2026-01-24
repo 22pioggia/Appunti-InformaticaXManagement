@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> grid pattern</title>
+        <style>
+            #egrid{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                grid-template-areas: 
+                "a a a b"
+                "c c d d"
+                "c c e e";
+                background-color: orange;
+                gap: 10px;
+                padding: 20px 20px;
+                max-width: 600px;
+            }
+
+            #egrid >*{
+                background-color: gray;
+                border: 2px solid black;
+                color: white;
+                text-align: center;
+            }
+
+            #a1{
+                grid-area: a;
+                
+            }
+
+            #a2{
+                grid-area: b;
+                
+            }
+
+            #a3{
+                grid-area: c;
+                
+            }
+
+            #a4{
+                grid-area: d;
+                
+            }
+
+            #a5{
+                grid-area: e;
+                
+            }
+
+            #a6{
+                display: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="egrid">
+            <div class="area" id="a1">Area 1</div>
+            <div class="area" id="a2">Area 2</div>
+            <div class="area" id="a3">Area 3</div>
+            <div class="area" id="a4">Area 4</div>
+            <div class="area" id="a5">Area 5</div>
+            <div class="area" id="a6">Area 6</div>
+        </div>
+    </body>
+</html>

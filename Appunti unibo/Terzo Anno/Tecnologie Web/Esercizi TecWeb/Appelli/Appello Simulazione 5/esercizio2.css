@@ -1,0 +1,16 @@
+[role="resorts"]{
+    display: table-header-group
+}
+
+form {
+    display: table;
+    margin: auto auto;
+}
+
+form >div{
+    display: table-row;
+}
+
+[role="resorts"] > div{
+    display: inline-block;
+}

@@ -1,0 +1,70 @@
+body{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+    font-family: sans-serif;
+}
+
+main{
+    border: 2px solid black;
+    border-radius: 16px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+
+
+th{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+td{
+    background-color: rgb(230,254,206);
+    text-align: center;
+    vertical-align: center;
+    padding: 5px 10px;
+    border: 2px solid black;
+    max-width: 250px;
+}
+
+tr:last-child td{
+    background-color: rgb(253,154,155);
+    text-align: center;
+    vertical-align: center;
+    padding: 5px 10px;
+    border: 2px solid black;
+}
+
+div{
+    display: flex;
+    margin: -15px 0px;
+
+    gap: 100px;
+    justify-items: center;
+    align-items: center;
+}
+
+div span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-items: start;
+}
+
+p{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    padding: 8px 8px;
+    border: 3px double red;
+    transform: rotate(12deg);
+}

@@ -1,0 +1,86 @@
+swagger: '2.0'
+info:
+  version: 0.0.1
+  title: 'Esercizio Botanica'
+  description: 'API per gestire un blog di botanica'
+schemes:
+  - http
+  - https
+paths:
+  /articoli/:
+    get:
+      summary: "Ottenere l'elenco di tutti gli articoli."
+      parameters:
+        - name: mindata
+          type: string
+          format: date
+          in: query
+          description: "minimum data degli articoli"
+        - name: categoria
+          in: query
+          description: "Categoria degli articoli"
+          type: string
+      responses:
+        200:
+          description: 'successo'
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Articolo'
+        400:
+          description: 'Errore richiesta'
+    post:
+      summary: 'Aggiungere un nuovo articolo'
+      operationId: 'aggiungiArticolo'
+      parameters:
+        - name: articolo
+          in: body
+          description: 'articolo da aggiungere'
+          required: true
+          schema:
+            $ref: '#/definitions/Articolo'
+      responses:
+        200:
+          description: 'successo'
+  /articoli/{articoloID}/:
+    put:
+      summary: 'aggiornare un articolo'
+      operationId: 'aggiornaArticolo'
+      parameters:
+        - name: articoloID
+          description: 'articolo da aggiornare'
+          type: integer
+          in: path
+          required: true
+        - name: articolo
+          description: 'articolo aggiornato'
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/Articolo'
+      responses:
+        200:
+          description: 'successo - articolo aggiornato'
+          schema:
+            $ref: '#/definitions/Articolo'
+        400:
+          description: 'errore, ID non valido'
+definitions:
+ Articolo:
+  type: object
+  properties:
+    id:
+      type: integer
+      minimum: 0
+    data:
+      type: string
+      example: '06/03/2022'
+    titolo:
+      type: string
+      example: 'I fiori invernali'
+    contenuto:
+      type: string
+      example: "L'inverno ci porta dei bei fiori..."
+    categoria:
+      type: string
+      example: 'orto'

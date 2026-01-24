@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Resorts</title>
+        <link rel="stylesheet" href="esercizio2.css">
+    </head>
+    <body>
+        <form action="richiesta.php">
+            <div>
+                <h3>Aggiorna descrizione:</h3>
+                <textarea rows="4" cols="40" name="descrizione">Un resort meraviglioso con vista delfinario...
+                </textarea>
+                <p>
+                    <input type="submit" value="Invia" name="submit" />
+                    <input type="reset" value="Annulla" name="annulla" />
+                </p>
+            </div>
+
+            <div role="resorts">
+                <div>
+                    <img src="dune.png" width="100" height="100" alt="Resort Dune" />
+                    <p>Resort Dune</p>
+                    <p>Lungomare Nord - Rimini</p>
+                    <input type="radio" name="hotel" value="dune" id="dune" checked />
+                </div>
+                <div>
+                    <img src="delfino.png" width="100" height="100" alt="Resort Delfino" />
+                    <p>Resort Delfino</p>
+                    <p>Lungomare Sud - Rimini</p>
+                    <input type="radio" name="hotel" value="delfino" id="delfino" />
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

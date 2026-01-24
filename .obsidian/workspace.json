@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3e991a0483d0ed94",
+        "id": "a44c51c90216ec90",
         "type": "tabs",
         "children": [
           {
-            "id": "e642ee534533885d",
+            "id": "21b627b5869e82bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti unibo/Terzo Anno/Ingegneria del Software/(12) Agile software development.md",
+                "file": "Appunti unibo/Terzo Anno/Ingegneria del Software/(6) UML - Activity diagrams.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(12) Agile software development"
+              "title": "(6) UML - Activity diagrams"
             }
           }
         ]
@@ -58,7 +58,7 @@
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "Ricerca"
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti unibo/Terzo Anno/Ingegneria del Software/(12) Agile software development.md",
+                "file": "Appunti unibo/Terzo Anno/Ingegneria del Software/(6) UML - Activity diagrams.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di (12) Agile software development"
+              "title": "Struttura di (6) UML - Activity diagrams"
             }
           }
         ],
@@ -158,6 +158,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Crea nuova Base": false,
       "switcher:Apri selezione rapida": false,
       "graph:Apri vista grafo": false,
       "canvas:Crea nuova lavagna": false,
@@ -167,45 +168,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e642ee534533885d",
+  "active": "21b627b5869e82bc",
   "lastOpenFiles": [
-    "Appunti unibo/Terzo Anno/Ingegneria del Software/(13) Software testing.md",
     "Appunti unibo/Terzo Anno/Ingegneria del Software/(8) UML - State machine diagram.md",
-    "Appunti unibo/Terzo Anno/Ingegneria del Software/(7) UML - Interaction diagrams.md",
     "Appunti unibo/Terzo Anno/Ingegneria del Software/(6) UML - Activity diagrams.md",
     "Appunti unibo/Terzo Anno/Ingegneria del Software/(5) UML - Class diagram essentials.md",
-    "Appunti unibo/Terzo Anno/Ingegneria del Software/(4) Software project model.md",
     "Appunti unibo/Terzo Anno/Ingegneria del Software/(3) UML - Use case diagrams.md",
+    "Appunti unibo/Terzo Anno/Ingegneria del Software/(7) UML - Interaction diagrams.md",
+    "Appunti unibo/Terzo Anno/Tecnologie Web/HTML.md",
+    "Appunti unibo/Terzo Anno/Tecnologie Web/Framework di sviluppo front-end.md",
+    "Appunti unibo/Terzo Anno/Tecnologie Web/Raccolta Slides.md",
+    "Appunti unibo/Terzo Anno/Tecnologie Web/Indice.md",
+    "Appunti unibo/Immagini/Pasted image 20251206203100.png",
+    "Appunti unibo/Immagini/Pasted image 20251206203046.png",
+    "Appunti unibo/Immagini/Pasted image 20251206203037.png",
+    "Appunti unibo/Immagini/Pasted image 20251206203023.png",
+    "Appunti unibo/Immagini/Pasted image 20251206203015.png",
+    "Appunti unibo/Immagini/Pasted image 20251206202958.png",
+    "Appunti unibo/Immagini/Pasted image 20251206202944.png",
+    "Appunti unibo/Immagini/Pasted image 20251206202925.png",
+    "Appunti unibo/Immagini/Pasted image 20251206202919.png",
+    "Appunti unibo/Immagini/Pasted image 20251206202901.png",
+    "Appunti unibo/Terzo Anno/Tecnologie Web/Node e Express.md",
+    "Appunti unibo/Terzo Anno/Tecnologie Web/Javascript.md",
+    "Appunti unibo/Terzo Anno/Tecnologie Web/CSS.md",
+    "Appunti unibo/Terzo Anno/Tecnologie Web/Open API.md",
+    "Prima.md",
+    "Appunti unibo/Terzo Anno/Tecnologie Web/Uniform Resource Identifier (URI).md",
+    "Appunti unibo/Terzo Anno/Ingegneria del Software/(13) Software testing.md",
+    "Appunti unibo/Terzo Anno/Ingegneria del Software/(4) Software project model.md",
     "Appunti unibo/Terzo Anno/Basi di Dati/(11) Normalizzazione.md",
     "Appunti unibo/Terzo Anno/Basi di Dati/(10) Progettazione Logica.md",
     "Appunti unibo/Terzo Anno/Basi di Dati/(9) Progettazione Concettuale.md",
     "Appunti unibo/Terzo Anno/Ingegneria del Software/Notazioni.md",
     "Appunti unibo/Secondo Anno/Sistemi Operativi/Indice.md",
     "Appunti unibo/Secondo Anno/Sistemi Operativi/Decima Lezione.md",
-    "Appunti unibo/Immagini/Pasted image 20250602191110.png",
-    "Appunti unibo/Immagini/Pasted image 20250602191055.png",
-    "Appunti unibo/Immagini/Pasted image 20250602185326.png",
-    "Appunti unibo/Immagini/Pasted image 20250602185047.png",
-    "Appunti unibo/Immagini/Pasted image 20250602184916.png",
-    "Appunti unibo/Immagini/Pasted image 20250602184255.png",
     "Appunti unibo/Terzo Anno/Ingegneria del Software/(12) Agile software development.md",
     "Appunti unibo/Terzo Anno/Ingegneria del Software/(11) GRASP.md",
-    "Appunti unibo/Terzo Anno/Ingegneria del Software/(10) Software quality and  Object Oriented Principles.md",
-    "Appunti unibo/Immagini/Pasted image 20250601214149.png",
-    "Appunti unibo/Terzo Anno/Ingegneria del Software/(9) OO Design.md",
-    "Appunti unibo/Immagini/Pasted image 20250601193610.png",
-    "Appunti unibo/Immagini/Pasted image 20250601192423.png",
-    "Appunti unibo/Immagini/Pasted image 20250601192358.png",
-    "Senza nome.md",
-    "Appunti unibo/Terzo Anno/Ingegneria del Software/(2) O-O modeling and UML.md",
-    "Appunti unibo/Terzo Anno/Ingegneria del Software/(1) Analysis model.md",
-    "Appunti unibo/Terzo Anno/Teoria dell'impresa/Indice.md",
-    "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/(5) Concorrenti e concorrenza.md",
     "Appunti unibo/Terzo Anno/Ingegneria del Software",
-    "Appunti unibo/Terzo Anno/Strategia, Organizzazione e Mercati/Indice.md",
-    "Appunti unibo/Terzo Anno/Teoria dell'impresa/(3) Discriminazione di prezzo.md",
-    "Appunti unibo/Terzo Anno/Teoria dell'impresa/(6) Concorrenza nei prezzi.md",
-    "Appunti unibo/Terzo Anno/Teoria dell'impresa/(5) Teoria dei giochi e modello di Cournot.md",
     "Appunti unibo/Terzo Anno/Teoria dell'impresa",
     "Appunti unibo/Terzo Anno/Basi di Dati/Uni_obs/Appunti unibo/Immagini",
     "Appunti unibo/Terzo Anno/Basi di Dati/Uni_obs/Appunti unibo",

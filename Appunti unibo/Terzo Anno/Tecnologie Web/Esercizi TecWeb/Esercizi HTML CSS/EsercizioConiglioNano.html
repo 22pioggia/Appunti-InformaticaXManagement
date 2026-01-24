@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Come prendersi cura di un coniglio nano</title>
+        <style>
+            main{
+                display: flex;
+                background-color: rgb(240,235,225);
+                color: gray;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                padding: 0 100px;
+                padding-left: 50px;
+                word-spacing: 2px;
+            }
+
+            main h1, h2{
+                color: green;
+            }
+
+            main a{
+                color: deeppink;
+            }
+
+            .left{
+                max-width: 70%;
+                padding: 0 100px;
+            }
+
+            .right{
+                max-width: 30%;
+                padding: 0 100px;
+                font-size: medium;
+            }
+
+            img{
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                margin: 20px 0;
+                margin-bottom: 500px;
+            }
+
+            table{
+                width: 100%;
+                text-align: left;
+                color: rgb(55,55,55);
+            }
+
+            thead{
+                background-color: rgb(55,55,55);
+                color: white;
+            }
+
+            td{
+                border-bottom: 1px solid white;
+                padding: 8px;
+            }
+            
+            tr:last-child td {
+                border-bottom: none;
+                padding: 8px;
+            }
+
+            form{
+                display: grid;
+                grid-template-columns: 2fr 2fr 1fr;
+                row-gap: 5px;
+                column-gap: 20px;
+            }
+
+            label{
+                grid-column: 1;
+            }
+
+            input, textarea {
+                border: 0;
+            }
+
+            button{
+                background-color: green;
+                color: white;
+                grid-column: 3;
+                grid-row: 4;
+                border: 0;
+                justify-self: center;
+                display: inline-block;
+                padding: 10px 40px;
+            }
+            
+            article{
+                display: flex;
+                flex-direction: column;
+            }
+
+            div{
+                padding: 15px 0;
+            }
+
+            .right h1{
+                padding: 0;
+                margin-bottom: 0;
+            }
+
+            article div > *{
+                margin: -2px;
+            }
+
+            .date{
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="left">
+                <h1>Come prendersi cura di un coniglio nano</h1>
+
+                <p>I conigli nani sono animali unici. E in quanto tali hanno bisogno di cura,amore e pazienza. 
+                    Vogliono che le persone spendano del tempo con loro giocando e prendendosene cura</p>
+
+                <p>Ecco per te una panoramica su come prenderti cura del tuo <b>coniglio nano</b>. 
+                    Per maggiori informazioni puoi andare alla <a href="coniglionanowiki.it">loro pagina wikipedia</a></p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Vegetale</th>
+                            <th>Per il coniglio...</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Radicchio</td>
+                            <td>Va bene</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sedano</td>
+                            <td>Va bene</td>
+                        </tr>
+
+                        <tr>
+                            <td>Avocado</td>
+                            <td>Non va bene</td>
+                        </tr>
+
+                        <tr>
+                            <td>Broccoli</td>
+                            <td>Non va bene</td>
+                        </tr>
+
+                        <tr>
+                            <td>Carota</td>
+                            <td>Va bene</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>Se hai domande contattaci:</p>
+
+                <form action="contattaci.html" method="POST">
+                    <label for="email">Il tuo email: </label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="messaggio">Il tuo messaggio: </label>
+                    <textarea name="messaggio" id="messaggio" rows="4"></textarea>
+
+                    <label for="tipo">Tipo di domanda: </label>
+                    <select name="tipo" id="tipo">
+                        <option value="Alimentazione">Alimentazione</option>
+                        <option value="Salute">Salute</option>
+                        <option value="Altro">Altro</option>
+                    </select>
+                    <button type="sumbmit" id="invia" name="invia">Invia</button>
+                </form>
+            </div>
+
+            <div class="right">
+                <h1>Altri Suggerimenti</h1>
+
+                <article>
+                    <div>
+                        <h2>Prendersi cura di un cane</h2>
+                        <p class="date"><i>Semptember 1st, 2022</i></p>
+                    </div>
+
+                    <div>
+                        <p>I cani sono animali molto...</p>
+                        <a href="curacani.html">Read more</a>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h2>Prendersi cura di un gatto</h2>
+                        <p class="date"><i>April 1st, 2002</i></p>
+                    </div>
+                    
+                    <div>
+                        <p>Alcuni dicono che i gatti...</p>
+                        <a href="curagatti.html">Read more</a>
+                    </div>
+                </article>
+
+                <img src="coniglionano.jpg" alt="Coniglietto nano">
+            </div>
+        </main>
+    </body>
+</html>

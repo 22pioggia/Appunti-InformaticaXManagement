@@ -1,0 +1,89 @@
+openapi: 3.0.0
+info:
+  title: API Parco Auto
+  version: 1.0.0
+paths:
+  /auto:
+    get:
+      summary: Ottieni tutte le automobili
+      responses:
+        '200':
+          description: Lista di tutte le auto
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Automobile'
+              example:
+                - targa: "AB123CD"
+                  descrizione: "Fiat Panda bianca"
+                  anno: 2019
+                - targa: "EF456GH"
+                  descrizione: "Renault Clio rossa"
+                  anno: 2021
+        '400':
+          description: Richiesta non valida
+      parameters:
+        - in: query
+          name: annoMinimo
+          schema:
+            type: integer
+          description: Filtra auto immatricolate dopo questo anno
+          required: false
+
+  /auto/{targa}:
+    put:
+      summary: Aggiorna la descrizione di un'auto
+      parameters:
+        - in: path
+          name: targa
+          schema:
+            type: string
+          required: true
+          description: Targa dell'auto da aggiornare
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                descrizione:
+                  type: string
+              required:
+                - descrizione
+            example:
+              descrizione: "Fiat Panda rossa"
+      responses:
+        '200':
+          description: Auto aggiornata con successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Automobile'
+              example:
+                targa: "AB123CD"
+                descrizione: "Fiat Panda rossa"
+                anno: 2019
+        '400':
+          description: Richiesta non valida
+
+components:
+  schemas:
+    Automobile:
+      type: object
+      properties:
+        targa:
+          type: string
+          example: "AB123CD"
+        descrizione:
+          type: string
+          example: "Fiat Panda bianca"
+        anno:
+          type: integer
+          example: 2019
+      required:
+        - targa
+        - descrizione
+        - anno

@@ -1,0 +1,136 @@
+body{
+    font-family: sans-serif;
+    padding: 20px 30px;
+}
+
+header{
+    display: flex;
+    gap: 50px;
+    padding: 0 100px;
+    margin: 20px 0;
+}
+
+header >*{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+header section{
+    margin-left: 300px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 20px 50px;    
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a, label, p, span{
+    color: rgb(60,65,70);
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid rgb(0,130,105);
+}
+
+
+nav a:last-child{
+    font-weight: 400;
+    background-color: white;
+    min-width: 80%;
+}
+
+nav a:first-child{
+    border-bottom: 5px solid rgb(0,130,105);
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+
+button{
+    background-color: rgb(0,130,105);
+    border-radius: 18px;
+    color: white;
+    min-width: 100%;
+    border: none;
+    font-size: 120%;
+    padding: 10px 20px;
+    margin: 1px 0;
+}
+
+button:first-child{
+    background-color: rgb(65,30,140);
+}
+
+button:hover{
+    color: rgb(0,130,105);
+    background-color: white;
+}
+
+h1:hover{
+    color: yellow;
+}
+
+main{
+    border-top: 1px solid lightgray;
+    padding: 40px 40px;
+}
+
+main div{
+    padding: 20px 5px;
+    display: flex;
+    gap: 50px;
+}
+
+main div article:first-child{
+    width: 70%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+main div article:first-child span:last-child{
+    color: rgb(226,34,110);
+}
+
+main div article:last-child span:last-child{
+    color: rgb(0,130,105);
+}
+
+p{
+    font-size: 110%;
+}
+
+@media (max-width:767px){
+    main div{
+        flex-direction: column;
+    }
+
+    header{
+        flex-direction: column;
+        padding: 0px 10px;
+        gap: 10px;
+    }
+
+    header section{
+        margin-left: 0px;
+    }
+
+    header div{
+        align-items: center;
+        justify-items: center;
+    }
+
+    article{
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%; 
+        height: auto;  
+        display: block; 
+    }
+}

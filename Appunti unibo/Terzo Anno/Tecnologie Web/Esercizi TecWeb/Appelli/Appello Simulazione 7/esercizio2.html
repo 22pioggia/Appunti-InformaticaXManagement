@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>generatore password</title>
+        <style>
+            body{
+                font-family: sans-serif;
+            }
+            section{
+                height: 50%;
+            }
+
+            .orizzont{
+                display: flex;
+                gap: 100px;
+            }
+
+            #output{
+                font-size: 300%;
+            }
+
+            .orizzont >div{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                padding: 20px 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <section>
+                <label id="output"></label>
+            </section>
+            <div class="orizzont">
+                <div>
+                    <span>Seleziona la lunghezza (min 6 - max20)</span>
+                    <input type="number" id="input" value="10">
+                </div>
+
+                <div>
+                    <label><input type="checkbox" id="upper">Lettere maiuscole</label>
+                    <label><input type="checkbox" id="numbers">Numeri</label>
+                    <label><input type="checkbox" id="specials">Caratteri speciali</label>
+                </div>
+
+                <button id="start">Genera Password</button>
+            </div>
+            <div>
+                <p>Storico</p>
+                <ul id="storico"></ul>
+            </div>
+        </main>
+
+        <script src="esercizio2.js"></script>
+    </body>
+</html>

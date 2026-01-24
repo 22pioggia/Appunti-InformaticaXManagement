@@ -1,3 +1,5 @@
+
+[Prima lezione LAB su API](https://virtuale.unibo.it/pluginfile.php/2222497/mod_resource/content/2/OpenAPI_LabSlides24-25.pdf)
 ## YAML
 YAML (Ain't a Markup Language) è una linearizzazione di strutture dati con sintassi ispirata a Python: 
 - simile a JSON (in realtà un superset) 
@@ -48,3 +50,6 @@ Esempio di risposta
 ![[Pasted image 20240925125255.png|450]]
 
 Editor -> [Swagger](https://editor.swagger.io/)
+
+[[HTML|Next.]]
+

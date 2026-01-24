@@ -1,0 +1,20 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+body h1{
+    text-align: center;
+}
+
+a{
+    background-color: red;
+    font-size: 25px;
+}
+
+#list1{
+    border: 4px dashed blue;
+}
+
+#sec1{
+    background-color: lightgray;
+}

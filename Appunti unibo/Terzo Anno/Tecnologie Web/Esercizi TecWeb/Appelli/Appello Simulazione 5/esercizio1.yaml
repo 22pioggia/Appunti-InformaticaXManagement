@@ -1,0 +1,115 @@
+openapi: 3.0.4
+info:
+  version: 61.0.32
+  title: Scuola elementare
+  description: API per la gestione di una scuola elementare
+paths:
+  /classi/:
+    get:
+      summary: ottenere l'elenco di tutte le classi di un dato anno
+      operationId: getClass
+    parameters:
+      - in: query
+        required: true
+        name: year
+        schema:
+          type: integer
+          minimum: 1
+          maximum: 5
+    responses:
+      '200':
+        description: Successo
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                $ref: '#/components/schemas/Classe'
+      '400':
+        description: Errore
+  /classi/{sezione}/{anno}:
+    post:
+      summary: aggiungere un alunno a una classe
+      operationId: addStudent
+      parameters:
+        - in: path
+          required: true
+          name: sezione
+          schema:
+            type: string
+        - in: path
+          required: true
+          name: anno
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 5
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Alunno'
+      responses:
+        '200':
+          description: Successo
+        '400':
+          description: Errore
+    put:
+      summary: modificare il giudizio di una classe
+      operationId: editJud
+      parameters:
+        - in: path
+          required: true
+          name: sezione
+          schema:
+            type: string
+        - in: path
+          required: true
+          name: anno
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 5
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: string
+      responses:
+        '200':
+          description: Successo
+        '400':
+          description: Errore
+components:
+  schemas:
+    Classe:
+      type: object
+      required:
+        - sezione
+        - anno
+        - giudizio
+      properties:
+        sezione:
+          type: string
+          example: A
+        anno:
+          type: integer
+          minimum: 1
+          maximum: 5
+        giudizio:
+          type: string
+          example: classe di alunni fetenti
+    Alunno:
+      type: object
+      required:
+        - ID
+        - nome
+      properties:
+        ID:
+          type: integer
+          minimum: 1
+        nome:
+          type: string
+          example: fabrisio melchiorri

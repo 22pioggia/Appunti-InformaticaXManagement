@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carta, Forbice e Sassofono</title>
+        <style>
+            body{
+                max-width: 100%;
+            }
+
+            header{
+                display: flex;
+                gap: 850px;
+                
+            }
+
+            main{
+                display: grid;
+                grid-template-areas:
+                "a a b c c"
+                "a a b c c"
+                "d d d d d";
+            }
+
+            #player{ grid-area: a;}
+            #vs{ grid-area: b;}
+            #cpu{ grid-area: c;}
+            #choices{ 
+                grid-area: d;
+                display: flex;
+                gap: 10px;
+            }
+
+            #choices >*{
+                width: 30%;
+            }
+
+            body >*{
+                margin: auto auto;
+                padding: 20px 0;
+                font-size: 300%;
+            }
+
+            main >*{
+                padding: 20px 0;
+            }
+
+            .esito{
+                padding: 20px 20px;
+            }
+            
+            .red{
+                background-color: red;
+            }
+
+            .green{
+                background-color: green;
+            }
+
+            .yellow{
+                background-color: yellow;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <label id="esito"></label>
+            <label id="results"></label>
+        </header>
+        <main>
+            <label id="player"></label>
+            <label id="vs">Vs</label>
+            <label id="cpu"></label>
+
+            <div id="choices">
+                <button id="0">Carta</button>
+                <button id="1">Forbice</button>
+                <button id="2">Sassofono</button>
+            </div>
+        </main>
+        <script src="esercizio2.js"></script>
+    </body>
+</html>

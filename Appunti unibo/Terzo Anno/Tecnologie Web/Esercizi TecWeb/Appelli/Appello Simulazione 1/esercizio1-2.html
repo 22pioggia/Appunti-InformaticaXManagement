@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gran tour in Europa</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    color: white;
+    background-color: red; /* voci non selezionate rosse */
+    text-decoration: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+nav a.selected {
+    background-color: grey; /* voce selezionata grigia */
+    border: 1px solid black; /* bordo nero solo sulla selezionata */
+}
+h2 {
+    margin: 15px 0;
+}
+form ol {
+    margin-left: 40px;
+}
+form li {
+    margin: 5px 0;
+}
+
+/* Personalizzazione radio button */
+input[type="radio"] {
+    accent-color: red; /* colore pallini non selezionati */
+}
+input[type="radio"]:checked {
+    accent-color: orange; /* colore pallini selezionati */
+}
+
+/* Contenitore dei paragrafi + tabella */
+div {
+    overflow: hidden; /* contenitore per il float */
+}
+
+/* Tabella flottante a destra del testo */
+table {
+    float: right;
+    width: 300px; /* larghezza fissa */
+    margin-left: 20px; /* spazio tra tabella e testo */
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    border: 1px solid #333; /* bordo esterno */
+}
+table th, table td {
+    border: none; /* nessun bordo interno */
+    padding: 8px 12px;
+    text-align: left;
+}
+table thead th {
+    font-weight: bold;
+    border-bottom: 1px dashed #333; /* solo bordo inferiore tratteggiato */
+}
+table tbody tr:nth-child(2) td {
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    margin: 30px 0;
+    color: grey;
+}
+footer a {
+    color: grey;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+<h1 id="page-title">Gran tour in Europa</h1>
+<nav>
+<a href="#" data-id="africa">Viaggi in Africa</a>
+<a href="#" data-id="europa" class="selected">Viaggi in Europa</a>
+<a href="#" data-id="oceania">Viaggi in Oceania</a>
+<a href="#" data-id="asia">Viaggi in Asia</a>
+</nav>
+
+<h2 id="cities-heading">Le fantastiche città da visitare in Europa:</h2>
+<form>
+<ol id="cities-list">
+<li><input type="radio" value="citta" name="Aosta"> Aosta</li>
+<li><input type="radio" value="citta" name="Torino"> Torino</li>
+<li><input type="radio" value="citta" name="Milano"> Milano</li>
+<li><input type="radio" value="citta" name="Bologna"> Bologna</li>
+<li><input type="radio" value="citta" name="Roma"> Roma</li>
+<li><input type="radio" value="citta" name="Napoli"> Napoli</li>
+<li><input type="radio" value="citta" name="ReggioCalabria"> Reggio Calabria</li>
+<li><input type="radio" value="citta" name="Siracusa"> Siracusa</li>
+</ol>
+</form>
+
+<div>
+<h2>Descrizione del viaggio a Torino:</h2>
+<table>
+<thead>
+<tr><th>numero partecipanti</th><th>prezzo (a persona)</th></tr>
+</thead>
+<tbody>
+<tr><td>da 1 a 3</td><td>€ 500</td></tr>
+<tr><td>da 4 a 6</td><td>€ 400 (omaggio!)</td></tr>
+<tr><td>più di 6</td><td>€ 350</td></tr>
+</tbody>
+</table>
+
+<p>Il pacchetto comprende tre notti in albergo 3 stelle, cena e colazione inclusi, e l'ingresso a tre importanti musei: Museo Nazionale del Cinema, Mole Antonelliana e Palazzo Madama.</p>
+<p>Viaggia con noi attraverso un territorio dal fascino straordinario, tra arte e storia, natura e cultura, sport e tradizione. In provincia di Torino la scoperta non ha mai fine, dalla prima capitale d’Italia alle Alpi delle Olimpiadi, dalle colline del Canavese alle vette del Gran Paradiso.</p>
+<p>Dal Palazzo Reale al Santuario della Consolata, dal Teatro Regio al Museo Nazionale del Cinema, gli itinerari culturali sono davvero illimitati, e mai prevedibili. Ma l'attrazione è infinita anche nei dintorni del capoluogo: nel Canavese, i castelli di Agliè e Masino costituiscono gioielli di architettura post-rinascimentale; in Val Susa e Val Chisone, le secolari fortezze di Fenestrelle e Exilles sbarravano i passaggi alpini, e ancora un itinerario congiunge abbazie, monasteri e sacri monti (Basilica di Superga, Sacra di San Michele, all'imbocco della Val Susa, ecc.).</p>
+</div>
+
+<footer>Pagina gestita da <a href="http://viaggi.example.com">viaggi.example.com</a></footer>
+
+<script>
+// Funzione per aggiornare tooltip e data-id senza rimuovere radio button
+function enrichCities(cities) {
+    const list = document.getElementById('cities-list');
+    const items = list.querySelectorAll('li');
+    items.forEach((li, index) => {
+        if (cities[index]) {
+            li.setAttribute('data-city-id', cities[index].id);
+            li.title = cities[index].desc;
+        }
+    });
+}
+
+// Simulazione caricamento JSON via fetch (solo per id=africa e europa)
+function loadCities(id) {
+    let data = { heading: "", cities: [] };
+    if (id === "africa") {
+        data.heading = "Le fantastiche città da visitare in Africa:";
+        data.cities = [
+            { id: "cairo", name: "Il Cairo", desc: "La capitale dell'Egitto" },
+            { id: "cape", name: "Città del Capo", desc: "Bellissima città in Sudafrica" }
+        ];
+    } else if (id === "europa") {
+        data.heading = "Le fantastiche città da visitare in Europa:";
+        data.cities = [
+            { id: "aosta", name: "Aosta", desc: "Capoluogo della Valle d'Aosta" },
+            { id: "torino", name: "Torino", desc: "Capoluogo del Piemonte" },
+            { id: "milano", name: "Milano", desc: "Capoluogo della Lombardia" },
+            { id: "bologna", name: "Bologna", desc: "Capoluogo dell'Emilia-Romagna" },
+            { id: "roma", name: "Roma", desc: "Capoluogo del Lazio" },
+            { id: "napoli", name: "Napoli", desc: "Capoluogo della Campania" },
+            { id: "reggio", name: "Reggio Calabria", desc: "Capoluogo della Calabria" },
+            { id: "siracusa", name: "Siracusa", desc: "Città in Sicilia" }
+        ];
+    } else {
+        data.heading = "Le fantastiche città da visitare:";
+        data.cities = [];
+    }
+
+    document.getElementById('cities-heading').textContent = data.heading;
+    enrichCities(data.cities);
+}
+
+// Gestione click menu
+document.querySelectorAll('nav a').forEach(a => {
+    a.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelectorAll('nav a').forEach(link => link.classList.remove('selected'));
+        this.classList.add('selected');
+        const id = this.getAttribute('data-id');
+        loadCities(id);
+    });
+});
+
+// Carica inizialmente la voce selezionata
+window.addEventListener('load', () => {
+    const selected = document.querySelector('nav a.selected');
+    if (selected) {
+        loadCities(selected.getAttribute('data-id'));
+    }
+});
+</script>
+</body>
+</html>

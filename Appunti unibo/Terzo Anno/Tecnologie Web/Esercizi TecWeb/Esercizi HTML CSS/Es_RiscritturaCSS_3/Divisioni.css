@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    background-color: #FFFFEE;
+}
+
+body h1, h2, h3{
+    text-transform: uppercase;
+}
+
+body p {
+    padding: 5px 0;
+}
+
+#sec1{
+    flex: 1;
+    padding: 0 20px;
+    border-right: 3px solid black;
+}
+
+#sec1 p:first-letter{
+    color: red;
+    font-size: 500%;
+    line-height: 52px;
+}
+
+.ops{
+    color: red;
+    font-size: 500%;
+    line-height: 52px;
+}
+
+.rock{
+    margin-bottom: 90px;
+}
+
+#sec2{
+    flex: 1;
+    padding: 0 20px;
+}
+
+ol li:nth-child(odd) {
+    background: gray;
+}
+
+ol li:nth-child(even) {
+    background: lightgray;
+}

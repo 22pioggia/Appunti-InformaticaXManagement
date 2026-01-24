@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dettagli Eventi</title>
+        <style>
+            .banner{
+                background-image: url(http://diiorio.nws.cs.unibo.it/twe/07.06.2022a/shows_events_bg.jpg) ;
+                background-size: cover;
+                padding: 110px 0px;
+                text-align: center;
+                color: aliceblue;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+                word-spacing: 3px;
+                letter-spacing: 2px;
+                font-size: larger;
+                max-width: 600px;
+            }
+
+            .main{
+                background-color:rgb(235, 235, 235);
+                text-align: center;
+                max-width: 600px;
+                margin-top: -25px;
+                padding: 10px 0;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+            }
+
+            .evento{
+                background-color: white;
+                margin: 20px 30px;
+                padding: 15px 0;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+            }
+
+            .titolo{
+                word-spacing: 3px;
+                letter-spacing: 0.5px;
+                font-size: larger;
+                text-decoration: none;
+                color: black;
+            }
+
+            .acquisto{
+                display: inline-block;
+                background-color: rgb(45,50,50);
+                color: aliceblue;
+                padding: 10px 10px;
+                margin: 10px 0;
+                text-decoration: none;
+            }
+
+            .dispo{
+                display: inline-block;
+                margin: -10px 0;
+                color: rgb(90,95,100);
+            }
+
+            @media (min-width: 992px) {
+
+                .evento {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    padding: 20px;
+                    align-items:flex-start;
+                }
+
+                .main{
+                    max-width: 992px;
+                }
+
+                .banner{
+                    max-width: 992px;
+                }
+
+                .dispo{
+                    grid-column: 1;
+                }
+
+                .evento h3, 
+                .evento p, 
+                .evento a {
+                    margin: 0;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <header class="banner">
+            <h1>Dettagli degli eventi</h1>
+            <p>Dai un'occhiata ai nostri ultimi spettacoli ed eventi per unirti a noi</p>
+        </header>
+
+        <main class="main">
+            <h1>Elenco eventi</h1>
+        </main>
+        <script src="esercizio2.js"></script>
+    </body>
+</html>

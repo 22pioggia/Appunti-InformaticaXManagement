@@ -1,0 +1,123 @@
+openapi: 3.0.4
+info:
+  version: kakka
+  title: Forum
+  description: API per la gestione di un forum di messaggistica
+paths:
+  /threads/{threadId}:
+    get:
+      summary: restituire tutti i messaggi di un thread con un dato voto
+      operationId: getMessages
+      parameters:
+        - in: path
+          name: threadId
+          required: true
+          schema:
+            type: integer
+        - in: query
+          name: voto
+          required: false
+          schema:
+            type: integer
+            minimum: 0
+            maximum: 10
+      responses:
+        '200':
+          description: successo
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Messaggio'
+        '400':
+          description: errore
+  /threads/{threadId}/{msgId}:
+    delete:
+      summary: eliminare un messaggio dato il suo id univoco
+      operationId: deleteMessage
+      parameters:
+        - in: path
+          name: threadId
+          required: true
+          schema:
+            type: integer
+            minimun: 0
+        - in: path
+          name: msgId
+          required: true
+          schema:
+            type: integer
+            minimum: 0
+      responses:
+        '200':
+          description: successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Messaggio'
+        '400':
+          description: errore
+    put:
+      summary: modificare un messaggio
+      operationId: editMessage
+      parameters:
+        - in: path
+          name: threadId
+          required: true
+          schema:
+            type: integer
+            minimum: 0
+        - in: path
+          name: msgId
+          required: true
+          schema:
+            type: integer
+            minimum: 0
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: integer
+              minimum: 0
+              maximum: 10
+      responses:
+        '200':
+          description: successo
+        '400':
+          description: errore
+components:
+  schemas:
+    Thread:
+      type: object
+      required:
+        - id
+        - title
+      properties:
+        id:
+          type: integer
+          minimum: 0
+        title:
+          type: string
+          example: Bambini monelli
+        messaggi:
+          type: array
+          items:
+            $ref: '#/components/schemas/Messaggio'
+    Messaggio:
+      type: object
+      required:
+        - id
+        - text
+      properties:
+        id:
+          type: integer
+          minimum: 1
+        text:
+          type: string
+          example: kiki puzza
+        voto:
+          type: integer
+          minimum: 0
+          maximum: 10
